@@ -6687,8 +6687,159 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  name: "MainFooter"
+  name: "MainFooter",
+  data: function data() {
+    return {
+      menu: [{
+        link: '/trading',
+        name: 'trading'
+      }, {
+        link: '/market-tools',
+        name: 'market_tools'
+      }, {
+        link: '/invest-pad',
+        name: 'invest_pad'
+      }, {
+        link: '/wallet',
+        name: 'wallet'
+      }, {
+        link: '/news',
+        name: 'news'
+      }, {
+        link: '/support',
+        name: 'support'
+      }]
+    };
+  }
 });
 
 /***/ }),
@@ -6877,6 +7028,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_layout_MainHeader__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/layout/MainHeader */ "./resources/js/components/layout/MainHeader.vue");
 /* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! js-cookie */ "./node_modules/js-cookie/dist/js.cookie.mjs");
 /* harmony import */ var _components_layout_MainFooter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout/MainFooter */ "./resources/js/components/layout/MainFooter.vue");
+//
+//
+//
+//
+//
 //
 //
 //
@@ -7268,7 +7424,11 @@ __webpack_require__.r(__webpack_exports__);
     title: 'Trusted across Europe',
     number: 'Best broker',
     desc: 'We have been voted \'Best Crypto Broker\' 2019 & 2020 and on our way to become the number 1 in Europe.'
-  }]
+  }],
+  footer: {
+    desc: 'Bitsired is a simple, elegant, and secure platform to build your crypto portfolio.',
+    features: 'Features'
+  }
 });
 
 /***/ }),
@@ -15014,6 +15174,30 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, ".nav[data-v-eb5ae314] {\n  padding: 0;\n  margin: 0;\n  padding-left: 40px;\n}\n@media screen and (max-width: 1200px) {\n.nav[data-v-eb5ae314] {\n    padding-left: 0;\n}\n}\n.nav_mobile[data-v-eb5ae314] {\n  position: absolute;\n  top: 100%;\n  left: 0;\n  right: 0;\n  flex-direction: column;\n  background-color: #031F31;\n  padding: 10px 20px;\n  z-index: 100;\n}\n.nav_mobile .nav__item[data-v-eb5ae314] {\n  padding-bottom: 10px;\n}\n.nav__item svg[data-v-eb5ae314] {\n  vertical-align: middle;\n}\n.nav__link[data-v-eb5ae314] {\n  padding-left: 10px;\n  text-decoration: none;\n  color: #fff;\n  font-weight: 600;\n}\n.header__link[data-v-eb5ae314] {\n  text-decoration: none;\n  font-style: normal;\n  font-weight: 600;\n  font-size: 15px;\n  color: #fff;\n}\n.header__button[data-v-eb5ae314] {\n  background: linear-gradient(103.12deg, #4FE2C3 0%, rgba(79, 226, 195, 0.73) 100%), #031F31;\n  border-radius: 8px;\n  font-style: normal;\n  font-weight: 600;\n  font-size: 15px;\n  color: #fff;\n  display: block;\n  text-align: center;\n  text-decoration: none;\n  padding: 12px 10px;\n}", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/layout/MainFooter.vue?vue&type=style&index=0&id=6775d4c4&scoped=true&lang=scss&":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/layout/MainFooter.vue?vue&type=style&index=0&id=6775d4c4&scoped=true&lang=scss& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".footer[data-v-6775d4c4] {\n  padding-top: 40px;\n  padding-bottom: 30px;\n  background: linear-gradient(180deg, rgba(3, 31, 49, 0) 0%, #031F31 88.71%), linear-gradient(180deg, #032033 0%, #04314B 100%);\n}\n.footer__logo svg[data-v-6775d4c4] {\n  max-width: 100%;\n  height: auto;\n}\n.footer__desc[data-v-6775d4c4] {\n  padding-top: 16px;\n  font-style: normal;\n  font-weight: normal;\n  font-size: 15px;\n  color: #818F98;\n}\n.footer__social[data-v-6775d4c4] {\n  padding-top: 60px;\n  max-width: 210px;\n}\n.footer__title span[data-v-6775d4c4] {\n  font-style: normal;\n  font-weight: 600;\n  font-size: 18px;\n  padding-bottom: 16px;\n  color: #FFFFFF;\n  border-bottom: 2px solid #4FE2C3;\n  display: inline-block;\n}\n.nav[data-v-6775d4c4] {\n  padding: 20px 0 0;\n  margin: 0;\n  list-style-type: none;\n  display: block;\n  -moz-column-count: 2;\n       column-count: 2;\n}\n.nav__item[data-v-6775d4c4] {\n  padding-bottom: 5px;\n}\n.nav__link[data-v-6775d4c4] {\n  color: #fff;\n  text-decoration: none;\n}\n.footer__bottom[data-v-6775d4c4] {\n  background-color: #021826;\n  padding: 10px 0;\n  color: #8F9EA8;\n  font-size: 15px;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -34191,6 +34375,36 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/layout/MainFooter.vue?vue&type=style&index=0&id=6775d4c4&scoped=true&lang=scss&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/layout/MainFooter.vue?vue&type=style&index=0&id=6775d4c4&scoped=true&lang=scss& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_MainFooter_vue_vue_type_style_index_0_id_6775d4c4_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./MainFooter.vue?vue&type=style&index=0&id=6775d4c4&scoped=true&lang=scss& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/layout/MainFooter.vue?vue&type=style&index=0&id=6775d4c4&scoped=true&lang=scss&");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_MainFooter_vue_vue_type_style_index_0_id_6775d4c4_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_MainFooter_vue_vue_type_style_index_0_id_6775d4c4_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/layout/MainHeader.vue?vue&type=style&index=0&id=25110ce0&scoped=true&lang=scss&":
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/layout/MainHeader.vue?vue&type=style&index=0&id=25110ce0&scoped=true&lang=scss& ***!
@@ -39042,15 +39256,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _MainFooter_vue_vue_type_template_id_6775d4c4_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MainFooter.vue?vue&type=template&id=6775d4c4&scoped=true& */ "./resources/js/components/layout/MainFooter.vue?vue&type=template&id=6775d4c4&scoped=true&");
 /* harmony import */ var _MainFooter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MainFooter.vue?vue&type=script&lang=js& */ "./resources/js/components/layout/MainFooter.vue?vue&type=script&lang=js&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _MainFooter_vue_vue_type_style_index_0_id_6775d4c4_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MainFooter.vue?vue&type=style&index=0&id=6775d4c4&scoped=true&lang=scss& */ "./resources/js/components/layout/MainFooter.vue?vue&type=style&index=0&id=6775d4c4&scoped=true&lang=scss&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
+;
 
 
 /* normalize component */
-;
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _MainFooter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _MainFooter_vue_vue_type_template_id_6775d4c4_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
   _MainFooter_vue_vue_type_template_id_6775d4c4_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
@@ -39221,6 +39437,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_HeaderMenu_vue_vue_type_style_index_0_id_eb5ae314_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader/dist/cjs.js!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./HeaderMenu.vue?vue&type=style&index=0&id=eb5ae314&scoped=true&lang=scss& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/layout/HeaderMenu.vue?vue&type=style&index=0&id=eb5ae314&scoped=true&lang=scss&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/layout/MainFooter.vue?vue&type=style&index=0&id=6775d4c4&scoped=true&lang=scss&":
+/*!*****************************************************************************************************************!*\
+  !*** ./resources/js/components/layout/MainFooter.vue?vue&type=style&index=0&id=6775d4c4&scoped=true&lang=scss& ***!
+  \*****************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_MainFooter_vue_vue_type_style_index_0_id_6775d4c4_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader/dist/cjs.js!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./MainFooter.vue?vue&type=style&index=0&id=6775d4c4&scoped=true&lang=scss& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/layout/MainFooter.vue?vue&type=style&index=0&id=6775d4c4&scoped=true&lang=scss&");
 
 
 /***/ }),
@@ -39505,10 +39734,629 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("footer", {
-    staticClass: "footer section_background",
-    staticStyle: { "background-image": "url(/img/background.jpg)" },
-  })
+  return _c("div", [
+    _c(
+      "footer",
+      {
+        staticClass: "footer section_background",
+        staticStyle: { "background-image": "url(/img/background.jpg)" },
+      },
+      [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-12 col-md-3" }, [
+              _c(
+                "div",
+                { staticClass: "footer__logo" },
+                [
+                  _c("router-link", { attrs: { to: "/" } }, [
+                    _c(
+                      "svg",
+                      {
+                        attrs: {
+                          width: "150",
+                          height: "38",
+                          viewBox: "0 0 150 38",
+                          fill: "none",
+                          xmlns: "http://www.w3.org/2000/svg",
+                        },
+                      },
+                      [
+                        _c("path", {
+                          attrs: {
+                            "fill-rule": "evenodd",
+                            "clip-rule": "evenodd",
+                            d: "M11.5967 29.7893L9.54966 35.4868L9.53385 35.4777L11.5814 29.7788L11.5967 29.7893ZM7.37713 25.0139C8.36877 26.9265 9.81863 28.5632 11.5814 29.7788L17.2934 13.8802C13.7442 13.8802 10.5769 16.1078 9.37687 19.448L7.37713 25.0139ZM4.94451 31.7847L7.37713 25.0139C6.44359 23.2133 5.91617 21.1682 5.91617 19C5.91617 11.774 11.774 5.91617 19 5.91617C19.682 5.91617 20.3164 5.51926 20.547 4.87746L22.2028 0.268804C21.1616 0.092048 20.0916 0 19 0C8.50659 0 0 8.50659 0 19C0 23.9234 1.87264 28.4094 4.94451 31.7847Z",
+                            fill: "#031F31",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            "fill-rule": "evenodd",
+                            "clip-rule": "evenodd",
+                            d: "M11.5967 29.7893L9.54966 35.4868L9.53385 35.4777L11.5814 29.7788L11.5967 29.7893ZM7.37713 25.0139C8.36877 26.9265 9.81863 28.5632 11.5814 29.7788L17.2934 13.8802C13.7442 13.8802 10.5769 16.1078 9.37687 19.448L7.37713 25.0139ZM4.94451 31.7847L7.37713 25.0139C6.44359 23.2133 5.91617 21.1682 5.91617 19C5.91617 11.774 11.774 5.91617 19 5.91617C19.682 5.91617 20.3164 5.51926 20.547 4.87746L22.2028 0.268804C21.1616 0.092048 20.0916 0 19 0C8.50659 0 0 8.50659 0 19C0 23.9234 1.87264 28.4094 4.94451 31.7847Z",
+                            fill: "url(#paint0_linear_212_3559)",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            d: "M4.94451 31.7847C6.26926 33.2403 7.81705 34.4893 9.53385 35.4777L11.5814 29.7788C9.81863 28.5632 8.36877 26.9265 7.37713 25.0139L4.94451 31.7847Z",
+                            fill: "#031F31",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            d: "M4.94451 31.7847C6.26926 33.2403 7.81705 34.4893 9.53385 35.4777L11.5814 29.7788C9.81863 28.5632 8.36877 26.9265 7.37713 25.0139L4.94451 31.7847Z",
+                            fill: "url(#paint1_linear_212_3559)",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            d: "M32.2043 5.33822C30.8208 4.00078 29.2347 2.87158 27.4966 2.00112L25.4749 7.62817C27.2516 8.64198 28.7678 10.0602 29.898 11.7574L32.2043 5.33822Z",
+                            fill: "white",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            "fill-rule": "evenodd",
+                            "clip-rule": "evenodd",
+                            d: "M19 32.0839C26.226 32.0839 32.0838 26.2261 32.0838 19.0001C32.0838 16.3217 31.279 13.8312 29.898 11.7574L32.2043 5.33822C35.7779 8.79292 38 13.637 38 19.0001C38 29.4935 29.4934 38.0001 19 38.0001C17.5338 38.0001 16.1063 37.834 14.7355 37.5196L15.9952 34.0134C16.4358 32.7869 17.6968 32.0839 19 32.0839Z",
+                            fill: "white",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            d: "M18.8957 25.9402C22.4392 25.9402 25.6014 23.7162 26.7995 20.3815L29.898 11.7574C28.7678 10.0602 27.2516 8.64198 25.4749 7.62817L18.8957 25.9402Z",
+                            fill: "white",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            d: "M48.8 30.5356C48.5653 30.5356 48.3733 30.4609 48.224 30.3116C48.0747 30.1622 48 29.9702 48 29.7356V8.93555C48 8.70089 48.0747 8.50889 48.224 8.35955C48.3733 8.21022 48.5653 8.13555 48.8 8.13555H58.304C60.0747 8.13555 61.5253 8.39155 62.656 8.90355C63.7867 9.41555 64.6187 10.1409 65.152 11.0796C65.7067 12.0182 65.984 13.1169 65.984 14.3756C65.984 15.1649 65.8347 15.8582 65.536 16.4556C65.2587 17.0529 64.9067 17.5436 64.48 17.9276C64.0747 18.3116 63.68 18.5996 63.296 18.7916C64.128 19.1756 64.8533 19.8156 65.472 20.7116C66.112 21.5862 66.432 22.6316 66.432 23.8476C66.432 25.1916 66.1333 26.3649 65.536 27.3676C64.9387 28.3702 64.0533 29.1489 62.88 29.7036C61.7067 30.2582 60.2773 30.5356 58.592 30.5356H48.8ZM53.088 26.7916H57.984C59.0293 26.7916 59.8187 26.5036 60.352 25.9276C60.8853 25.3302 61.152 24.6262 61.152 23.8156C61.152 22.9836 60.8747 22.2902 60.32 21.7356C59.7867 21.1596 59.008 20.8716 57.984 20.8716H53.088V26.7916ZM53.088 17.1916H57.696C58.6987 17.1916 59.4453 16.9462 59.936 16.4556C60.448 15.9436 60.704 15.2929 60.704 14.5036C60.704 13.7142 60.448 13.0849 59.936 12.6156C59.4453 12.1249 58.6987 11.8796 57.696 11.8796H53.088V17.1916Z",
+                            fill: "#4FE2C3",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            d: "M70.8223 30.5356C70.6089 30.5356 70.4276 30.4609 70.2782 30.3116C70.1289 30.1622 70.0543 29.9702 70.0543 29.7356V14.6956C70.0543 14.4609 70.1289 14.2689 70.2782 14.1196C70.4276 13.9702 70.6089 13.8956 70.8223 13.8956H74.0223C74.2569 13.8956 74.4489 13.9702 74.5983 14.1196C74.7476 14.2689 74.8223 14.4609 74.8223 14.6956V29.7356C74.8223 29.9702 74.7476 30.1622 74.5983 30.3116C74.4489 30.4609 74.2569 30.5356 74.0223 30.5356H70.8223ZM70.7262 11.3356C70.5129 11.3356 70.3316 11.2609 70.1823 11.1116C70.0329 10.9622 69.9583 10.7702 69.9583 10.5356V7.97555C69.9583 7.74089 70.0329 7.54889 70.1823 7.39955C70.3316 7.22889 70.5129 7.14355 70.7262 7.14355H74.0863C74.3209 7.14355 74.5129 7.22889 74.6623 7.39955C74.8329 7.54889 74.9183 7.74089 74.9183 7.97555V10.5356C74.9183 10.7702 74.8329 10.9622 74.6623 11.1116C74.5129 11.2609 74.3209 11.3356 74.0863 11.3356H70.7262Z",
+                            fill: "#4FE2C3",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            d: "M86.8355 30.5356C85.5128 30.5356 84.3822 30.3222 83.4435 29.8956C82.5048 29.4476 81.7902 28.7649 81.2995 27.8476C80.8302 26.9302 80.5955 25.7782 80.5955 24.3916V17.6716H78.0995C77.8648 17.6716 77.6728 17.5969 77.5235 17.4476C77.3742 17.2982 77.2995 17.1062 77.2995 16.8716V14.6956C77.2995 14.4609 77.3742 14.2689 77.5235 14.1196C77.6728 13.9702 77.8648 13.8956 78.0995 13.8956H80.5955V8.61555C80.5955 8.38089 80.6702 8.18889 80.8195 8.03955C80.9902 7.89022 81.1822 7.81555 81.3955 7.81555H84.5315C84.7662 7.81555 84.9582 7.89022 85.1075 8.03955C85.2568 8.18889 85.3315 8.38089 85.3315 8.61555V13.8956H89.3315C89.5448 13.8956 89.7262 13.9702 89.8755 14.1196C90.0248 14.2689 90.0995 14.4609 90.0995 14.6956V16.8716C90.0995 17.1062 90.0248 17.2982 89.8755 17.4476C89.7262 17.5969 89.5448 17.6716 89.3315 17.6716H85.3315V24.0076C85.3315 24.8182 85.4702 25.4582 85.7475 25.9276C86.0462 26.3756 86.5582 26.5996 87.2835 26.5996H89.6195C89.8328 26.5996 90.0142 26.6742 90.1635 26.8236C90.3128 26.9729 90.3875 27.1542 90.3875 27.3676V29.7356C90.3875 29.9702 90.3128 30.1622 90.1635 30.3116C90.0142 30.4609 89.8328 30.5356 89.6195 30.5356H86.8355Z",
+                            fill: "#4FE2C3",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            d: "M94.3312 30.5356C94.0966 30.5356 93.9046 30.4609 93.7552 30.3116C93.6059 30.1622 93.5312 29.9702 93.5312 29.7356V8.93555C93.5312 8.70089 93.6059 8.50889 93.7552 8.35955C93.9046 8.21022 94.0966 8.13555 94.3312 8.13555H102.363C104.497 8.13555 106.278 8.47689 107.707 9.15955C109.137 9.82089 110.225 10.8022 110.971 12.1036C111.739 13.3836 112.145 14.9729 112.187 16.8716C112.209 17.8102 112.219 18.6316 112.219 19.3356C112.219 20.0396 112.209 20.8502 112.187 21.7676C112.123 23.7516 111.729 25.3942 111.003 26.6956C110.278 27.9969 109.211 28.9676 107.803 29.6076C106.395 30.2262 104.635 30.5356 102.523 30.5356H94.3312ZM98.6193 26.4076H102.363C103.43 26.4076 104.305 26.2476 104.987 25.9276C105.67 25.6076 106.171 25.1062 106.491 24.4236C106.833 23.7196 107.014 22.8129 107.035 21.7036C107.057 21.0849 107.067 20.5302 107.067 20.0396C107.089 19.5489 107.089 19.0582 107.067 18.5676C107.067 18.0769 107.057 17.5329 107.035 16.9356C106.993 15.3356 106.577 14.1622 105.787 13.4156C105.019 12.6476 103.825 12.2636 102.203 12.2636H98.6193V26.4076Z",
+                            fill: "white",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            d: "M123.291 30.8556C120.837 30.8556 118.885 30.1729 117.435 28.8076C116.005 27.4422 115.248 25.4582 115.163 22.8556C115.163 22.6849 115.163 22.4609 115.163 22.1836C115.163 21.8849 115.163 21.6502 115.163 21.4796C115.248 19.8369 115.621 18.4289 116.283 17.2556C116.944 16.0609 117.872 15.1542 119.067 14.5356C120.261 13.8956 121.659 13.5756 123.259 13.5756C125.051 13.5756 126.544 13.9489 127.739 14.6956C128.955 15.4209 129.861 16.4236 130.459 17.7036C131.077 18.9622 131.387 20.4129 131.387 22.0556V22.7916C131.387 23.0049 131.301 23.1862 131.131 23.3356C130.981 23.4849 130.8 23.5596 130.587 23.5596H120.123C120.123 23.5809 120.123 23.6236 120.123 23.6876C120.123 23.7302 120.123 23.7729 120.123 23.8156C120.144 24.4982 120.272 25.1276 120.507 25.7036C120.763 26.2582 121.115 26.7062 121.563 27.0476C122.032 27.3889 122.587 27.5596 123.227 27.5596C123.76 27.5596 124.197 27.4849 124.539 27.3356C124.88 27.1862 125.157 27.0049 125.371 26.7916C125.605 26.5782 125.776 26.3969 125.883 26.2476C126.075 26.0342 126.224 25.9062 126.331 25.8636C126.459 25.7996 126.651 25.7676 126.907 25.7676H130.235C130.448 25.7676 130.619 25.8316 130.747 25.9596C130.896 26.0662 130.96 26.2262 130.939 26.4396C130.917 26.7809 130.736 27.2076 130.395 27.7196C130.075 28.2102 129.595 28.7009 128.955 29.1916C128.315 29.6609 127.515 30.0556 126.555 30.3756C125.616 30.6956 124.528 30.8556 123.291 30.8556ZM120.123 20.6476H126.395V20.5836C126.395 19.8156 126.267 19.1542 126.011 18.5996C125.776 18.0236 125.424 17.5756 124.955 17.2556C124.485 16.9356 123.92 16.7756 123.259 16.7756C122.597 16.7756 122.032 16.9356 121.563 17.2556C121.093 17.5756 120.731 18.0236 120.475 18.5996C120.24 19.1542 120.123 19.8156 120.123 20.5836V20.6476Z",
+                            fill: "white",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            d: "M133.382 30.5356C133.189 30.5356 133.019 30.4716 132.869 30.3436C132.742 30.1942 132.677 30.0236 132.677 29.8316C132.677 29.7676 132.688 29.6929 132.71 29.6076C132.752 29.5009 132.805 29.4049 132.869 29.3196L138.277 21.9916L133.317 15.1116C133.253 15.0262 133.2 14.9409 133.158 14.8556C133.136 14.7702 133.126 14.6849 133.126 14.5996C133.126 14.4076 133.189 14.2476 133.317 14.1196C133.467 13.9702 133.637 13.8956 133.829 13.8956H137.158C137.413 13.8956 137.605 13.9596 137.733 14.0876C137.883 14.2156 137.989 14.3329 138.053 14.4396L141.35 18.9196L144.646 14.4716C144.731 14.3649 144.838 14.2476 144.965 14.1196C145.093 13.9702 145.296 13.8956 145.574 13.8956H148.742C148.934 13.8956 149.093 13.9702 149.221 14.1196C149.371 14.2476 149.446 14.4076 149.446 14.5996C149.446 14.6849 149.435 14.7702 149.413 14.8556C149.392 14.9409 149.339 15.0262 149.254 15.1116L144.198 22.0236L149.67 29.3196C149.734 29.4049 149.776 29.4902 149.798 29.5756C149.84 29.6609 149.862 29.7462 149.862 29.8316C149.862 30.0236 149.787 30.1942 149.637 30.3436C149.509 30.4716 149.35 30.5356 149.158 30.5356H145.67C145.435 30.5356 145.254 30.4822 145.126 30.3756C144.998 30.2476 144.891 30.1302 144.806 30.0236L141.254 25.2876L137.637 30.0236C137.573 30.1089 137.478 30.2156 137.35 30.3436C137.222 30.4716 137.029 30.5356 136.773 30.5356H133.382Z",
+                            fill: "white",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c(
+                          "defs",
+                          [
+                            _c(
+                              "linearGradient",
+                              {
+                                attrs: {
+                                  id: "paint0_linear_212_3559",
+                                  x1: "0",
+                                  y1: "0",
+                                  x2: "26.8073",
+                                  y2: "3.90891",
+                                  gradientUnits: "userSpaceOnUse",
+                                },
+                              },
+                              [
+                                _c("stop", {
+                                  attrs: { "stop-color": "#4FE2C3" },
+                                }),
+                                _vm._v(" "),
+                                _c("stop", {
+                                  attrs: {
+                                    offset: "1",
+                                    "stop-color": "#4FE2C3",
+                                    "stop-opacity": "0.73",
+                                  },
+                                }),
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "linearGradient",
+                              {
+                                attrs: {
+                                  id: "paint1_linear_212_3559",
+                                  x1: "0",
+                                  y1: "0",
+                                  x2: "26.8073",
+                                  y2: "3.90891",
+                                  gradientUnits: "userSpaceOnUse",
+                                },
+                              },
+                              [
+                                _c("stop", {
+                                  attrs: { "stop-color": "#4FE2C3" },
+                                }),
+                                _vm._v(" "),
+                                _c("stop", {
+                                  attrs: {
+                                    offset: "1",
+                                    "stop-color": "#4FE2C3",
+                                    "stop-opacity": "0.73",
+                                  },
+                                }),
+                              ],
+                              1
+                            ),
+                          ],
+                          1
+                        ),
+                      ]
+                    ),
+                  ]),
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "footer__desc" }, [
+                _vm._v(
+                  "\n\t\t\t\t\t\t" +
+                    _vm._s(_vm.$t("footer.desc")) +
+                    "\n\t\t\t\t\t"
+                ),
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "footer__social d-flex justify-content-between align-items-center",
+                },
+                [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c(
+                      "svg",
+                      {
+                        attrs: {
+                          width: "33",
+                          height: "33",
+                          viewBox: "0 0 33 33",
+                          fill: "none",
+                          xmlns: "http://www.w3.org/2000/svg",
+                        },
+                      },
+                      [
+                        _c(
+                          "g",
+                          { attrs: { "clip-path": "url(#clip0_37_822)" } },
+                          [
+                            _c("path", {
+                              attrs: {
+                                d: "M32.4263 16.5C32.4263 7.66344 25.2628 0.5 16.4263 0.5C7.58971 0.5 0.42627 7.66344 0.42627 16.5C0.42627 24.4859 6.27721 31.1053 13.9263 32.3056V21.125H9.86377V16.5H13.9263V12.975C13.9263 8.965 16.315 6.75 19.9697 6.75C21.7197 6.75 23.5513 7.0625 23.5513 7.0625V11H21.5338C19.5463 11 18.9263 12.2334 18.9263 13.5V16.5H23.3638L22.6544 21.125H18.9263V32.3056C26.5753 31.1053 32.4263 24.4859 32.4263 16.5Z",
+                                fill: "#031F31",
+                              },
+                            }),
+                            _vm._v(" "),
+                            _c("path", {
+                              attrs: {
+                                d: "M32.4263 16.5C32.4263 7.66344 25.2628 0.5 16.4263 0.5C7.58971 0.5 0.42627 7.66344 0.42627 16.5C0.42627 24.4859 6.27721 31.1053 13.9263 32.3056V21.125H9.86377V16.5H13.9263V12.975C13.9263 8.965 16.315 6.75 19.9697 6.75C21.7197 6.75 23.5513 7.0625 23.5513 7.0625V11H21.5338C19.5463 11 18.9263 12.2334 18.9263 13.5V16.5H23.3638L22.6544 21.125H18.9263V32.3056C26.5753 31.1053 32.4263 24.4859 32.4263 16.5Z",
+                                fill: "url(#paint0_linear_37_822)",
+                              },
+                            }),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "defs",
+                          [
+                            _c(
+                              "linearGradient",
+                              {
+                                attrs: {
+                                  id: "paint0_linear_37_822",
+                                  x1: "0.42627",
+                                  y1: "0.5",
+                                  x2: "37.8277",
+                                  y2: "9.26989",
+                                  gradientUnits: "userSpaceOnUse",
+                                },
+                              },
+                              [
+                                _c("stop", {
+                                  attrs: { "stop-color": "#4FE2C3" },
+                                }),
+                                _vm._v(" "),
+                                _c("stop", {
+                                  attrs: {
+                                    offset: "1",
+                                    "stop-color": "#4FE2C3",
+                                    "stop-opacity": "0.73",
+                                  },
+                                }),
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c("clipPath", { attrs: { id: "clip0_37_822" } }, [
+                              _c("rect", {
+                                attrs: {
+                                  width: "32",
+                                  height: "32",
+                                  fill: "white",
+                                  transform: "translate(0.42627 0.5)",
+                                },
+                              }),
+                            ]),
+                          ],
+                          1
+                        ),
+                      ]
+                    ),
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c(
+                      "svg",
+                      {
+                        attrs: {
+                          width: "33",
+                          height: "27",
+                          viewBox: "0 0 33 27",
+                          fill: "none",
+                          xmlns: "http://www.w3.org/2000/svg",
+                        },
+                      },
+                      [
+                        _c("path", {
+                          attrs: {
+                            d: "M10.4931 26.5C22.5656 26.5 29.1706 16.4956 29.1706 7.82248C29.1706 7.54123 29.1644 7.25373 29.1519 6.97248C30.4368 6.04328 31.5456 4.89234 32.4263 3.57373C31.2296 4.10613 29.9591 4.45384 28.6581 4.60498C30.028 3.78388 31.0536 2.49396 31.545 0.974356C30.2563 1.73808 28.847 2.27682 27.3775 2.56748C26.3874 1.51541 25.0783 0.818822 23.6525 0.585401C22.2268 0.351981 20.7639 0.594734 19.4899 1.27613C18.216 1.95752 17.202 3.03961 16.6047 4.35508C16.0075 5.67056 15.8602 7.14615 16.1856 8.55373C13.5763 8.42279 11.0235 7.74494 8.69291 6.56413C6.36231 5.38332 4.30586 3.72592 2.65689 1.69936C1.8188 3.14432 1.56235 4.85419 1.93964 6.48145C2.31694 8.10872 3.29969 9.53126 4.68814 10.46C3.64577 10.4269 2.62624 10.1462 1.71377 9.64123V9.72248C1.71284 11.2389 2.23707 12.7088 3.19735 13.8824C4.15763 15.0559 5.4947 15.8607 6.98127 16.16C6.01568 16.4242 5.00225 16.4627 4.01939 16.2725C4.43888 17.5766 5.25503 18.7172 6.35396 19.5351C7.45289 20.353 8.77976 20.8075 10.1494 20.835C7.82417 22.6615 4.95184 23.6522 1.99502 23.6475C1.47065 23.6467 0.946802 23.6145 0.42627 23.5512C3.43008 25.4783 6.92431 26.5018 10.4931 26.5Z",
+                            fill: "#031F31",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            d: "M10.4931 26.5C22.5656 26.5 29.1706 16.4956 29.1706 7.82248C29.1706 7.54123 29.1644 7.25373 29.1519 6.97248C30.4368 6.04328 31.5456 4.89234 32.4263 3.57373C31.2296 4.10613 29.9591 4.45384 28.6581 4.60498C30.028 3.78388 31.0536 2.49396 31.545 0.974356C30.2563 1.73808 28.847 2.27682 27.3775 2.56748C26.3874 1.51541 25.0783 0.818822 23.6525 0.585401C22.2268 0.351981 20.7639 0.594734 19.4899 1.27613C18.216 1.95752 17.202 3.03961 16.6047 4.35508C16.0075 5.67056 15.8602 7.14615 16.1856 8.55373C13.5763 8.42279 11.0235 7.74494 8.69291 6.56413C6.36231 5.38332 4.30586 3.72592 2.65689 1.69936C1.8188 3.14432 1.56235 4.85419 1.93964 6.48145C2.31694 8.10872 3.29969 9.53126 4.68814 10.46C3.64577 10.4269 2.62624 10.1462 1.71377 9.64123V9.72248C1.71284 11.2389 2.23707 12.7088 3.19735 13.8824C4.15763 15.0559 5.4947 15.8607 6.98127 16.16C6.01568 16.4242 5.00225 16.4627 4.01939 16.2725C4.43888 17.5766 5.25503 18.7172 6.35396 19.5351C7.45289 20.353 8.77976 20.8075 10.1494 20.835C7.82417 22.6615 4.95184 23.6522 1.99502 23.6475C1.47065 23.6467 0.946802 23.6145 0.42627 23.5512C3.43008 25.4783 6.92431 26.5018 10.4931 26.5Z",
+                            fill: "url(#paint0_linear_212_60)",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c(
+                          "defs",
+                          [
+                            _c(
+                              "linearGradient",
+                              {
+                                attrs: {
+                                  id: "paint0_linear_212_60",
+                                  x1: "0.42627",
+                                  y1: "0.499023",
+                                  x2: "36.8846",
+                                  y2: "10.9563",
+                                  gradientUnits: "userSpaceOnUse",
+                                },
+                              },
+                              [
+                                _c("stop", {
+                                  attrs: { "stop-color": "#4FE2C3" },
+                                }),
+                                _vm._v(" "),
+                                _c("stop", {
+                                  attrs: {
+                                    offset: "1",
+                                    "stop-color": "#4FE2C3",
+                                    "stop-opacity": "0.73",
+                                  },
+                                }),
+                              ],
+                              1
+                            ),
+                          ],
+                          1
+                        ),
+                      ]
+                    ),
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c(
+                      "svg",
+                      {
+                        attrs: {
+                          width: "33",
+                          height: "33",
+                          viewBox: "0 0 33 33",
+                          fill: "none",
+                          xmlns: "http://www.w3.org/2000/svg",
+                        },
+                      },
+                      [
+                        _c("path", {
+                          attrs: {
+                            d: "M16.4263 3.38125C20.7013 3.38125 21.2075 3.4 22.8888 3.475C24.4513 3.54375 25.295 3.80625 25.8575 4.025C26.6013 4.3125 27.1388 4.6625 27.695 5.21875C28.2575 5.78125 28.6013 6.3125 28.8888 7.05625C29.1075 7.61875 29.37 8.46875 29.4388 10.025C29.5138 11.7125 29.5325 12.2188 29.5325 16.4875C29.5325 20.7625 29.5138 21.2688 29.4388 22.95C29.37 24.5125 29.1075 25.3563 28.8888 25.9188C28.6013 26.6625 28.2513 27.2 27.695 27.7563C27.1325 28.3188 26.6013 28.6625 25.8575 28.95C25.295 29.1688 24.445 29.4313 22.8888 29.5C21.2013 29.575 20.695 29.5938 16.4263 29.5938C12.1513 29.5938 11.645 29.575 9.96377 29.5C8.40127 29.4313 7.55752 29.1688 6.99502 28.95C6.25127 28.6625 5.71377 28.3125 5.15752 27.7563C4.59502 27.1938 4.25127 26.6625 3.96377 25.9188C3.74502 25.3563 3.48252 24.5063 3.41377 22.95C3.33877 21.2625 3.32002 20.7563 3.32002 16.4875C3.32002 12.2125 3.33877 11.7063 3.41377 10.025C3.48252 8.4625 3.74502 7.61875 3.96377 7.05625C4.25127 6.3125 4.60127 5.775 5.15752 5.21875C5.72002 4.65625 6.25127 4.3125 6.99502 4.025C7.55752 3.80625 8.40752 3.54375 9.96377 3.475C11.645 3.4 12.1513 3.38125 16.4263 3.38125ZM16.4263 0.5C12.0825 0.5 11.5388 0.51875 9.83252 0.59375C8.13252 0.66875 6.96377 0.94375 5.95127 1.3375C4.89502 1.75 4.00127 2.29375 3.11377 3.1875C2.22002 4.075 1.67627 4.96875 1.26377 6.01875C0.87002 7.0375 0.59502 8.2 0.52002 9.9C0.44502 11.6125 0.42627 12.1562 0.42627 16.5C0.42627 20.8438 0.44502 21.3875 0.52002 23.0938C0.59502 24.7938 0.87002 25.9625 1.26377 26.975C1.67627 28.0313 2.22002 28.925 3.11377 29.8125C4.00127 30.7 4.89502 31.25 5.94502 31.6562C6.96377 32.05 8.12627 32.325 9.82627 32.4C11.5325 32.475 12.0763 32.4937 16.42 32.4937C20.7638 32.4937 21.3075 32.475 23.0138 32.4C24.7138 32.325 25.8825 32.05 26.895 31.6562C27.945 31.25 28.8388 30.7 29.7263 29.8125C30.6138 28.925 31.1638 28.0313 31.57 26.9813C31.9638 25.9625 32.2388 24.8 32.3138 23.1C32.3888 21.3938 32.4075 20.85 32.4075 16.5063C32.4075 12.1625 32.3888 11.6188 32.3138 9.9125C32.2388 8.2125 31.9638 7.04375 31.57 6.03125C31.1763 4.96875 30.6325 4.075 29.7388 3.1875C28.8513 2.3 27.9575 1.75 26.9075 1.34375C25.8888 0.95 24.7263 0.675 23.0263 0.6C21.3138 0.51875 20.77 0.5 16.4263 0.5Z",
+                            fill: "#031F31",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            d: "M16.4263 3.38125C20.7013 3.38125 21.2075 3.4 22.8888 3.475C24.4513 3.54375 25.295 3.80625 25.8575 4.025C26.6013 4.3125 27.1388 4.6625 27.695 5.21875C28.2575 5.78125 28.6013 6.3125 28.8888 7.05625C29.1075 7.61875 29.37 8.46875 29.4388 10.025C29.5138 11.7125 29.5325 12.2188 29.5325 16.4875C29.5325 20.7625 29.5138 21.2688 29.4388 22.95C29.37 24.5125 29.1075 25.3563 28.8888 25.9188C28.6013 26.6625 28.2513 27.2 27.695 27.7563C27.1325 28.3188 26.6013 28.6625 25.8575 28.95C25.295 29.1688 24.445 29.4313 22.8888 29.5C21.2013 29.575 20.695 29.5938 16.4263 29.5938C12.1513 29.5938 11.645 29.575 9.96377 29.5C8.40127 29.4313 7.55752 29.1688 6.99502 28.95C6.25127 28.6625 5.71377 28.3125 5.15752 27.7563C4.59502 27.1938 4.25127 26.6625 3.96377 25.9188C3.74502 25.3563 3.48252 24.5063 3.41377 22.95C3.33877 21.2625 3.32002 20.7563 3.32002 16.4875C3.32002 12.2125 3.33877 11.7063 3.41377 10.025C3.48252 8.4625 3.74502 7.61875 3.96377 7.05625C4.25127 6.3125 4.60127 5.775 5.15752 5.21875C5.72002 4.65625 6.25127 4.3125 6.99502 4.025C7.55752 3.80625 8.40752 3.54375 9.96377 3.475C11.645 3.4 12.1513 3.38125 16.4263 3.38125ZM16.4263 0.5C12.0825 0.5 11.5388 0.51875 9.83252 0.59375C8.13252 0.66875 6.96377 0.94375 5.95127 1.3375C4.89502 1.75 4.00127 2.29375 3.11377 3.1875C2.22002 4.075 1.67627 4.96875 1.26377 6.01875C0.87002 7.0375 0.59502 8.2 0.52002 9.9C0.44502 11.6125 0.42627 12.1562 0.42627 16.5C0.42627 20.8438 0.44502 21.3875 0.52002 23.0938C0.59502 24.7938 0.87002 25.9625 1.26377 26.975C1.67627 28.0313 2.22002 28.925 3.11377 29.8125C4.00127 30.7 4.89502 31.25 5.94502 31.6562C6.96377 32.05 8.12627 32.325 9.82627 32.4C11.5325 32.475 12.0763 32.4937 16.42 32.4937C20.7638 32.4937 21.3075 32.475 23.0138 32.4C24.7138 32.325 25.8825 32.05 26.895 31.6562C27.945 31.25 28.8388 30.7 29.7263 29.8125C30.6138 28.925 31.1638 28.0313 31.57 26.9813C31.9638 25.9625 32.2388 24.8 32.3138 23.1C32.3888 21.3938 32.4075 20.85 32.4075 16.5063C32.4075 12.1625 32.3888 11.6188 32.3138 9.9125C32.2388 8.2125 31.9638 7.04375 31.57 6.03125C31.1763 4.96875 30.6325 4.075 29.7388 3.1875C28.8513 2.3 27.9575 1.75 26.9075 1.34375C25.8888 0.95 24.7263 0.675 23.0263 0.6C21.3138 0.51875 20.77 0.5 16.4263 0.5Z",
+                            fill: "url(#paint0_linear_212_1656)",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            d: "M16.4263 8.28125C11.8888 8.28125 8.20752 11.9625 8.20752 16.5C8.20752 21.0375 11.8888 24.7188 16.4263 24.7188C20.9638 24.7188 24.645 21.0375 24.645 16.5C24.645 11.9625 20.9638 8.28125 16.4263 8.28125ZM16.4263 21.8312C13.4825 21.8312 11.095 19.4438 11.095 16.5C11.095 13.5563 13.4825 11.1687 16.4263 11.1687C19.37 11.1687 21.7575 13.5563 21.7575 16.5C21.7575 19.4438 19.37 21.8312 16.4263 21.8312Z",
+                            fill: "#031F31",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            d: "M16.4263 8.28125C11.8888 8.28125 8.20752 11.9625 8.20752 16.5C8.20752 21.0375 11.8888 24.7188 16.4263 24.7188C20.9638 24.7188 24.645 21.0375 24.645 16.5C24.645 11.9625 20.9638 8.28125 16.4263 8.28125ZM16.4263 21.8312C13.4825 21.8312 11.095 19.4438 11.095 16.5C11.095 13.5563 13.4825 11.1687 16.4263 11.1687C19.37 11.1687 21.7575 13.5563 21.7575 16.5C21.7575 19.4438 19.37 21.8312 16.4263 21.8312Z",
+                            fill: "url(#paint1_linear_212_1656)",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            d: "M26.8888 7.95611C26.8888 9.01861 26.0263 9.87486 24.97 9.87486C23.9075 9.87486 23.0513 9.01236 23.0513 7.95611C23.0513 6.8936 23.9138 6.03735 24.97 6.03735C26.0263 6.03735 26.8888 6.89985 26.8888 7.95611Z",
+                            fill: "#031F31",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            d: "M26.8888 7.95611C26.8888 9.01861 26.0263 9.87486 24.97 9.87486C23.9075 9.87486 23.0513 9.01236 23.0513 7.95611C23.0513 6.8936 23.9138 6.03735 24.97 6.03735C26.0263 6.03735 26.8888 6.89985 26.8888 7.95611Z",
+                            fill: "url(#paint2_linear_212_1656)",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c(
+                          "defs",
+                          [
+                            _c(
+                              "linearGradient",
+                              {
+                                attrs: {
+                                  id: "paint0_linear_212_1656",
+                                  x1: "0.42627",
+                                  y1: "0.5",
+                                  x2: "37.8309",
+                                  y2: "9.21396",
+                                  gradientUnits: "userSpaceOnUse",
+                                },
+                              },
+                              [
+                                _c("stop", {
+                                  attrs: { "stop-color": "#4FE2C3" },
+                                }),
+                                _vm._v(" "),
+                                _c("stop", {
+                                  attrs: {
+                                    offset: "1",
+                                    "stop-color": "#4FE2C3",
+                                    "stop-opacity": "0.73",
+                                  },
+                                }),
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "linearGradient",
+                              {
+                                attrs: {
+                                  id: "paint1_linear_212_1656",
+                                  x1: "8.20752",
+                                  y1: "8.28125",
+                                  x2: "27.4317",
+                                  y2: "12.7616",
+                                  gradientUnits: "userSpaceOnUse",
+                                },
+                              },
+                              [
+                                _c("stop", {
+                                  attrs: { "stop-color": "#4FE2C3" },
+                                }),
+                                _vm._v(" "),
+                                _c("stop", {
+                                  attrs: {
+                                    offset: "1",
+                                    "stop-color": "#4FE2C3",
+                                    "stop-opacity": "0.73",
+                                  },
+                                }),
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "linearGradient",
+                              {
+                                attrs: {
+                                  id: "paint2_linear_212_1656",
+                                  x1: "23.0513",
+                                  y1: "6.03735",
+                                  x2: "27.5394",
+                                  y2: "7.08333",
+                                  gradientUnits: "userSpaceOnUse",
+                                },
+                              },
+                              [
+                                _c("stop", {
+                                  attrs: { "stop-color": "#4FE2C3" },
+                                }),
+                                _vm._v(" "),
+                                _c("stop", {
+                                  attrs: {
+                                    offset: "1",
+                                    "stop-color": "#4FE2C3",
+                                    "stop-opacity": "0.73",
+                                  },
+                                }),
+                              ],
+                              1
+                            ),
+                          ],
+                          1
+                        ),
+                      ]
+                    ),
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c(
+                      "svg",
+                      {
+                        attrs: {
+                          width: "33",
+                          height: "33",
+                          viewBox: "0 0 33 33",
+                          fill: "none",
+                          xmlns: "http://www.w3.org/2000/svg",
+                        },
+                      },
+                      [
+                        _c("path", {
+                          attrs: {
+                            "fill-rule": "evenodd",
+                            "clip-rule": "evenodd",
+                            d: "M32.4263 16.5C32.4263 25.3366 25.2628 32.5 16.4263 32.5C7.58971 32.5 0.42627 25.3366 0.42627 16.5C0.42627 7.66344 7.58971 0.5 16.4263 0.5C25.2628 0.5 32.4263 7.66344 32.4263 16.5ZM16.9996 12.3119C15.4434 12.9592 12.3331 14.2989 7.66879 16.3311C6.91138 16.6323 6.51461 16.927 6.47849 17.2151C6.41745 17.702 7.02722 17.8937 7.85757 18.1548C7.97052 18.1903 8.08754 18.2271 8.20752 18.2661C9.02445 18.5317 10.1234 18.8424 10.6947 18.8547C11.2129 18.8659 11.7912 18.6523 12.4298 18.2138C16.7878 15.272 19.0374 13.7851 19.1787 13.753C19.2783 13.7304 19.4164 13.702 19.51 13.7851C19.6035 13.8683 19.5943 14.0258 19.5844 14.068C19.524 14.3255 17.1304 16.5508 15.8917 17.7024C15.5056 18.0614 15.2317 18.316 15.1757 18.3742C15.0503 18.5045 14.9224 18.6277 14.7996 18.7461C14.0406 19.4778 13.4715 20.0264 14.8311 20.9224C15.4845 21.3529 16.0073 21.709 16.5289 22.0642C17.0985 22.4521 17.6666 22.839 18.4018 23.3209C18.589 23.4437 18.7679 23.5712 18.9421 23.6954C19.605 24.168 20.2006 24.5926 20.9364 24.5248C21.3639 24.4855 21.8056 24.0835 22.0298 22.8845C22.5599 20.0509 23.6018 13.9113 23.8426 11.3813C23.8637 11.1596 23.8371 10.876 23.8158 10.7514C23.7945 10.6269 23.75 10.4495 23.5881 10.3181C23.3964 10.1626 23.1004 10.1298 22.9681 10.1321C22.3663 10.1427 21.443 10.4638 16.9996 12.3119Z",
+                            fill: "#031F31",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            "fill-rule": "evenodd",
+                            "clip-rule": "evenodd",
+                            d: "M32.4263 16.5C32.4263 25.3366 25.2628 32.5 16.4263 32.5C7.58971 32.5 0.42627 25.3366 0.42627 16.5C0.42627 7.66344 7.58971 0.5 16.4263 0.5C25.2628 0.5 32.4263 7.66344 32.4263 16.5ZM16.9996 12.3119C15.4434 12.9592 12.3331 14.2989 7.66879 16.3311C6.91138 16.6323 6.51461 16.927 6.47849 17.2151C6.41745 17.702 7.02722 17.8937 7.85757 18.1548C7.97052 18.1903 8.08754 18.2271 8.20752 18.2661C9.02445 18.5317 10.1234 18.8424 10.6947 18.8547C11.2129 18.8659 11.7912 18.6523 12.4298 18.2138C16.7878 15.272 19.0374 13.7851 19.1787 13.753C19.2783 13.7304 19.4164 13.702 19.51 13.7851C19.6035 13.8683 19.5943 14.0258 19.5844 14.068C19.524 14.3255 17.1304 16.5508 15.8917 17.7024C15.5056 18.0614 15.2317 18.316 15.1757 18.3742C15.0503 18.5045 14.9224 18.6277 14.7996 18.7461C14.0406 19.4778 13.4715 20.0264 14.8311 20.9224C15.4845 21.3529 16.0073 21.709 16.5289 22.0642C17.0985 22.4521 17.6666 22.839 18.4018 23.3209C18.589 23.4437 18.7679 23.5712 18.9421 23.6954C19.605 24.168 20.2006 24.5926 20.9364 24.5248C21.3639 24.4855 21.8056 24.0835 22.0298 22.8845C22.5599 20.0509 23.6018 13.9113 23.8426 11.3813C23.8637 11.1596 23.8371 10.876 23.8158 10.7514C23.7945 10.6269 23.75 10.4495 23.5881 10.3181C23.3964 10.1626 23.1004 10.1298 22.9681 10.1321C22.3663 10.1427 21.443 10.4638 16.9996 12.3119Z",
+                            fill: "url(#paint0_linear_212_456)",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c(
+                          "defs",
+                          [
+                            _c(
+                              "linearGradient",
+                              {
+                                attrs: {
+                                  id: "paint0_linear_212_456",
+                                  x1: "0.42627",
+                                  y1: "0.5",
+                                  x2: "37.8513",
+                                  y2: "9.22213",
+                                  gradientUnits: "userSpaceOnUse",
+                                },
+                              },
+                              [
+                                _c("stop", {
+                                  attrs: { "stop-color": "#4FE2C3" },
+                                }),
+                                _vm._v(" "),
+                                _c("stop", {
+                                  attrs: {
+                                    offset: "1",
+                                    "stop-color": "#4FE2C3",
+                                    "stop-opacity": "0.73",
+                                  },
+                                }),
+                              ],
+                              1
+                            ),
+                          ],
+                          1
+                        ),
+                      ]
+                    ),
+                  ]),
+                ]
+              ),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-12 col-md-9" }, [
+              _c("div", { staticClass: "footer__title" }, [
+                _c("span", [
+                  _vm._v(
+                    "\n\t\t\t\t\t\t" +
+                      _vm._s(_vm.$t("footer.features")) +
+                      "\n\t\t\t\t\t"
+                  ),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c(
+                "ul",
+                { staticClass: "nav" },
+                _vm._l(_vm.menu, function (item, key) {
+                  return _c(
+                    "router-link",
+                    {
+                      key: key,
+                      staticClass: "nav__item",
+                      attrs: { tag: "li", to: item.link },
+                    },
+                    [
+                      _c("a", { staticClass: "nav__link" }, [
+                        _vm._v(_vm._s(_vm.$t("menu." + item.name))),
+                      ]),
+                    ]
+                  )
+                }),
+                1
+              ),
+            ]),
+          ]),
+        ]),
+      ]
+    ),
+    _vm._v(" "),
+    _c("div", { staticClass: "footer__bottom" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-12 text-center" }, [
+            _vm._v(
+              "\n\t\t\t\t\tBitDex © Copyright " +
+                _vm._s(new Date().getFullYear()) +
+                "   |   Worldwide Distributed Digital Asset Exchange   |   Trading digitals assets such as Bitcoin involves significant risks.\n\t\t\t\t"
+            ),
+          ]),
+        ]),
+      ]),
+    ]),
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -39959,18 +40807,16 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    { staticClass: "page" },
-    [
-      _c("main-header"),
-      _vm._v(" "),
-      _c("router-view"),
-      _vm._v(" "),
-      _c("main-footer"),
-    ],
-    1
-  )
+  return _c("div", { staticClass: "page" }, [
+    _c(
+      "div",
+      { staticClass: "page__content" },
+      [_c("main-header"), _vm._v(" "), _c("router-view")],
+      1
+    ),
+    _vm._v(" "),
+    _c("div", { staticClass: "page__footer" }, [_c("main-footer")], 1),
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true

@@ -133,5 +133,9 @@ export default {
 			number: 'Best broker',
 			desc: 'We have been voted \'Best Crypto Broker\' 2019 & 2020 and on our way to become the number 1 in Europe.'
 		}
-	]
+	],
+	footer: {
+		desc: 'Bitsired is a simple, elegant, and secure platform to build your crypto portfolio.',
+		features: 'Features'
+	}
 }

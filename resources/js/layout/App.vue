@@ -1,8 +1,13 @@
 <template>
   <div class="page">
-      <main-header></main-header>
-      <router-view></router-view>
-	  <main-footer></main-footer>
+	  <div class="page__content">
+		  <main-header></main-header>
+		  <router-view></router-view>
+	  </div>
+	  <div class="page__footer">
+		  <main-footer></main-footer>
+
+	  </div>
   </div>
 </template>
 
