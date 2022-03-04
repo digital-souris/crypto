@@ -100,5 +100,38 @@ export default {
 			desc: 'Make sure your addresses are not involved\n' +
 				'in money laundering'
 		}
-	}
+	},
+	seventh: {
+		0: {
+			title: 'Start date of the Airdrop',
+			desc: '01.12.2021'
+		},
+		p: [
+			'Fulfillment of the Airdrop conditions and registration AFTER 01.02.2022 by you or your friends who registered via a referral link will NOT lead to receipt of an Airdrop.',
+			'Failure to meet any of the conditions will NOT BEGIN to getting an Airdrop.',
+			'\n' +
+			'You and your friend will get tokens for his invitation to the exchange ONLY if your friend registered through YOUR REFERRAL LINK and fulfilled ALL CONDITIONS of the Airdrop.',
+			'Rewards received will be available on the balance according to the Logic of Reward Receipt.'
+		],
+		count: ['For completing Airdrop each user will receive QMALL tokens equivalent to 500 ₴.', 'For registering through your referral link (if the referral also complied with the Airdrop conditions) you will receive QMALL tokens worth 100 ₴', 'For registering through your referral link (if the referral also complied with the Airdrop conditions) you will receive QMALL tokens worth 100 ₴'],
+		title: {
+			first: 'Types of rewards',
+			second: 'Reward Receipt Logic',
+			second_desc: 'All tokens received on Airdrop will be unfrozen after the end of Airdrop in the equivalent of 10% of the amount of tokens received each quarter, starting on the day of the opening of QMALL token trading.'
+		},
+		table: ['Date', 'Percentage of unfrozen tokens', 'Event']
+	},
+	eighth: [
+		{title: 'Daily market volume', number: '€1.000.000+', desc: 'Our state-of-the-art systems are built to securely process high volumes each day.'},
+		{
+			title: 'Coins',
+			number: '40+',
+			desc: 'We offer a wide range of relevant coins on the market, which are curated with care by our experts.'
+		},
+		{
+			title: 'Trusted across Europe',
+			number: 'Best broker',
+			desc: 'We have been voted \'Best Crypto Broker\' 2019 & 2020 and on our way to become the number 1 in Europe.'
+		}
+	]
 }
