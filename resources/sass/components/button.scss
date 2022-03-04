@@ -1,0 +1,36 @@
+.button {
+	display: block;
+	border-radius: 8px;
+	padding: 18px 24px;
+	color: #fff;
+	font-size: 19px;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+	transition: all .25s;
+	&_small {
+		font-size: 13px;
+		padding: 10px 12px;
+	}
+
+	&:hover {
+		color: #fff;
+	}
+	&_buy {
+		border: 1px solid #4FE2C3;
+		color: #4FE2C3;
+		&:hover {
+			background-color: #4FE2C3;
+		}
+	}
+	svg {
+		margin-left: 10px;
+		vertical-align: middle;
+	}
+	&_green {
+		background: linear-gradient(103.12deg, #4FE2C3 0%, rgba(79, 226, 195, 0.73) 100%), #031F31;
+	}
+	&_grey {
+		background: linear-gradient(103.12deg, rgba(79, 226, 195, 0.15) 0%, rgba(79, 226, 195, 0.1095) 100%), #04314B;
+	}
+}

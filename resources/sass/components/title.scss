@@ -1,0 +1,31 @@
+.title {
+	&_second {
+		font-size: 48px;
+		font-weight: 600;
+		@media screen and (max-width: 768px) {
+			font-size: 24px;
+		}
+	}
+	&_center {
+		text-align: center;
+	}
+	&_dark {
+		color: #031F31;
+	}
+	&_white {
+		color: #fff;
+	}
+	&__line {
+		margin: 40px auto;
+		height: 2px;
+		background-color: #4FE2C3;
+		max-width: 125px;
+		width: 100%;
+	}
+	&__desc {
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: #818F98;
+	}
+}

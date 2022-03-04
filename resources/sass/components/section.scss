@@ -1,0 +1,32 @@
+.section {
+	&_full {
+		min-height: 100vh;
+	}
+	&_background {
+		background-repeat: no-repeat;
+		background-position: center;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+
+	&_first {
+		padding-top: 87px;
+		@media screen and (max-width: 768px) {
+			padding-top: 20px;
+		}
+	}
+
+	&_relative {
+		position: relative;
+	}
+	&_padding {
+		padding: 80px 0;
+	}
+
+	&_white {
+		background-color: #fff;
+	}
+	&_grey {
+		background-color: #F8F9FE;
+	}
+}
