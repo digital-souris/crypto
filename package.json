@@ -26,15 +26,21 @@
         "vuex": "3"
     },
     "dependencies": {
+        "@grafikri/vue-middleware": "^1.0.0",
+        "@websanova/vue-auth": "^4.1.12",
         "jquery": "^3.6.0",
         "js-cookie": "^3.0.1",
         "moment": "^2.29.1",
         "normalize": "^0.3.1",
         "slick": "^1.12.2",
+        "vee-validate": "^4.5.10",
+        "vue-axios": "^3.4.1",
         "vue-i18n": "8",
         "vue-lazyload": "^1.3.3",
+        "vue-notification": "^1.3.20",
         "vue-particles": "^1.0.9",
         "vue-slick": "^1.1.16",
+        "vue-trading-view": "^1.0.1",
         "vue2-animate": "^2.1.4"
     }
 }

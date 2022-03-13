@@ -100,6 +100,13 @@
                                     </div>
                                 </div>
                             </div>
+							<div class="header__auth" v-else>
+								<div class="row">
+									<div class="col-12">
+										<router-link to="/lk" class="header__button">{{$store.getters.getUser.email}}</router-link>
+									</div>
+								</div>
+							</div>
                         </div>
                     </div>
                 </div>
@@ -167,7 +174,7 @@ export default {
 	}
     &__lang {
         position: relative;
-        max-width: 67px;
+        max-width: 69px;
     }
     &__logo {
         svg {

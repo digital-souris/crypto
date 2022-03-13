@@ -15,8 +15,10 @@
 						<tbody>
 						<tr v-for="crypto in $store.getters.getCrypto"  :key="crypto.id">
 							<td>
-								<img v-lazy="'/img/crypto/' +crypto.symbol+ '.png'" :alt="crypto.symbol">
-								<span>{{crypto.name}}</span>
+								<router-link :to="'/trading-item?course=' + crypto.symbol">
+									<img v-lazy="'/img/crypto/' +crypto.symbol+ '.png'" :alt="crypto.symbol">
+									<span>{{crypto.name}}</span>
+								</router-link>
 							</td>
 							<td>{{crypto.symbol}}</td>
 							<td>
@@ -44,6 +46,10 @@ export default {
 
 <style scoped lang="scss">
 	.table {
+		a {
+			text-decoration: none;
+			color: #031F31;
+		}
 		th {
 			color: #818F98;
 			font-size: 15px;

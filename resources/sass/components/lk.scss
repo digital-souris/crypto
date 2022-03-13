@@ -1,0 +1,28 @@
+.cabinet {
+	&__wrap {
+		background: #031F31;
+		margin-top: 20px;
+	}
+	&__head {
+		padding: 30px;
+		background: #031F31;
+	}
+	&__body {
+		padding: 20px 30px;
+		background: #041D2E;
+	}
+	&__title {
+		text-transform: uppercase;
+		color: #fff;
+		font-weight: 500;
+		font-size: 16px;
+		padding-bottom: 12px;
+	}
+	&__desc {
+		color: #818F98;
+		svg {
+			//vertical-align: top;
+			margin-right: 10px;
+		}
+	}
+}

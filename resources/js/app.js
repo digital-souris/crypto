@@ -9,7 +9,9 @@ import VueI18n from 'vue-i18n'
 
 require('./bootstrap');
 import VueLazyload from 'vue-lazyload'
-
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+import Notifications from 'vue-notification'
 window.Vue = require('vue').default;
 
 
@@ -58,6 +60,16 @@ const i18n = new VueI18n({
 
 Vue.use(VueParticles)
 Vue.use(VueLazyload)
+Vue.use(VueAxios, axios)
+Vue.use(Notifications)
+
+
+axios.defaults.baseURL = '/api';
+
+
+import middleware from "@grafikri/vue-middleware"
+
+router.beforeEach(middleware({ store }))
 
 const app = new Vue({
     el: '#app',

@@ -13,7 +13,7 @@
 				</div>
 				<div class="col-4">
 					<div class="crypto__button">
-						<router-link to="/trading" class="button button_small button_buy">{{$t('button.buy')}}</router-link>
+						<router-link :to="'/trading-item?course=' + crypto.symbol" class="button button_small button_buy">{{$t('button.buy')}}</router-link>
 					</div>
 				</div>
 			</div>

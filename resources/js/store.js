@@ -2,15 +2,6 @@ import Vue from 'vue'
 import Vuex from 'Vuex'
 import axios from 'axios'
 
-const ajax = axios.create({
-	withCredentials: false,
-	headers: {
-		'Access-Control-Allow-Origin': '*',
-		'Content-Type': 'application/json',
-		'CMC_PRO_API_KEY': 'a9999373-7a7b-4b87-b878-e57911fcfb8a',
-		mode: 'cors'
-	},
-})
 
 Vue.use(Vuex)
 
@@ -2742,9 +2733,14 @@ const store = new Vuex.Store({
     },
     actions: {
 		loadCrypto({commit}) {
-			ajax.get('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?aux=cmc_rank&CMC_PRO_API_KEY=a9999373-7a7b-4b87-b878-e57911fcfb8a')
+			axios.get('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?aux=cmc_rank&CMC_PRO_API_KEY=a9999373-7a7b-4b87-b878-e57911fcfb8a', {
+				headers: {}
+			})
 				.then(resp => {
 					commit('changeCrypto', resp.data.data)
+				})
+				.catch(e => {
+					console.log(e)
 				})
 		}
 	}

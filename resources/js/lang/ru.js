@@ -137,5 +137,41 @@ export default {
 	footer: {
 		desc: 'Bitsired is a simple, elegant, and secure platform to build your crypto portfolio.',
 		features: 'Features'
+	},
+	authPage: {
+		Login: {
+			title: 'Войти'
+		},
+		Register: {
+			title: 'Регистрация'
+		},
+		form: {
+			email: 'E-mail',
+			password: 'Пароль',
+			password_confirmation: 'Подтвердите пароль'
+		},
+		button: {
+			Register: 'Создать аккаунт',
+			Login: 'Войти'
+		}
+	},
+	notify: {
+		login: 'Не верный логин или пароль'
+	},
+	lkMenu: {
+		overview: 'Обзор',
+		deposit: 'Депозит',
+		withdraw: 'Вывод средств',
+		invest: 'Инвестиции',
+		affiliate: 'Филиал',
+		api: 'Api',
+		settings: 'Настройки'
+	},
+	cabinet: {
+		kompozitum: 'Почта',
+		total_log: 'Итоговый журнал',
+		use_bonus_promo_code: 'Используйте бонусный промо-код',
+		activate: 'Активировать',
+		available_balance: 'Доступный баланс'
 	}
 }

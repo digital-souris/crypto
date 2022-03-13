@@ -8,6 +8,7 @@
 	text-align: center;
 	text-decoration: none;
 	transition: all .25s;
+	border: none;
 	&_small {
 		font-size: 13px;
 		padding: 10px 12px;
@@ -32,5 +33,17 @@
 	}
 	&_grey {
 		background: linear-gradient(103.12deg, rgba(79, 226, 195, 0.15) 0%, rgba(79, 226, 195, 0.1095) 100%), #04314B;
+	}
+
+	&_auth {
+		width: 100%;
+	}
+	&_cabinet {
+		height: 48px;
+		padding-top: 0;
+		padding-bottom: 0;
+		line-height: 48px;
+		width: 100%;
+		font-size: 16px;
 	}
 }
