@@ -1,18 +1,13 @@
 <template>
 	<div class="section section_first">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-12">
-					<VueTradingView :options="options" v-if="showTrading" />
-				</div>
-			</div>
-		</div>
+		<VueTradingView :options="options" v-if="showTrading"/>
 	</div>
 </template>
 
 <script>
 
 import VueTradingView from 'vue-trading-view';
+
 export default {
 	name: "Trading",
 	data() {
@@ -49,18 +44,18 @@ export default {
 		this.showTrading = false
 
 		setTimeout(() => {
-			this.options.symbol = "BINANCE:"+this.getCourse+"USD"
+			this.options.symbol = "BINANCE:" + this.getCourse + "USD"
 			this.showTrading = true
 		}, 10)
 	},
 	watch: {
 		getLocale() {
-			this.options.locale  = this.$i18n.locale
+			this.options.locale = this.$i18n.locale
 			this.showTrading = false
 			setTimeout(() => this.showTrading = true, 10)
 		},
 		getCourse() {
-			this.options.symbol = "BINANCE:"+this.getCourse+"USD"
+			this.options.symbol = "BINANCE:" + this.getCourse + "USD"
 		}
 	},
 	components: {
