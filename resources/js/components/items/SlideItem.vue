@@ -37,7 +37,7 @@ export default {
 	methods: {
 		getDate(date) {
 			moment.locale(this.$i18n.locale)
-			return moment(date).add(-1, 'minute').fromNow()
+			return moment(date).add(-2, 'minute').fromNow()
 		}
 	}
 }

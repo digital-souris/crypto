@@ -51,7 +51,7 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     getDate: function getDate(date) {
       moment__WEBPACK_IMPORTED_MODULE_0___default().locale(this.$i18n.locale);
-      return moment__WEBPACK_IMPORTED_MODULE_0___default()(date).add(-1, 'minute').fromNow();
+      return moment__WEBPACK_IMPORTED_MODULE_0___default()(date).add(-2, 'minute').fromNow();
     }
   }
 });
