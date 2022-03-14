@@ -16,7 +16,7 @@
 						<tr v-for="crypto in $store.getters.getCrypto"  :key="crypto.id">
 							<td>
 								<router-link :to="'/trading-item?course=' + crypto.symbol">
-									<img v-lazy="'/img/crypto/' +crypto.symbol+ '.png'" :alt="crypto.symbol">
+									<img v-lazy="'/img/crypto/' +crypto.symbol.toLowerCase()+ '.png'" :alt="crypto.symbol">
 									<span>{{crypto.name}}</span>
 								</router-link>
 							</td>

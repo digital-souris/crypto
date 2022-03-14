@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-2">
 					<div class="crypto__image">
-						<img :src="'/img/crypto/' +crypto.symbol+ '.png'" :alt="crypto.symbol">
+						<img :src="'/img/crypto/' +crypto.symbol.toLowerCase()+ '.png'" :alt="crypto.symbol">
 					</div>
 				</div>
 				<div class="col-6">
