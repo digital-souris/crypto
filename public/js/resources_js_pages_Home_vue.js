@@ -107,6 +107,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue_slick__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-slick */ "./node_modules/vue-slick/dist/slickCarousel.esm.js");
 /* harmony import */ var _items_SlideItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../items/SlideItem */ "./resources/js/components/items/SlideItem.vue");
+/* harmony import */ var particles_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! particles.js */ "./node_modules/particles.js/particles.js");
+/* harmony import */ var particles_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(particles_js__WEBPACK_IMPORTED_MODULE_2__);
 //
 //
 //
@@ -170,6 +172,22 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -211,7 +229,117 @@ __webpack_require__.r(__webpack_exports__);
     },
     prev: function prev() {
       this.$refs.slider.prev();
+    },
+    initParticles: function initParticles() {
+      window.particlesJS('tsparticles', {
+        "particles": {
+          "number": {
+            "value": 80,
+            "density": {
+              "enable": true,
+              "value_area": 700
+            }
+          },
+          "color": {
+            "value": "#ffffff"
+          },
+          "shape": {
+            "type": "circle",
+            "stroke": {
+              "width": 0,
+              "color": "#000000"
+            },
+            "polygon": {
+              "nb_sides": 5
+            }
+          },
+          "opacity": {
+            "value": 0.5,
+            "random": false,
+            "anim": {
+              "enable": false,
+              "speed": 1,
+              "opacity_min": 0.1,
+              "sync": false
+            }
+          },
+          "size": {
+            "value": 3,
+            "random": true,
+            "anim": {
+              "enable": false,
+              "speed": 40,
+              "size_min": 0.1,
+              "sync": false
+            }
+          },
+          "line_linked": {
+            "enable": true,
+            "distance": 150,
+            "color": "#ffffff",
+            "opacity": 0.4,
+            "width": 1
+          },
+          "move": {
+            "enable": true,
+            "speed": 6,
+            "direction": "none",
+            "random": false,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false,
+            "attract": {
+              "enable": false,
+              "rotateX": 600,
+              "rotateY": 1200
+            }
+          }
+        },
+        "interactivity": {
+          "detect_on": "canvas",
+          "events": {
+            "onhover": {
+              "enable": true,
+              "mode": "grab"
+            },
+            "onclick": {
+              "enable": true,
+              "mode": "push"
+            },
+            "resize": true
+          },
+          "modes": {
+            "grab": {
+              "distance": 140,
+              "line_linked": {
+                "opacity": 1
+              }
+            },
+            "bubble": {
+              "distance": 400,
+              "size": 40,
+              "duration": 2,
+              "opacity": 8,
+              "speed": 3
+            },
+            "repulse": {
+              "distance": 200,
+              "duration": 0.4
+            },
+            "push": {
+              "particles_nb": 4
+            },
+            "remove": {
+              "particles_nb": 2
+            }
+          }
+        },
+        "retina_detect": true
+      });
     }
+  },
+  mounted: function mounted() {
+    this.initParticles();
   }
 });
 
@@ -268,6 +396,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var particles_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! particles.js */ "./node_modules/particles.js/particles.js");
+/* harmony import */ var particles_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(particles_js__WEBPACK_IMPORTED_MODULE_0__);
 //
 //
 //
@@ -316,12 +446,128 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "FourthSection",
   data: function data() {
     return {
       items: []
     };
+  },
+  methods: {
+    initParticles: function initParticles() {
+      window.particlesJS('part2', {
+        "particles": {
+          "number": {
+            "value": 80,
+            "density": {
+              "enable": true,
+              "value_area": 700
+            }
+          },
+          "color": {
+            "value": "#ffffff"
+          },
+          "shape": {
+            "type": "circle",
+            "stroke": {
+              "width": 0,
+              "color": "#000000"
+            },
+            "polygon": {
+              "nb_sides": 5
+            }
+          },
+          "opacity": {
+            "value": 0.5,
+            "random": false,
+            "anim": {
+              "enable": false,
+              "speed": 1,
+              "opacity_min": 0.1,
+              "sync": false
+            }
+          },
+          "size": {
+            "value": 3,
+            "random": true,
+            "anim": {
+              "enable": false,
+              "speed": 40,
+              "size_min": 0.1,
+              "sync": false
+            }
+          },
+          "line_linked": {
+            "enable": true,
+            "distance": 150,
+            "color": "#ffffff",
+            "opacity": 0.4,
+            "width": 1
+          },
+          "move": {
+            "enable": true,
+            "speed": 6,
+            "direction": "none",
+            "random": false,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false,
+            "attract": {
+              "enable": false,
+              "rotateX": 600,
+              "rotateY": 1200
+            }
+          }
+        },
+        "interactivity": {
+          "detect_on": "canvas",
+          "events": {
+            "onhover": {
+              "enable": true,
+              "mode": "grab"
+            },
+            "onclick": {
+              "enable": true,
+              "mode": "push"
+            },
+            "resize": true
+          },
+          "modes": {
+            "grab": {
+              "distance": 140,
+              "line_linked": {
+                "opacity": 1
+              }
+            },
+            "bubble": {
+              "distance": 400,
+              "size": 40,
+              "duration": 2,
+              "opacity": 8,
+              "speed": 3
+            },
+            "repulse": {
+              "distance": 200,
+              "duration": 0.4
+            },
+            "push": {
+              "particles_nb": 4
+            },
+            "remove": {
+              "particles_nb": 2
+            }
+          }
+        },
+        "retina_detect": true
+      });
+    }
+  },
+  mounted: function mounted() {
+    this.initParticles();
   }
 });
 
@@ -13156,9 +13402,9 @@ var render = function () {
       staticStyle: { "background-image": "url(/img/background.jpg)" },
     },
     [
-      _c("vue-particles", {
+      _c("div", {
         staticClass: "first__particles",
-        attrs: { color: "#dedede" },
+        attrs: { id: "tsparticles" },
       }),
       _vm._v(" "),
       _c("div", { staticClass: "first__wrapper" }, [
@@ -13251,7 +13497,12 @@ var render = function () {
                                 staticClass: "button button_grey",
                                 attrs: { to: "/login" },
                               },
-                              [_vm._v(_vm._s(_vm.$t("auth.login")))]
+                              [
+                                _vm._v(
+                                  _vm._s(_vm.$t("auth.login")) +
+                                    "\n\t\t\t\t\t\t\t\t\t"
+                                ),
+                              ]
                             ),
                           ],
                           1
@@ -13366,8 +13617,7 @@ var render = function () {
           ]),
         ]),
       ]),
-    ],
-    1
+    ]
   )
 }
 var staticRenderFns = []
@@ -13478,10 +13728,7 @@ var render = function () {
       staticStyle: { "background-image": "url(/img/background.jpg)" },
     },
     [
-      _c("vue-particles", {
-        staticClass: "info__particles",
-        attrs: { color: "#dedede" },
-      }),
+      _c("div", { staticClass: "info__particles", attrs: { id: "part2" } }),
       _vm._v(" "),
       _c("div", { staticClass: "info__wrapper" }, [
         _c("div", { staticClass: "container" }, [
@@ -13596,8 +13843,7 @@ var render = function () {
           ]),
         ]),
       ]),
-    ],
-    1
+    ]
   )
 }
 var staticRenderFns = []

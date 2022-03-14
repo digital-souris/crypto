@@ -58,7 +58,6 @@ const i18n = new VueI18n({
     messages, // set locale messages
 })
 
-Vue.use(VueParticles)
 Vue.use(VueLazyload)
 Vue.use(VueAxios, axios)
 Vue.use(Notifications)

@@ -105,6 +105,11 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
       if (this.$route.name === 'Register') {
         this.axios.post('/auth/register', data).then(function () {
+          _this.$notify({
+            type: 'success',
+            text: 'Вы успешно зарегистировались'
+          });
+
           _this.$router.push('/login');
         })["catch"](function (e) {
           _this.errors = e.response.data.errors;

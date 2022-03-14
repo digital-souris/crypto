@@ -79,6 +79,10 @@ export default {
 			if (this.$route.name === 'Register') {
 				this.axios.post('/auth/register', data)
 					.then(() => {
+						this.$notify({
+							type: 'success',
+							text: 'Вы успешно зарегистировались'
+						})
 						this.$router.push('/login')
 					})
 					.catch(e => {
