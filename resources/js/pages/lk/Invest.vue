@@ -81,7 +81,7 @@ export default {
 	&__pers {
 		font-size: 15px;
 		color: #fff;
-		
+
 	}
 }
 </style>
