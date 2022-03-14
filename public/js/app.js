@@ -7687,6 +7687,30 @@ var routes = [{
     meta: {
       middleware: [_middleware_authMiddleware__WEBPACK_IMPORTED_MODULE_0__["default"].isAuth]
     }
+  }, {
+    path: 'deposit',
+    component: function component() {
+      return __webpack_require__.e(/*! import() */ "resources_js_pages_lk_Deposit_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./pages/lk/Deposit */ "./resources/js/pages/lk/Deposit.vue"));
+    },
+    meta: {
+      middleware: [_middleware_authMiddleware__WEBPACK_IMPORTED_MODULE_0__["default"].isAuth]
+    }
+  }, {
+    path: 'withdraw',
+    component: function component() {
+      return __webpack_require__.e(/*! import() */ "resources_js_pages_lk_Withdraw_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./pages/lk/Withdraw */ "./resources/js/pages/lk/Withdraw.vue"));
+    },
+    meta: {
+      middleware: [_middleware_authMiddleware__WEBPACK_IMPORTED_MODULE_0__["default"].isAuth]
+    }
+  }, {
+    path: 'invest',
+    component: function component() {
+      return __webpack_require__.e(/*! import() */ "resources_js_pages_lk_Invest_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./pages/lk/Invest */ "./resources/js/pages/lk/Invest.vue"));
+    },
+    meta: {
+      middleware: [_middleware_authMiddleware__WEBPACK_IMPORTED_MODULE_0__["default"].isAuth]
+    }
   }]
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new vue_router__WEBPACK_IMPORTED_MODULE_2__["default"]({
@@ -79383,7 +79407,7 @@ var api = init(defaultConverter, { path: '/' });
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_pages_Home_vue":1,"resources_js_pages_TradingList_vue":1,"resources_js_pages_Trading_vue":1,"resources_js_pages_Login_vue":1,"resources_js_pages_lk_LkLayout_vue":1,"resources_js_pages_lk_Overview_vue":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_pages_Home_vue":1,"resources_js_pages_TradingList_vue":1,"resources_js_pages_Trading_vue":1,"resources_js_pages_Login_vue":1,"resources_js_pages_lk_LkLayout_vue":1,"resources_js_pages_lk_Overview_vue":1,"resources_js_pages_lk_Deposit_vue":1,"resources_js_pages_lk_Withdraw_vue":1,"resources_js_pages_lk_Invest_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};

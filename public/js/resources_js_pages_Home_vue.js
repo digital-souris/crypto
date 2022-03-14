@@ -13792,7 +13792,9 @@ var render = function () {
                     "router-link",
                     {
                       staticClass: "button button_green",
-                      attrs: { to: "/register" },
+                      attrs: {
+                        to: _vm.$store.getters.getUser ? "/lk" : "/register",
+                      },
                     },
                     [
                       _vm._v(

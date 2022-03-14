@@ -57,6 +57,27 @@ const routes = [
 					middleware: [authMiddleware.isAuth]
 				},
 			},
+			{
+				path: 'deposit',
+				component: () => import('./pages/lk/Deposit'),
+				meta: {
+					middleware: [authMiddleware.isAuth]
+				},
+			},
+			{
+				path: 'withdraw',
+				component: () => import('./pages/lk/Withdraw'),
+				meta: {
+					middleware: [authMiddleware.isAuth]
+				},
+			},
+			{
+				path: 'invest',
+				component: () => import('./pages/lk/Invest'),
+				meta: {
+					middleware: [authMiddleware.isAuth]
+				},
+			},
 		]
 	}
 ]

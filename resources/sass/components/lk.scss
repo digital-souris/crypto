@@ -10,6 +10,9 @@
 	&__body {
 		padding: 20px 30px;
 		background: #041D2E;
+		&_full {
+			padding: 0;
+		}
 	}
 	&__title {
 		text-transform: uppercase;
@@ -24,5 +27,12 @@
 			//vertical-align: top;
 			margin-right: 10px;
 		}
+	}
+	&__list {
+		padding-top: 20px;
+		list-style-type: square;
+		color: #818F98;
+		font-size: 15px;
+		margin-left: 20px;
 	}
 }

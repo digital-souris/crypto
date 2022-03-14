@@ -1,15 +1,14 @@
 <template>
-	<div class="section section_first" style="margin-bottom: 40px">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<ul class="lk__menu d-flex justify-content-between align-items-center">
-						<router-link tag="li" :to="'/lk/' + (item.link !== '/' ? item.link : '')" v-for="(item, index) in menu" :key="index"
-									 class="lk__item">
-							<span class="lk__icon" v-html="item.icon"></span>
-							<a class="lk__link">{{ $t('lkMenu.' + (item.text ? item.text : item.link)) }}</a>
-						</router-link>
-						<li class="lk__item">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<ul class="lk__menu d-flex justify-content-between align-items-center">
+					<router-link tag="li" :to="'/lk/' + (item.link !== '/' ? item.link : '')" v-for="(item, index) in menu" :key="index"
+								 class="lk__item">
+						<span class="lk__icon" v-html="item.icon"></span>
+						<a class="lk__link">{{ $t('lkMenu.' + (item.text ? item.text : item.link)) }}</a>
+					</router-link>
+					<li class="lk__item">
 							<span class="lk__icon" @click="logout">
 								<svg width="22" height="18" viewBox="0 0 22 18" fill="none"
 									 xmlns="http://www.w3.org/2000/svg">
@@ -19,10 +18,8 @@
 </svg>
 
 							</span>
-						</li>
-					</ul>
-					<router-view />
-				</div>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
@@ -30,7 +27,7 @@
 
 <script>
 export default {
-	name: "LkLayout",
+	name: "LkMenu",
 	data() {
 		return {
 			menu: [
@@ -96,11 +93,6 @@ export default {
 				}).catch(e => console.log(e))
 		}
 	},
-	mounted() {
-		if(this.$route.path === '/lk') {
-			// this.$router.push('/lk/overview')
-		}
-	}
 }
 </script>
 
@@ -116,7 +108,7 @@ export default {
 	}
 
 	&__item {
-		padding: 0 10px;
+		padding: 0 20px;
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
@@ -153,4 +145,5 @@ export default {
 
 	}
 }
+
 </style>

@@ -11,6 +11,77 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -87,7 +158,72 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  name: "Overview"
+  name: "Overview",
+  data: function data() {
+    return {
+      balance: [{
+        symbol: 'BTC',
+        count: 0.013212
+      }, {
+        symbol: 'ETH',
+        count: 0.013212
+      }, {
+        symbol: 'USDT',
+        count: 0.013212
+      }],
+      orderName: ['id', 'time', 'type', 'amount', 'status', 'balance'],
+      orders: [{
+        id: 1,
+        time: '2021-12-06 18:57:20',
+        type: 'Promo-code',
+        amount: '0.012 BTC',
+        status: 'Completed',
+        balance: '0.012 BTC'
+      }, {
+        id: 2,
+        time: '2021-12-06 18:57:20',
+        type: 'Promo-code',
+        amount: '0.012 BTC',
+        status: 'Completed',
+        balance: '0.012 BTC'
+      }]
+    };
+  },
+  computed: {
+    getTotalCount: function getTotalCount() {
+      var _this = this;
+
+      var balance = 0;
+      var items = this.$store.getters.getCryptoFull;
+
+      var _iterator = _createForOfIteratorHelper(items),
+          _step;
+
+      try {
+        var _loop = function _loop() {
+          var item = _step.value;
+
+          var find = _.find(_this.balance, function (val) {
+            return val.symbol.toUpperCase() === item.symbol;
+          });
+
+          if (find) {
+            balance += find.count * item.quote['USD'].price;
+          }
+        };
+
+        for (_iterator.s(); !(_step = _iterator.n()).done;) {
+          _loop();
+        }
+      } catch (err) {
+        _iterator.e(err);
+      } finally {
+        _iterator.f();
+      }
+
+      return balance;
+    }
+  }
 });
 
 /***/ }),
@@ -108,7 +244,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".cabinet__avatar[data-v-394c0e60] {\n  border-radius: 10em;\n  overflow: hidden;\n}\n.cabinet__avatar img[data-v-394c0e60] {\n  max-width: 100%;\n  vertical-align: top;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".cabinet__avatar[data-v-394c0e60] {\n  border-radius: 10em;\n  overflow: hidden;\n}\n.cabinet__avatar img[data-v-394c0e60] {\n  max-width: 100%;\n  vertical-align: top;\n}\n.balance[data-v-394c0e60] {\n  padding-bottom: 15px;\n}\n.balance__image img[data-v-394c0e60] {\n  max-width: 100%;\n  vertical-align: top;\n}\n.balance__count[data-v-394c0e60] {\n  font-size: 18px;\n  color: #fff;\n  font-weight: normal;\n}\n.balance__symbol[data-v-394c0e60] {\n  font-size: 15px;\n  color: #818F98;\n  font-weight: normal;\n}\n.balance__total b[data-v-394c0e60] {\n  display: inline-block;\n  padding-top: 4px;\n}\n.table[data-v-394c0e60] {\n  border: none;\n  margin-bottom: 0;\n}\n.table th[data-v-394c0e60] {\n  text-transform: uppercase;\n  font-size: 15px;\n  color: #818F98;\n  font-weight: normal;\n  border: none;\n  box-shadow: none;\n  background: #041D2E;\n  padding-top: 12px;\n  padding-bottom: 12px;\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.table tbody[data-v-394c0e60] {\n  border: none;\n}\n.table td[data-v-394c0e60] {\n  background: #031F31;\n  box-shadow: none;\n  border: none;\n  color: #B7C2C9;\n  font-size: 17px;\n  font-weight: normal;\n  padding: 20px;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -247,7 +383,7 @@ var render = function () {
       _c("div", { staticClass: "cabinet__wrap" }, [
         _c("div", { staticClass: "cabinet__head" }, [
           _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-2" }, [
+            _c("div", { staticClass: "col-12 col-md-2" }, [
               _c("div", { staticClass: "cabinet__avatar" }, [
                 _c("img", {
                   attrs: {
@@ -259,7 +395,7 @@ var render = function () {
               ]),
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-6" }, [
+            _c("div", { staticClass: "col-12 col-md-6 pt-3 pt-md-0" }, [
               _c("div", { staticClass: "cabinet__title" }, [
                 _vm._v(
                   "\n\t\t\t\t\t\t\t" +
@@ -294,8 +430,8 @@ var render = function () {
               ]),
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-4" }, [
-              _c("div", { staticClass: "cabinet__title text-end" }, [
+            _c("div", { staticClass: "col-12 col-md-4 pt-3 pt-md-0" }, [
+              _c("div", { staticClass: "cabinet__title text-md-end" }, [
                 _vm._v(
                   "\n\t\t\t\t\t\t\t" +
                     _vm._s(_vm.$t("cabinet.total_log")) +
@@ -303,7 +439,7 @@ var render = function () {
                 ),
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "cabinet__desc" }, [
+              _c("div", { staticClass: "cabinet__desc text-md-end" }, [
                 _vm._v("9 Time (Today 1 Times)"),
               ]),
             ]),
@@ -322,7 +458,7 @@ var render = function () {
           _c("form", { staticClass: "row" }, [
             _vm._m(0),
             _vm._v(" "),
-            _c("div", { staticClass: "col-4" }, [
+            _c("div", { staticClass: "col-12 col-md-4" }, [
               _c(
                 "button",
                 { staticClass: "button button_green button_cabinet" },
@@ -348,26 +484,166 @@ var render = function () {
               ]),
             ]),
           ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "row" },
+            _vm._l(_vm.balance, function (item, index) {
+              return _c("div", { key: index, staticClass: "col-6 col-md-4" }, [
+                _c("div", { staticClass: "balance" }, [
+                  _c("div", { staticClass: "row" }, [
+                    _c("div", { staticClass: "col-4" }, [
+                      _c("div", { staticClass: "balance__image" }, [
+                        _c("img", {
+                          attrs: {
+                            src:
+                              "/img/crypto/" +
+                              item.symbol.toLowerCase() +
+                              ".png",
+                            alt: item.symbol,
+                          },
+                        }),
+                      ]),
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-8" }, [
+                      _c("div", { staticClass: "balance__count" }, [
+                        _vm._v(_vm._s(item.count)),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "balance__symbol" }, [
+                        _vm._v(_vm._s(item.symbol.toUpperCase())),
+                      ]),
+                    ]),
+                  ]),
+                ]),
+              ])
+            }),
+            0
+          ),
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "cabinet__body" }, [
-          _c("div", { staticClass: "cabinet__title" }, [
-            _vm._v(
-              "\n\t\t\t\t\t" +
-                _vm._s(_vm.$t("cabinet.use_bonus_promo_code")) +
-                "\n\t\t\t\t"
-            ),
-          ]),
-          _vm._v(" "),
-          _c("form", { staticClass: "row" }, [
-            _vm._m(1),
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-12 col-md-4" }, [
+              _c("div", { staticClass: "balance__total" }, [
+                _c("span", { staticClass: "cabinet__desc" }, [
+                  _vm._v(_vm._s(_vm.$t("cabinet.total_equity"))),
+                ]),
+                _vm._v(" "),
+                _c("br"),
+                _vm._v(" "),
+                _c("b", { staticClass: "cabinet__title" }, [
+                  _vm._v(_vm._s(_vm.getTotalCount.toFixed(4)) + " USD"),
+                ]),
+              ]),
+            ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-4" }, [
-              _c(
-                "button",
-                { staticClass: "button button_green button_cabinet" },
-                [_vm._v(_vm._s(_vm.$t("cabinet.activate")))]
-              ),
+            _c("div", { staticClass: "col-12 col-md-8" }, [
+              _c("div", { staticClass: "row" }, [
+                _c(
+                  "div",
+                  { staticClass: "col-12 col-md-6" },
+                  [
+                    _c(
+                      "router-link",
+                      {
+                        staticClass: "button button_green button_cabinet",
+                        attrs: { to: "lk/deposit" },
+                      },
+                      [
+                        _vm._v(
+                          "\n\t\t\t\t\t\t\t\t\t" +
+                            _vm._s(_vm.$t("lkMenu.deposit")) +
+                            "\n\t\t\t\t\t\t\t\t"
+                        ),
+                      ]
+                    ),
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "col-12 col-md-6 pt-2 pt-md-0" },
+                  [
+                    _c(
+                      "router-link",
+                      {
+                        staticClass: "button button_red button_cabinet",
+                        attrs: { to: "lk/withdraw" },
+                      },
+                      [
+                        _vm._v(
+                          "\n\t\t\t\t\t\t\t\t\t" +
+                            _vm._s(_vm.$t("lkMenu.withdraw")) +
+                            "\n\t\t\t\t\t\t\t\t"
+                        ),
+                      ]
+                    ),
+                  ],
+                  1
+                ),
+              ]),
+            ]),
+          ]),
+        ]),
+      ]),
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "col-12" }, [
+      _c("div", { staticClass: "cabinet__wrap" }, [
+        _c("div", { staticClass: "cabinet__head" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-12" }, [
+              _c("div", { staticClass: "cabinet__title" }, [
+                _vm._v(
+                  "\n\t\t\t\t\t\t\t" +
+                    _vm._s(_vm.$t("cabinet.transactions_history")) +
+                    "\n\t\t\t\t\t\t"
+                ),
+              ]),
+            ]),
+          ]),
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "cabinet__body cabinet__body_full" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-12" }, [
+              _c("div", { staticClass: "table-responsive" }, [
+                _c("table", { staticClass: "table " }, [
+                  _c("thead", [
+                    _c(
+                      "tr",
+                      _vm._l(_vm.orderName, function (item, key) {
+                        return _c("th", { key: key }, [
+                          _vm._v(
+                            "\n\t\t\t\t\t\t\t\t\t\t" +
+                              _vm._s(_vm.$t("cabinet.table." + item)) +
+                              "\n\t\t\t\t\t\t\t\t\t"
+                          ),
+                        ])
+                      }),
+                      0
+                    ),
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "tbody",
+                    _vm._l(_vm.orders, function (item, index) {
+                      return _c(
+                        "tr",
+                        { key: index },
+                        _vm._l(item, function (val, key, i) {
+                          return _c("td", { key: i }, [_vm._v(_vm._s(val))])
+                        }),
+                        0
+                      )
+                    }),
+                    0
+                  ),
+                ]),
+              ]),
             ]),
           ]),
         ]),
@@ -380,15 +656,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-8 auth__item" }, [
-      _c("input", { attrs: { type: "text", placeholder: "Enter promo-code" } }),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-8 auth__item" }, [
+    return _c("div", { staticClass: "col-12 col-md-8 auth__item" }, [
       _c("input", { attrs: { type: "text", placeholder: "Enter promo-code" } }),
     ])
   },

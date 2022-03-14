@@ -111,7 +111,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".lk__menu[data-v-42e61ce0] {\n  background: #031F31;\n  margin-top: 35px;\n  list-style-type: none;\n  padding: 20px;\n  overflow: auto;\n  margin-bottom: 20px;\n}\n.lk__item.router-link-active .lk__icon[data-v-42e61ce0] svg * {\n  fill: #4FE2C3;\n}\n.lk__item.router-link-active .lk__link[data-v-42e61ce0] {\n  color: #4FE2C3;\n}\n.lk__icon[data-v-42e61ce0] {\n  display: inline-block;\n  padding-right: 10px;\n  cursor: pointer;\n}\n.lk__icon[data-v-42e61ce0] svg * {\n  fill: #B7C2C9;\n}\n.lk__link[data-v-42e61ce0] {\n  color: #B7C2C9;\n  text-decoration: none;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".lk__menu[data-v-42e61ce0] {\n  background: #031F31;\n  margin-top: 35px;\n  list-style-type: none;\n  padding: 20px;\n  overflow: auto;\n  margin-bottom: 20px;\n}\n.lk__item[data-v-42e61ce0] {\n  padding: 0 10px;\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n}\n.lk__item.router-link-exact-active .lk__icon[data-v-42e61ce0] svg * {\n  fill: #4FE2C3;\n}\n.lk__item.router-link-exact-active .lk__link[data-v-42e61ce0] {\n  color: #4FE2C3;\n}\n.lk__icon[data-v-42e61ce0] {\n  display: inline-block;\n  padding-right: 10px;\n  cursor: pointer;\n}\n.lk__icon[data-v-42e61ce0] svg * {\n  fill: #B7C2C9;\n}\n.lk__link[data-v-42e61ce0] {\n  color: #B7C2C9;\n  text-decoration: none;\n  white-space: nowrap;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
