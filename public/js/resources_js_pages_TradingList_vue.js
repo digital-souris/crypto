@@ -263,9 +263,11 @@ var render = function () {
                                     name: "lazy",
                                     rawName: "v-lazy",
                                     value:
-                                      "/img/crypto/" + crypto.symbol + ".png",
+                                      "/img/crypto/" +
+                                      crypto.symbol.toLowerCase() +
+                                      ".png",
                                     expression:
-                                      "'/img/crypto/' +crypto.symbol+ '.png'",
+                                      "'/img/crypto/' +crypto.symbol.toLowerCase()+ '.png'",
                                   },
                                 ],
                                 attrs: { alt: crypto.symbol },

@@ -18,7 +18,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-
+Route::get('crypto', [\App\Http\Controllers\Controller::class, 'getCrypto']);
 Route::post('auth/register', [\App\Http\Controllers\AuthController::class, 'register']);
 Route::post('auth/login', [\App\Http\Controllers\AuthController::class, 'login']);
 Route::group(['middleware' => 'jwt.auth'], function(){

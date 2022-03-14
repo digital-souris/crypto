@@ -20,12 +20,21 @@ export default {
 
     name: "App",
     components: {MainFooter, MainHeader},
+	data() {
+		return {
+			interval: null
+		}
+	},
     mounted() {
         if (JsCookie.get('lang')) {
             this.$i18n.locale = JsCookie.get('lang')
         }
 		this.$store.dispatch('loadCrypto')
-    }
+		this.interval = setInterval(() => this.$store.dispatch('loadCrypto'), 1000 * 60)
+    },
+	beforeDestroy() {
+		clearInterval(this.interval)
+	}
 }
 </script>
 

@@ -2733,11 +2733,12 @@ const store = new Vuex.Store({
     },
     actions: {
 		loadCrypto({commit}) {
-			axios.get('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?aux=cmc_rank&CMC_PRO_API_KEY=a9999373-7a7b-4b87-b878-e57911fcfb8a', {
+			axios.get('/crypto', {
 				headers: {}
 			})
 				.then(resp => {
-					commit('changeCrypto', resp.data.data)
+					console.log(resp.data.data.data)
+					commit('changeCrypto', resp.data.data.data)
 				})
 				.catch(e => {
 					console.log(e)
