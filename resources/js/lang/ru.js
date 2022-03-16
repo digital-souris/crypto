@@ -18,8 +18,8 @@ export default {
 		third: 'Полные основы торговли, объединенные в единой платформе',
 		fourth: 'Для опытных трейдеров',
 		fourth_desc: 'Торгуйте как профессионал на Bitsired',
-		seventh: 'Rules of Airdrop',
-		seventh_desc: 'If you want to participate in an Airdrop, you have to find the rules of the contest and the logic of obtaining rewards in advance.'
+		seventh: 'Правила десантирования',
+		seventh_desc: 'Если вы хотите принять участие в воздушном десанте, вы должны заранее ознакомиться с правилами конкурса и логикой получения вознаграждений.'
 	},
 	first: {
 		desc: 'Присоединяйтесь к самой быстрорастущей глобальной криптовалютной бирже\n' +
@@ -51,92 +51,102 @@ export default {
 		ticker: 'Символ',
 		price: 'Цена',
 		dynamics: 'Динамика',
+		trade_vol: 'Динамика продаж',
+		mtk_cap: 'MTK Cap'
 	},
 	button: {
 		buy: 'Купить'
 	},
 	fourth: {
 		0: {
-			title: 'Integrated orders for spot and margin',
-			desc: 'Set take profit, stop loss, limit orders, and more advanced order types for spot and margin in one unified order interface with up to 5x leverage.'
+			title: 'Интегрированные заказы на спот и маржу',
+			desc: 'Устанавливайте тейк-профит, стоп-лосс, лимитные ордера и более продвинутые типы ордеров для спота и маржи в одном унифицированном интерфейсе ордеров с кредитным плечом до 5 раз.'
 		},
 		1: {
-			title: 'Deep liquidity and order book depth',
-			desc: 'Bitsired offers best-in-class liquidity and order book depth allowing large trades to be executed with the least slippage.'
+			title: 'Высокая ликвидность и глубина портфеля заказов',
+			desc: 'Bitsired предлагает лучшую в своем классе ликвидность и глубину портфеля заказов, позволяя совершать крупные сделки с наименьшим проскальзыванием.'
 		},
 		2: {
-			title: 'Fully customizable workspaces',
-			desc: 'Customize trading trading canvases with drag-and-drop modules such as multi-charts and trading data widgets.'
+			title: 'Полностью настраиваемые рабочие пространства',
+			desc: 'Настраивайте торговые торговые полотна с помощью перетаскиваемых модулей, таких как мульти-графики и виджеты торговых данных.'
 		},
 		3: {
-			title: 'Zero-fee trading',
-			desc: 'Unlock zero maker and taker spot trading fees by staking your coins in any invest plan.'
+			title: 'Торговля с нулевой комиссией',
+			desc: 'Разблокируйте комиссионные за спотовую торговлю с нулевым производителем и получателем, разместив свои монеты в любом инвестиционном плане.'
 		},
 		4: {
-			title: 'Trade futures with leverage',
-			desc: 'Futures trading and leverage will be enabled across a variety of major pairs.'
+			title: 'Торгуйте фьючерсами с кредитным плечом',
+			desc: 'Торговля фьючерсами и кредитное плечо будут доступны для различных основных пар.'
 		},
 		5: {
-			title: 'Social trading',
-			desc: 'Learn from profitable trading strategies and emulate successful traders with a record of proven profitability.'
+			title: 'Социальная торговля',
+			desc: 'Учитесь на прибыльных торговых стратегиях и подражайте успешным трейдерам с доказанной прибыльностью.'
 		}
 	},
 	fiveth: {
 		0: {
-			top: 'Powerful',
+			top: 'Мощный',
 			big: 'API',
-			desc: 'Customize your private functionality\n' +
-				'and get more options'
+			desc: 'Настройте свою личную функциональность \n' +
+				'и получите больше вариантов'
 		},
 		1: {
-			top: 'Leverage',
+			top: 'Рычаг',
 			big: '5X',
-			desc: 'Increase your personal income \n' +
-				'a few times faster'
+			desc: 'Увеличьте свой личный доход в несколько раз быстрее'
 		},
 		2: {
-			top: 'Accurate',
+			top: 'Точный',
 			big: 'AML',
-			desc: 'Make sure your addresses are not involved\n' +
-				'in money laundering'
+			desc: 'Убедитесь, что ваши адреса не связаны с отмыванием денег'
 		}
 	},
 	seventh: {
 		0: {
-			title: 'Start date of the Airdrop',
+			title: 'Дата начала десантирования',
 			desc: '01.12.2021'
 		},
-		p: [
-			'Fulfillment of the Airdrop conditions and registration AFTER 01.02.2022 by you or your friends who registered via a referral link will NOT lead to receipt of an Airdrop.',
-			'Failure to meet any of the conditions will NOT BEGIN to getting an Airdrop.',
-			'\n' +
-			'You and your friend will get tokens for his invitation to the exchange ONLY if your friend registered through YOUR REFERRAL LINK and fulfilled ALL CONDITIONS of the Airdrop.',
-			'Rewards received will be available on the balance according to the Logic of Reward Receipt.'
-		],
-		count: ['For completing Airdrop each user will receive QMALL tokens equivalent to 500 ₴.', 'For registering through your referral link (if the referral also complied with the Airdrop conditions) you will receive QMALL tokens worth 100 ₴', 'For registering through your referral link (if the referral also complied with the Airdrop conditions) you will receive QMALL tokens worth 100 ₴'],
-		title: {
-			first: 'Types of rewards',
-			second: 'Reward Receipt Logic',
-			second_desc: 'All tokens received on Airdrop will be unfrozen after the end of Airdrop in the equivalent of 10% of the amount of tokens received each quarter, starting on the day of the opening of QMALL token trading.'
+		1: {
+			title: 'Срок годности воздушного десанта:',
+			desc: '01.02.2022'
 		},
-		table: ['Date', 'Percentage of unfrozen tokens', 'Event']
+		2: {
+			title: 'Дата Открытия Торговли:',
+			desc: '15.02.2022'
+		},
+		p: [
+			'Выполнение условий Airdrop и регистрация ПОСЛЕ 01.02.2022 вами или вашими друзьями, которые зарегистрировались по реферальной ссылке, НЕ приведут к получению Airdrop.',
+			'Невыполнение любого из условий НЕ ПРИВЕДЕТ к получению Airdrop.',
+			'\n' +
+			'Вы и ваш друг получите токены за его приглашение на биржу ТОЛЬКО в том случае, если ваш друг зарегистрировался по ВАШЕЙ РЕФЕРАЛЬНОЙ ССЫЛКЕ и выполнил ВСЕ УСЛОВИЯ Airdrop. Полученные вознаграждения будут доступны на балансе в соответствии с Логикой Получения Вознаграждения.'
+		],
+		count: [
+			'За завершение Airdrop каждый пользователь получит токены QMALL, эквивалентные 500 ₴.',
+			'За регистрацию по вашей реферальной ссылке (если реферал также выполнил условия Airdrop) вы получите токены QMALL стоимостью 100 ₴',
+			'Вы получите 50 ₴ токенов QMALL за регистрацию по вашей реферальной ссылке (если ваш реферал также завершил Airdrop).'],
+		title: {
+			first: 'Виды вознаграждений',
+			second: 'Логика Получения Вознаграждения',
+			second_desc: 'Все токены, полученные на Airdrop, будут разморожены после окончания Airdrop в эквиваленте 10% от суммы токенов, получаемых каждый квартал, начиная со дня открытия торговли токенами QMALL.'
+		},
+		table: ['Дата', 'Процент размороженных токенов', 'Событие']
 	},
 	eighth: [
-		{title: 'Daily market volume', number: '€1.000.000+', desc: 'Our state-of-the-art systems are built to securely process high volumes each day.'},
+		{title: 'Ежедневный объем рынка', number: '€1.000.000+', desc: 'Наши современные системы созданы для безопасной ежедневной обработки больших объемов данных.'},
 		{
-			title: 'Coins',
+			title: 'Монеты',
 			number: '40+',
-			desc: 'We offer a wide range of relevant coins on the market, which are curated with care by our experts.'
+			desc: 'Мы предлагаем широкий ассортимент актуальных монет на рынке, которые тщательно контролируются нашими экспертами.'
 		},
 		{
-			title: 'Trusted across Europe',
-			number: 'Best broker',
-			desc: 'We have been voted \'Best Crypto Broker\' 2019 & 2020 and on our way to become the number 1 in Europe.'
+			title: 'Которому доверяют по всей Европе',
+			number: 'Лучший брокер',
+			desc: 'Мы были признаны "Лучшим крипто-брокером" 2019 и 2020 годов и находимся на пути к тому, чтобы стать номером 1 в Европе.'
 		}
 	],
 	footer: {
-		desc: 'Bitsired is a simple, elegant, and secure platform to build your crypto portfolio.',
-		features: 'Features'
+		desc: 'Bitsired это простая, элегантная и безопасная платформа для создания вашего крипто-портфолио.',
+		features: 'Особенности'
 	},
 	authPage: {
 		Login: {
@@ -172,6 +182,81 @@ export default {
 		total_log: 'Итоговый журнал',
 		use_bonus_promo_code: 'Используйте бонусный промо-код',
 		activate: 'Активировать',
-		available_balance: 'Доступный баланс'
+		available_balance: 'Доступный баланс',
+		transactions_history: 'Истории платежей',
+		total_equity: 'Общий капитал',
+		wallet_deposit_address: 'Адрес для пополнения кошелька',
+		copy: 'Копировать',
+		withdraw: 'Вывод средств',
+		table: {
+			id: 'ID',
+			time: 'Время',
+			type: 'Тип',
+			amount: 'Сумма',
+			status: 'Статус',
+			balance: 'Баланс',
+			index: 'Индекс',
+			total: 'Всего',
+			previous_day: 'Прошлый день',
+			invites: 'Приглашений',
+			user: 'Пользователей',
+			free: 'Бесплатно',
+			level: 'Уровень',
+			payouts:'Выплаты',
+			listed: 'Не указан в партнерской таблице лидеров'
+		},
+		list: {
+			coin: 'Монеты будут зачислены после 3 сетевых подтверждений.',
+			send: 'Отправляйте только BTC на этот адрес депозита. Отправка монеты или токена, отличного от BTC, на этот адрес может привести к потере вашего депозита.'
+		},
+		w: {
+			dest: 'Адрес назначения BTC адрес',
+			please: 'Пожалуйста, дважды проверьте этот адрес',
+			amount: 'Сумма BTC',
+			maximum_amount: 'Максимальное количество',
+			free: 'Плата за Биткойн-сеть',
+			transactions: 'Транзакции в сети Биткойн имеют приоритет по сборам',
+			list_first: 'Вы можете сделать ставку на любой доступный вам инвестиционный план. После внесения монет в любой из планов прибыль будет автоматически переведена на ваш баланс по истечении срока действия выбранного плана.',
+			list_second: 'Прибыль рассчитывается в режиме реального времени, для этого вам необходимо обновить страницу.',
+			list_third: 'Если вы вернете средства обратно до истечения срока действия инвестиционного плана, ваш заработок будет потерян'
+		},
+		important: 'Важная Информация',
+		i: {
+			week: 'Неделя',
+			staking: 'Ставки',
+			day: 'в день',
+			bonus: 'Бонус',
+			total: 'Всего',
+			sell: 'Продажа',
+			enter: 'Введите сумму',
+			profit: 'Прибыль',
+			stake: 'В долю'
+		},
+		affiliate_program: 'Партнерская программа',
+		affiliate_link: 'Партнерская Ссылка',
+		affiliate_desc: 'Скопируйте и вставьте эту ссылку, чтобы отправить друзьям или использовать в своих статьях. Когда пользователи зарегистрируются по этой ссылке, на ваш аккаунт будут зачислены реферальные бонусы.',
+		share_link: 'Поделиться',
+		affiliate_status: 'Партнерский статус',
+		profile: 'Профиль',
+		max_size: 'Максимальный размер файла составляет 1 мб',
+		input_upload: 'Сменить фотографию',
+		upload: 'Загрузить',
+		save: 'Сохранить',
+		change_password: 'Сменить пароль',
+		personal_information: 'Персональная информация',
+		password: 'Пароль',
+		password_compare: 'Подтвердить пароль',
+		personal: {
+			name: 'Username',
+			phone: 'Телефон',
+			first_name: 'Имя',
+			email: 'E-mail',
+			birth: 'Дата рождения',
+			present_address: 'Настоящий адрес',
+			address: 'Постоянный адрес',
+			city: 'Город',
+			code: 'Почтовый индекс',
+			county: 'Страна'
+		}
 	}
 }

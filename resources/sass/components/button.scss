@@ -49,4 +49,14 @@
 		width: 100%;
 		font-size: 16px;
 	}
+	&_max {
+		padding: 0;
+		text-align: center;
+		color: #818F98;
+		border: 1px solid #818F98;
+		background-color: transparent;
+		&:hover {
+			background: transparent;
+		}
+	}
 }

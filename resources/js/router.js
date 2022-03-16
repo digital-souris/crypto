@@ -78,6 +78,20 @@ const routes = [
 					middleware: [authMiddleware.isAuth]
 				},
 			},
+			{
+				path: 'affiliate',
+				component: () => import('./pages/lk/Affiliate'),
+				meta: {
+					middleware: [authMiddleware.isAuth]
+				},
+			},
+			{
+				path: 'settings',
+				component: () => import('./pages/lk/Account'),
+				meta: {
+					middleware: [authMiddleware.isAuth]
+				},
+			}
 		]
 	}
 ]

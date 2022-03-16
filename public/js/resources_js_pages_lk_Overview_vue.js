@@ -455,7 +455,7 @@ var render = function () {
             ),
           ]),
           _vm._v(" "),
-          _c("form", { staticClass: "row" }, [
+          _c("form", { staticClass: "row pt-2" }, [
             _vm._m(0),
             _vm._v(" "),
             _c("div", { staticClass: "col-12 col-md-4" }, [
@@ -487,7 +487,7 @@ var render = function () {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "row" },
+            { staticClass: "row", staticStyle: { "padding-top": "18px" } },
             _vm._l(_vm.balance, function (item, index) {
               return _c("div", { key: index, staticClass: "col-6 col-md-4" }, [
                 _c("div", { staticClass: "balance" }, [

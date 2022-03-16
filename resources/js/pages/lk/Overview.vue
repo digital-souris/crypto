@@ -32,7 +32,7 @@
 					<div class="cabinet__title">
 						{{$t('cabinet.use_bonus_promo_code')}}
 					</div>
-					<form class="row">
+					<form class="row pt-2">
 						<div class="col-12 col-md-8 auth__item">
 							<input type="text" placeholder="Enter promo-code">
 						</div>
@@ -53,7 +53,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row" style="padding-top: 18px">
 						<div class="col-6 col-md-4"  v-for="(item, index) in balance" :key="index">
 							<div class="balance">
 								<div class="row">

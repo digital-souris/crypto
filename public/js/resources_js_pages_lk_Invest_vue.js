@@ -66,6 +66,70 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "Invest"
 });
@@ -88,7 +152,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".crypto[data-v-61cc5de8] {\n  padding: 30px;\n}\n.crypto__head[data-v-61cc5de8] {\n  border: 2px solid #ef5da8;\n  border-radius: 12px;\n  padding: 8px 16px;\n}\n.crypto__time[data-v-61cc5de8] {\n  font-size: 16px;\n  color: #fff;\n  font-weight: 500;\n  text-transform: uppercase;\n}\n.crypto__status[data-v-61cc5de8] {\n  font-size: 14px;\n  color: #818F98;\n  font-weight: normal;\n}\n.crypto__pers[data-v-61cc5de8] {\n  font-size: 15px;\n  color: #fff;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".crypto[data-v-61cc5de8] {\n  padding: 30px;\n}\n.crypto__head[data-v-61cc5de8] {\n  border: 2px solid #ef5da8;\n  border-radius: 12px;\n  padding: 8px 16px;\n}\n.crypto__time[data-v-61cc5de8] {\n  font-size: 16px;\n  color: #fff;\n  font-weight: 500;\n  text-transform: uppercase;\n}\n.crypto__status[data-v-61cc5de8] {\n  font-size: 14px;\n  color: #818F98;\n  font-weight: normal;\n}\n.crypto__pers[data-v-61cc5de8] {\n  font-size: 15px;\n  color: #fff;\n}\n.crypto__item[data-v-61cc5de8] {\n  padding-top: 10px;\n}\n.crypto__item_button[data-v-61cc5de8] {\n  padding-top: 20px;\n}\n.crypto__desc[data-v-61cc5de8] {\n  color: #fff;\n  font-weight: normal;\n  font-size: 15px;\n}\n.crypto__result[data-v-61cc5de8] {\n  font-weight: normal;\n  font-size: 15px;\n  color: #4FE2C3;\n  opacity: 0.5;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -233,12 +297,96 @@ var render = function () {
               return _c(
                 "div",
                 { key: i, staticClass: "col-12 col-lg-3 col-md-6" },
-                [_vm._m(0, true)]
+                [
+                  _c("div", { staticClass: "crypto" }, [
+                    _c("div", { staticClass: "crypto__head" }, [
+                      _c("div", { staticClass: "row" }, [
+                        _c("div", { staticClass: "col-12 col-md-5" }, [
+                          _c("div", { staticClass: "crypto__time" }, [
+                            _vm._v(_vm._s(_vm.$t("cabinet.i.week"))),
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "crypto__status" }, [
+                            _vm._v(_vm._s(_vm.$t("cabinet.i.staking"))),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "col-12 col-md-7 pt-2 pt-md-0" },
+                          [
+                            _c(
+                              "div",
+                              { staticClass: "crypto__pers text-md-end" },
+                              [
+                                _vm._v(
+                                  "1.3% " + _vm._s(_vm.$t("cabinet.i.day"))
+                                ),
+                                _c("br"),
+                                _vm._v(
+                                  "\n\t\t\t\t\t\t\t\t\t\t\t+ " +
+                                    _vm._s(_vm.$t("cabinet.i.bonus")) +
+                                    " 1%"
+                                ),
+                              ]
+                            ),
+                          ]
+                        ),
+                      ]),
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "crypto__item" }, [
+                      _c("label", { staticClass: "auth__label" }, [
+                        _vm._v(_vm._s(_vm.$t("cabinet.i.sell"))),
+                      ]),
+                      _vm._v(" "),
+                      _vm._m(0, true),
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "crypto__item" }, [
+                      _c("label", { staticClass: "auth__label" }, [
+                        _vm._v(_vm._s(_vm.$t("cabinet.i.enter"))),
+                      ]),
+                      _vm._v(" "),
+                      _vm._m(1, true),
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "crypto__item" }, [
+                      _c("label", { staticClass: "auth__label" }, [
+                        _vm._v(_vm._s(_vm.$t("cabinet.i.profit")) + ":"),
+                      ]),
+                      _vm._v(" "),
+                      _vm._m(2, true),
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "crypto__item" }, [
+                      _c("label", { staticClass: "auth__label" }, [
+                        _vm._v(_vm._s(_vm.$t("cabinet.i.total")) + ":"),
+                      ]),
+                      _vm._v(" "),
+                      _vm._m(3, true),
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "crypto__item crypto__item_button" },
+                      [
+                        _c(
+                          "button",
+                          { staticClass: "button button_cabinet button_green" },
+                          [_vm._v("+ " + _vm._s(_vm.$t("cabinet.i.stake")))]
+                        ),
+                      ]
+                    ),
+                  ]),
+                ]
               )
             }),
             0
           ),
         ]),
+        _vm._v(" "),
+        _vm._m(4),
       ]),
     ]),
     _vm._v(" "),
@@ -294,25 +442,95 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "crypto" }, [
-      _c("div", { staticClass: "crypto__head" }, [
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-12 col-md-5" }, [
-            _c("div", { staticClass: "crypto__time" }, [_vm._v("1 week")]),
+    return _c("div", { staticClass: "auth__item" }, [
+      _c("select", { attrs: { name: "", id: "" } }, [
+        _c("option", { attrs: { value: "" } }, [_vm._v("BTC - 0.013212")]),
+        _vm._v(" "),
+        _c("option", { attrs: { value: "" } }, [_vm._v("BTC - 0.013212")]),
+        _vm._v(" "),
+        _c("option", { attrs: { value: "" } }, [_vm._v("BTC - 0.013212")]),
+        _vm._v(" "),
+        _c("option", { attrs: { value: "" } }, [_vm._v("BTC - 0.013212")]),
+        _vm._v(" "),
+        _c("option", { attrs: { value: "" } }, [_vm._v("BTC - 0.013212")]),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "auth__item" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-8" }, [
+          _c("div", { staticClass: "auth__relative" }, [
+            _c("input", { attrs: { type: "text", placeholder: "0,0000" } }),
             _vm._v(" "),
-            _c("div", { staticClass: "crypto__status" }, [_vm._v("Staking")]),
+            _c("div", { staticClass: "auth__absolute" }, [_vm._v("BTC")]),
           ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-12 col-md-7 pt-2 pt-md-0" }, [
-            _c("div", { staticClass: "crypto__pers text-md-end" }, [
-              _vm._v("1.3% per Day"),
-              _c("br"),
-              _vm._v("\n\t\t\t\t\t\t\t\t\t\t\t+ Bonus 1%"),
-            ]),
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-4" }, [
+          _c("button", { staticClass: "button button_cabinet button_max" }, [
+            _vm._v("MAX"),
           ]),
         ]),
       ]),
     ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "auth__item" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-8" }, [
+          _c("div", { staticClass: "crypto__desc" }, [
+            _vm._v("+ 0.000000 BTC"),
+          ]),
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-4" }, [
+          _c("div", { staticClass: "crypto__result text-end" }, [
+            _vm._v("≈ 0.00$"),
+          ]),
+        ]),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "auth__item" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-8" }, [
+          _c("div", { staticClass: "crypto__desc" }, [
+            _vm._v("+ 0.000000 BTC"),
+          ]),
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-4" }, [
+          _c("div", { staticClass: "crypto__result text-end" }, [
+            _vm._v("≈ 0.00$"),
+          ]),
+        ]),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "cabinet__body", staticStyle: { "padding-top": "0" } },
+      [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-12" }),
+        ]),
+      ]
+    )
   },
 ]
 render._withStripped = true
