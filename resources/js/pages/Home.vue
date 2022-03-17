@@ -5,6 +5,7 @@
 		<third-section></third-section>
 		<fourth-section></fourth-section>
 		<fiveth-section></fiveth-section>
+		<section-six></section-six>
 		<section-seventh></section-seventh>
 		<eighth-section></eighth-section>
 	</div>
@@ -18,10 +19,13 @@ import FourthSection from "../components/pages/index/FourthSection";
 import FivethSection from "../components/pages/index/FivethSection";
 import SectionSeventh from "../components/pages/index/SectionSeventh";
 import EighthSection from "../components/pages/index/EighthSection";
+import SectionSix from "../components/pages/index/SectionSix";
 
 export default {
 	name: "Home",
-	components: {EighthSection, SectionSeventh, FivethSection, FourthSection, ThirdSection, SecondSection, FirstScreen}
+	components: {
+		SectionSix,
+		EighthSection, SectionSeventh, FivethSection, FourthSection, ThirdSection, SecondSection, FirstScreen}
 }
 </script>
 

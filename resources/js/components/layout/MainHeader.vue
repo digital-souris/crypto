@@ -69,7 +69,7 @@
                     <div class="row d-flex align-items-center">
                         <div class="col-12 col-lg-6 col-xl-4">
                             <div class="header__lang">
-                      <span class="lang lang_active" @click="showLang = true">
+                      <span class="lang lang_active" @click="showLang = !showLang">
                           <img :src="'/img/' + $i18n.locale + '.png'" :alt="$i18n.locale">
                           <svg width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -222,6 +222,9 @@ export default {
         img {
             vertical-align: middle;
 			max-width: 23px;
+			@media screen and (max-width: 768px) {
+				max-width: 20px;
+			}
         }
 
         svg {

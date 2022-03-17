@@ -218,20 +218,22 @@
 						<div class="title__line"></div>
 					</div>
 					<div class="col-12">
-						<table class="table table-responsive">
-							<thead>
+						<div class="table-responsive">
+							<table class="table">
+								<thead>
 								<tr>
 									<th v-for="i in 3" :key="i">{{$t('seventh.table.' + (i-1))}}</th>
 								</tr>
-							</thead>
-							<tbody>
+								</thead>
+								<tbody>
 								<tr v-for="i in 3" :key="i">
 									<td>15.02.2022</td>
 									<td>10% of consideration received</td>
 									<td>Trades opening</td>
 								</tr>
-							</tbody>
-						</table>
+								</tbody>
+							</table>
+						</div>
 					</div>
 
 				</div>

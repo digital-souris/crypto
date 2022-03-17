@@ -18,7 +18,7 @@
 							</div>
 							<div class="first__buttons" v-if="!$store.getters.getUser">
 								<div class="row">
-									<div class="col-8 col-lg-8">
+									<div class="col-12 col-md-8 pb-2 pb-md-0">
 										<router-link to="/register" class="button button_green">
 											{{$t('auth.start')}}
 											<svg width="25" height="24" viewBox="0 0 25 24" fill="none"
@@ -34,7 +34,7 @@
 											</svg>
 										</router-link>
 									</div>
-									<div class="col-4 col-lg-4">
+									<div class="col-12 col-md-4">
 										<router-link to="/login" class="button button_grey">{{$t('auth.login')}}
 										</router-link>
 									</div>
@@ -260,6 +260,9 @@ export default {
 		font-size: 48px;
 		color: #fff;
 		font-weight: 600;
+		@media screen and (max-width: 768px) {
+			font-size: 32px;
+		}
 	}
 
 	&__desc {
@@ -271,6 +274,11 @@ export default {
 
 	&__buttons {
 		max-width: 400px;
+		@media screen and (max-width: 768px) {
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 100%;
+		}
 	}
 
 	&__bottom {
@@ -282,6 +290,7 @@ export default {
 		position: relative;
 		@media screen and (max-width: 768px) {
 			margin-bottom: 40px;
+			margin-top: 20px;
 		}
 	}
 

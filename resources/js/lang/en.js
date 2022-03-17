@@ -276,5 +276,20 @@ export default {
 			county: 'Country'
 		}
 
+	},
+	six: {
+		title: 'Investment calculator',
+		desc: 'Calculate how much\n' +
+			'you can earn with us',
+		button: 'Invest now',
+		deposit: 'Deposit amount',
+		select: 'Select the investment period',
+		week: '1 week',
+		two_week: '2 weeks',
+		month: '1 month',
+		three_month: '3 months',
+		profit: 'Your profit',
+		total: 'Total',
+		percentage: 'Percentage'
 	}
 }

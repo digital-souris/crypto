@@ -748,6 +748,66 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "SecondSection",
   data: function data() {
@@ -1010,8 +1070,263 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "SectionSeventh"
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/pages/index/SectionSix.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/pages/index/SectionSix.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var particles_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! particles.js */ "./node_modules/particles.js/particles.js");
+/* harmony import */ var particles_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(particles_js__WEBPACK_IMPORTED_MODULE_0__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "SectionSix",
+  data: function data() {
+    return {
+      price: 10,
+      days: 7,
+      percent: 3,
+      total: 100,
+      daysArr: [{
+        name: 'week',
+        percent: 3,
+        days: 7
+      }, {
+        name: 'two_week',
+        percent: 4,
+        days: 14
+      }, {
+        name: 'month',
+        percent: 5,
+        days: 30
+      }, {
+        name: 'three_month',
+        percent: 10,
+        days: 90
+      }]
+    };
+  },
+  methods: {
+    initParticles: function initParticles() {
+      window.particlesJS('part3', {
+        "particles": {
+          "number": {
+            "value": 80,
+            "density": {
+              "enable": true,
+              "value_area": 700
+            }
+          },
+          "color": {
+            "value": "#ffffff"
+          },
+          "shape": {
+            "type": "circle",
+            "stroke": {
+              "width": 0,
+              "color": "#000000"
+            },
+            "polygon": {
+              "nb_sides": 5
+            }
+          },
+          "opacity": {
+            "value": 0.5,
+            "random": false,
+            "anim": {
+              "enable": false,
+              "speed": 1,
+              "opacity_min": 0.1,
+              "sync": false
+            }
+          },
+          "size": {
+            "value": 3,
+            "random": true,
+            "anim": {
+              "enable": false,
+              "speed": 40,
+              "size_min": 0.1,
+              "sync": false
+            }
+          },
+          "line_linked": {
+            "enable": true,
+            "distance": 150,
+            "color": "#ffffff",
+            "opacity": 0.4,
+            "width": 1
+          },
+          "move": {
+            "enable": true,
+            "speed": 6,
+            "direction": "none",
+            "random": false,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false,
+            "attract": {
+              "enable": false,
+              "rotateX": 600,
+              "rotateY": 1200
+            }
+          }
+        },
+        "interactivity": {
+          "detect_on": "canvas",
+          "events": {
+            "onhover": {
+              "enable": true,
+              "mode": "grab"
+            },
+            "onclick": {
+              "enable": true,
+              "mode": "push"
+            },
+            "resize": true
+          },
+          "modes": {
+            "grab": {
+              "distance": 140,
+              "line_linked": {
+                "opacity": 1
+              }
+            },
+            "bubble": {
+              "distance": 400,
+              "size": 40,
+              "duration": 2,
+              "opacity": 8,
+              "speed": 3
+            },
+            "repulse": {
+              "distance": 200,
+              "duration": 0.4
+            },
+            "push": {
+              "particles_nb": 4
+            },
+            "remove": {
+              "particles_nb": 2
+            }
+          }
+        },
+        "retina_detect": true
+      });
+    }
+  },
+  computed: {
+    getPercent: function getPercent() {
+      var percent = this.price * this.percent * this.days / (365 * 100);
+      return percent.toFixed(2);
+    }
+  },
+  mounted: function mounted() {
+    this.initParticles();
+  }
 });
 
 /***/ }),
@@ -1027,6 +1342,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+//
+//
+//
 //
 //
 //
@@ -1091,6 +1409,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_pages_index_FivethSection__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/pages/index/FivethSection */ "./resources/js/components/pages/index/FivethSection.vue");
 /* harmony import */ var _components_pages_index_SectionSeventh__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/pages/index/SectionSeventh */ "./resources/js/components/pages/index/SectionSeventh.vue");
 /* harmony import */ var _components_pages_index_EighthSection__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/pages/index/EighthSection */ "./resources/js/components/pages/index/EighthSection.vue");
+/* harmony import */ var _components_pages_index_SectionSix__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/pages/index/SectionSix */ "./resources/js/components/pages/index/SectionSix.vue");
 //
 //
 //
@@ -1103,6 +1422,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+
 
 
 
@@ -1113,6 +1434,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "Home",
   components: {
+    SectionSix: _components_pages_index_SectionSix__WEBPACK_IMPORTED_MODULE_7__["default"],
     EighthSection: _components_pages_index_EighthSection__WEBPACK_IMPORTED_MODULE_6__["default"],
     SectionSeventh: _components_pages_index_SectionSeventh__WEBPACK_IMPORTED_MODULE_5__["default"],
     FivethSection: _components_pages_index_FivethSection__WEBPACK_IMPORTED_MODULE_4__["default"],
@@ -1190,7 +1512,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".first__particles[data-v-0bb4754e] {\n  position: absolute;\n  top: 90px;\n  left: 0;\n  right: 0;\n  bottom: 0;\n}\n.first__wrapper[data-v-0bb4754e] {\n  position: relative;\n  z-index: 2;\n}\n.first__top[data-v-0bb4754e] {\n  padding-top: 85px;\n}\n.first__title[data-v-0bb4754e] {\n  font-size: 48px;\n  color: #fff;\n  font-weight: 600;\n}\n.first__desc[data-v-0bb4754e] {\n  padding-top: 30px;\n  color: #818F98;\n  font-size: 18px;\n  padding-bottom: 30px;\n}\n.first__buttons[data-v-0bb4754e] {\n  max-width: 400px;\n}\n.first__bottom[data-v-0bb4754e] {\n  margin-top: 72px;\n  background-color: #FFFFFF;\n  filter: drop-shadow(0px 4px 0px #DBE3EB);\n  border-radius: 16px;\n  overflow: hidden;\n  position: relative;\n}\n@media screen and (max-width: 768px) {\n.first__bottom[data-v-0bb4754e] {\n    margin-bottom: 40px;\n}\n}\n.first__mac[data-v-0bb4754e] {\n  max-width: 100%;\n}\n.first__arrow[data-v-0bb4754e] {\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%);\n  z-index: 10;\n  cursor: pointer;\n}\n.first__arrow svg *[data-v-0bb4754e] {\n  fill: #000;\n}\n.first__arrow_left[data-v-0bb4754e] {\n  left: 0;\n}\n.first__arrow_right[data-v-0bb4754e] {\n  right: 0;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".first__particles[data-v-0bb4754e] {\n  position: absolute;\n  top: 90px;\n  left: 0;\n  right: 0;\n  bottom: 0;\n}\n.first__wrapper[data-v-0bb4754e] {\n  position: relative;\n  z-index: 2;\n}\n.first__top[data-v-0bb4754e] {\n  padding-top: 85px;\n}\n.first__title[data-v-0bb4754e] {\n  font-size: 48px;\n  color: #fff;\n  font-weight: 600;\n}\n@media screen and (max-width: 768px) {\n.first__title[data-v-0bb4754e] {\n    font-size: 32px;\n}\n}\n.first__desc[data-v-0bb4754e] {\n  padding-top: 30px;\n  color: #818F98;\n  font-size: 18px;\n  padding-bottom: 30px;\n}\n.first__buttons[data-v-0bb4754e] {\n  max-width: 400px;\n}\n@media screen and (max-width: 768px) {\n.first__buttons[data-v-0bb4754e] {\n    margin-left: auto;\n    margin-right: auto;\n    max-width: 100%;\n}\n}\n.first__bottom[data-v-0bb4754e] {\n  margin-top: 72px;\n  background-color: #FFFFFF;\n  filter: drop-shadow(0px 4px 0px #DBE3EB);\n  border-radius: 16px;\n  overflow: hidden;\n  position: relative;\n}\n@media screen and (max-width: 768px) {\n.first__bottom[data-v-0bb4754e] {\n    margin-bottom: 40px;\n    margin-top: 20px;\n}\n}\n.first__mac[data-v-0bb4754e] {\n  max-width: 100%;\n}\n.first__arrow[data-v-0bb4754e] {\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%);\n  z-index: 10;\n  cursor: pointer;\n}\n.first__arrow svg *[data-v-0bb4754e] {\n  fill: #000;\n}\n.first__arrow_left[data-v-0bb4754e] {\n  left: 0;\n}\n.first__arrow_right[data-v-0bb4754e] {\n  right: 0;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1262,7 +1584,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".items[data-v-5808122e] {\n  padding-top: 40px;\n}\n@media screen and (max-width: 992px) {\n.item[data-v-5808122e] {\n    padding-bottom: 30px;\n}\n}\n.item .button[data-v-5808122e] {\n  color: #031F31;\n  font-size: 16px;\n}\n.item__number[data-v-5808122e] {\n  font-size: 144px;\n  color: #4FE2C3;\n  font-weight: 700;\n  background: linear-gradient(103.12deg, #4FE2C3 0%, rgba(79, 226, 195, 0.73) 100%), #031F31;\n  -webkit-background-clip: text;\n  line-height: 1;\n  -webkit-text-fill-color: transparent;\n}\n@media screen and (max-width: 768px) {\n.item__number[data-v-5808122e] {\n    font-size: 80px;\n}\n}\n.item__title[data-v-5808122e] {\n  padding-top: 10px;\n  font-style: normal;\n  font-weight: 500;\n  font-size: 18px;\n  color: #031F31;\n}\n.item__desc[data-v-5808122e] {\n  padding-top: 10px;\n  font-style: normal;\n  font-weight: normal;\n  font-size: 15px;\n  color: #818F98;\n}\n.item__button[data-v-5808122e] {\n  padding-top: 25px;\n  max-width: 150px;\n  margin: 0 auto;\n}\n@media screen and (max-width: 992px) {\n.item__button[data-v-5808122e] {\n    margin-left: 0;\n}\n}\n.item__button_full[data-v-5808122e] {\n  max-width: 200px;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".items[data-v-5808122e] {\n  padding-top: 40px;\n}\n@media screen and (max-width: 992px) {\n.item[data-v-5808122e] {\n    padding-bottom: 30px;\n}\n}\n.item .button[data-v-5808122e] {\n  color: #031F31;\n  font-size: 16px;\n}\n.item__number[data-v-5808122e] {\n  font-size: 144px;\n  color: #4FE2C3;\n  font-weight: 700;\n  background: linear-gradient(103.12deg, #4FE2C3 0%, rgba(79, 226, 195, 0.73) 100%), #031F31;\n  -webkit-background-clip: text;\n  line-height: 1;\n  -webkit-text-fill-color: transparent;\n}\n@media screen and (max-width: 768px) {\n.item__number[data-v-5808122e] {\n    font-size: 80px;\n}\n}\n.item__title[data-v-5808122e] {\n  padding-top: 10px;\n  font-style: normal;\n  font-weight: 500;\n  font-size: 18px;\n  color: #031F31;\n}\n.item__desc[data-v-5808122e] {\n  padding-top: 10px;\n  font-style: normal;\n  font-weight: normal;\n  font-size: 15px;\n  color: #818F98;\n}\n.item__button[data-v-5808122e] {\n  padding-top: 25px;\n  max-width: 150px;\n  margin: 0 auto;\n}\n@media screen and (max-width: 992px) {\n.item__button[data-v-5808122e] {\n    margin-left: 0;\n}\n}\n@media screen and (max-width: 600px) {\n.item__button[data-v-5808122e] {\n    margin-left: auto;\n}\n}\n.item__button_full[data-v-5808122e] {\n  max-width: 200px;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1287,6 +1609,30 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, ".item svg[data-v-3b93fce2] {\n  max-width: 100%;\n  height: auto;\n  vertical-align: top;\n}\n.item__title[data-v-3b93fce2] {\n  font-style: normal;\n  font-weight: normal;\n  font-size: 15px;\n  color: #818F98;\n}\n.item__desc[data-v-3b93fce2] {\n  padding-top: 7px;\n  font-style: normal;\n  font-weight: 500;\n  font-size: 18px;\n  color: #031F31;\n}\n.wrapper[data-v-3b93fce2] {\n  padding-top: 50px;\n}\n.wrap p[data-v-3b93fce2] {\n  padding-left: 40px;\n  position: relative;\n  font-style: normal;\n  font-weight: normal;\n  font-size: 16px;\n  color: #818F98;\n}\n.wrap p[data-v-3b93fce2]::before {\n  content: \"!\";\n  width: 20px;\n  height: 30px;\n  display: flex;\n  position: absolute;\n  top: 0;\n  justify-content: center;\n  align-items: center;\n  left: 0;\n  background-color: #F8F9FE;\n}\n.count[data-v-3b93fce2] {\n  border-radius: 12px;\n  overflow: hidden;\n  background-color: #F8F9FE;\n  margin-top: 30px;\n}\n.count__head[data-v-3b93fce2] {\n  text-align: center;\n  padding: 16px 0;\n  color: #fff;\n  font-style: normal;\n  font-weight: 500;\n  font-size: 32px;\n  background: linear-gradient(103.12deg, #4FE2C3 0%, rgba(79, 226, 195, 0.73) 100%), #031F31;\n}\n.count__text[data-v-3b93fce2] {\n  padding: 20px;\n  color: #818F98;\n  font-size: 15px;\n}\n.table thead th[data-v-3b93fce2] {\n  border-bottom: none;\n}", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/pages/index/SectionSix.vue?vue&type=style&index=0&id=822bdca0&scoped=true&lang=scss&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/pages/index/SectionSix.vue?vue&type=style&index=0&id=822bdca0&scoped=true&lang=scss& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".first__desc[data-v-822bdca0] {\n  padding-top: 30px;\n  color: #818F98;\n  font-size: 18px;\n  padding-bottom: 30px;\n}\n.info__particles[data-v-822bdca0] {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n.info__wrapper[data-v-822bdca0] {\n  position: relative;\n  z-index: 3;\n}\n.item__container[data-v-822bdca0] {\n  padding: 30px 0;\n  background: #FFFFFF;\n  border-radius: 16px;\n}\n.item__button[data-v-822bdca0] {\n  max-width: 270px;\n}\n.item__range[data-v-822bdca0] {\n  padding-top: 16px;\n}\n.item__range input[data-v-822bdca0] {\n  width: 100%;\n  -webkit-appearance: none !important;\n  background: linear-gradient(103.12deg, #4FE2C3 0%, rgba(79, 226, 195, 0.73) 100%), #031F31;\n  border-radius: 10px;\n  height: 14px;\n}\n.item__range input[data-v-822bdca0]::-webkit-slider-thumb {\n  -webkit-appearance: none !important;\n  width: 24px;\n  height: 24px;\n  background: #4FE2C3;\n  border: 3px solid #FFFFFF;\n  border-radius: 150px;\n}\n.item__input[data-v-822bdca0] {\n  position: relative;\n}\n.item__input input[data-v-822bdca0] {\n  width: 100%;\n  height: 60px;\n  line-height: 60px;\n  background: #F8F9FE;\n  border: none;\n  padding: 0 20px;\n  font-size: 30px;\n  font-weight: 500;\n}\n.item__input input[data-v-822bdca0]:hover, .item__input input[data-v-822bdca0]:focus {\n  outline: none;\n}\n.item__input span[data-v-822bdca0] {\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%);\n  right: 10px;\n  font-size: 30px;\n  color: #031F31;\n  font-weight: 500;\n}\n.item__deposit[data-v-822bdca0] {\n  font-weight: 500;\n  font-size: 18px;\n  color: #031F31;\n}\n.item__line[data-v-822bdca0] {\n  height: 1px;\n  background: #F8F9FE;\n}\n.item__day[data-v-822bdca0] {\n  text-align: center;\n  margin-top: 16px;\n  font-size: 18px;\n  font-weight: 500;\n  color: #031f31;\n  border: 2px solid #DADADA;\n  box-sizing: border-box;\n  cursor: pointer;\n  height: 54px;\n  line-height: 54px;\n  border-radius: 12px;\n}\n.item__day.active[data-v-822bdca0] {\n  background: linear-gradient(103.12deg, #4FE2C3 0%, rgba(79, 226, 195, 0.73) 100%), #031F31;\n  border-radius: 12px;\n  border: none;\n  color: #fff;\n}\n.item__desc[data-v-822bdca0] {\n  font-size: 18px;\n  color: #818F98;\n  padding-bottom: 10px;\n}\n.item__val[data-v-822bdca0] {\n  color: #031F31;\n  font-size: 28px;\n  font-weight: 500;\n}\n.item__val_green[data-v-822bdca0] {\n  background: linear-gradient(103.12deg, #4FE2C3 0%, rgba(79, 226, 195, 0.73) 100%), #031F31;\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  background-clip: text;\n  text-fill-color: transparent;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -12419,6 +12765,36 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/pages/index/SectionSix.vue?vue&type=style&index=0&id=822bdca0&scoped=true&lang=scss&":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/pages/index/SectionSix.vue?vue&type=style&index=0&id=822bdca0&scoped=true&lang=scss& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SectionSix_vue_vue_type_style_index_0_id_822bdca0_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!../../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SectionSix.vue?vue&type=style&index=0&id=822bdca0&scoped=true&lang=scss& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/pages/index/SectionSix.vue?vue&type=style&index=0&id=822bdca0&scoped=true&lang=scss&");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SectionSix_vue_vue_type_style_index_0_id_822bdca0_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SectionSix_vue_vue_type_style_index_0_id_822bdca0_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/pages/index/ThirdSection.vue?vue&type=style&index=0&id=13bd1e31&scoped=true&lang=scss&":
 /*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/pages/index/ThirdSection.vue?vue&type=style&index=0&id=13bd1e31&scoped=true&lang=scss& ***!
@@ -12736,6 +13112,47 @@ component.options.__file = "resources/js/components/pages/index/SectionSeventh.v
 
 /***/ }),
 
+/***/ "./resources/js/components/pages/index/SectionSix.vue":
+/*!************************************************************!*\
+  !*** ./resources/js/components/pages/index/SectionSix.vue ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _SectionSix_vue_vue_type_template_id_822bdca0_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SectionSix.vue?vue&type=template&id=822bdca0&scoped=true& */ "./resources/js/components/pages/index/SectionSix.vue?vue&type=template&id=822bdca0&scoped=true&");
+/* harmony import */ var _SectionSix_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SectionSix.vue?vue&type=script&lang=js& */ "./resources/js/components/pages/index/SectionSix.vue?vue&type=script&lang=js&");
+/* harmony import */ var _SectionSix_vue_vue_type_style_index_0_id_822bdca0_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SectionSix.vue?vue&type=style&index=0&id=822bdca0&scoped=true&lang=scss& */ "./resources/js/components/pages/index/SectionSix.vue?vue&type=style&index=0&id=822bdca0&scoped=true&lang=scss&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _SectionSix_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _SectionSix_vue_vue_type_template_id_822bdca0_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _SectionSix_vue_vue_type_template_id_822bdca0_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "822bdca0",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/pages/index/SectionSix.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/pages/index/ThirdSection.vue":
 /*!**************************************************************!*\
   !*** ./resources/js/components/pages/index/ThirdSection.vue ***!
@@ -12928,6 +13345,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/pages/index/SectionSix.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/pages/index/SectionSix.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SectionSix_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SectionSix.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/pages/index/SectionSix.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SectionSix_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
 /***/ "./resources/js/components/pages/index/ThirdSection.vue?vue&type=script&lang=js&":
 /*!***************************************************************************************!*\
   !*** ./resources/js/components/pages/index/ThirdSection.vue?vue&type=script&lang=js& ***!
@@ -13047,6 +13480,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SectionSeventh_vue_vue_type_style_index_0_id_3b93fce2_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/style-loader/dist/cjs.js!../../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!../../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SectionSeventh.vue?vue&type=style&index=0&id=3b93fce2&scoped=true&lang=scss& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/pages/index/SectionSeventh.vue?vue&type=style&index=0&id=3b93fce2&scoped=true&lang=scss&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/index/SectionSix.vue?vue&type=style&index=0&id=822bdca0&scoped=true&lang=scss&":
+/*!**********************************************************************************************************************!*\
+  !*** ./resources/js/components/pages/index/SectionSix.vue?vue&type=style&index=0&id=822bdca0&scoped=true&lang=scss& ***!
+  \**********************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SectionSix_vue_vue_type_style_index_0_id_822bdca0_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/style-loader/dist/cjs.js!../../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!../../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SectionSix.vue?vue&type=style&index=0&id=822bdca0&scoped=true&lang=scss& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/pages/index/SectionSix.vue?vue&type=style&index=0&id=822bdca0&scoped=true&lang=scss&");
 
 
 /***/ }),
@@ -13179,6 +13625,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SectionSeventh_vue_vue_type_template_id_3b93fce2_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SectionSeventh_vue_vue_type_template_id_3b93fce2_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SectionSeventh.vue?vue&type=template&id=3b93fce2&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/pages/index/SectionSeventh.vue?vue&type=template&id=3b93fce2&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/index/SectionSix.vue?vue&type=template&id=822bdca0&scoped=true&":
+/*!*******************************************************************************************************!*\
+  !*** ./resources/js/components/pages/index/SectionSix.vue?vue&type=template&id=822bdca0&scoped=true& ***!
+  \*******************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SectionSix_vue_vue_type_template_id_822bdca0_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SectionSix_vue_vue_type_template_id_822bdca0_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SectionSix_vue_vue_type_template_id_822bdca0_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SectionSix.vue?vue&type=template&id=822bdca0&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/pages/index/SectionSix.vue?vue&type=template&id=822bdca0&scoped=true&");
 
 
 /***/ }),
@@ -13433,7 +13896,7 @@ var render = function () {
                       _c("div", { staticClass: "row" }, [
                         _c(
                           "div",
-                          { staticClass: "col-8 col-lg-8" },
+                          { staticClass: "col-12 col-md-8 pb-2 pb-md-0" },
                           [
                             _c(
                               "router-link",
@@ -13489,7 +13952,7 @@ var render = function () {
                         _vm._v(" "),
                         _c(
                           "div",
-                          { staticClass: "col-4 col-lg-4" },
+                          { staticClass: "col-12 col-md-4" },
                           [
                             _c(
                               "router-link",
@@ -13893,31 +14356,44 @@ var render = function () {
                     _c("div", { staticClass: "row text-lg-center" }, [
                       _vm._m(0),
                       _vm._v(" "),
-                      _c("div", { staticClass: "col-8 col-lg-12" }, [
-                        _c("div", { staticClass: "item__title" }, [
-                          _vm._v(_vm._s(_vm.$t("second.0.title"))),
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "item__desc" }, [
-                          _vm._v(_vm._s(_vm.$t("second.0.text"))),
-                        ]),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          { staticClass: "item__button" },
-                          [
-                            _c(
-                              "router-link",
-                              {
-                                staticClass: "button button_buy button_small",
-                                attrs: { to: "/register" },
-                              },
-                              [_vm._v(_vm._s(_vm.$t("auth.register")))]
-                            ),
-                          ],
-                          1
-                        ),
-                      ]),
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "col-12 col-sm-8 col-lg-12  text-center text-sm-left",
+                        },
+                        [
+                          _c("div", { staticClass: "item__title" }, [
+                            _vm._v(_vm._s(_vm.$t("second.0.title"))),
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "item__desc" }, [
+                            _vm._v(_vm._s(_vm.$t("second.0.text"))),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "item__button" },
+                            [
+                              _c(
+                                "router-link",
+                                {
+                                  staticClass: "button button_buy button_small",
+                                  attrs: { to: "/register" },
+                                },
+                                [
+                                  _vm._v(
+                                    "\n\t\t\t\t\t\t\t\t\t\t\t\t" +
+                                      _vm._s(_vm.$t("auth.register")) +
+                                      "\n\t\t\t\t\t\t\t\t\t\t\t"
+                                  ),
+                                ]
+                              ),
+                            ],
+                            1
+                          ),
+                        ]
+                      ),
                     ]),
                   ]),
                 ]),
@@ -13927,31 +14403,44 @@ var render = function () {
                     _c("div", { staticClass: "row text-lg-center" }, [
                       _vm._m(1),
                       _vm._v(" "),
-                      _c("div", { staticClass: "col-8 col-lg-12" }, [
-                        _c("div", { staticClass: "item__title" }, [
-                          _vm._v(_vm._s(_vm.$t("second.1.title"))),
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "item__desc" }, [
-                          _vm._v(_vm._s(_vm.$t("second.1.text"))),
-                        ]),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          { staticClass: "item__button" },
-                          [
-                            _c(
-                              "router-link",
-                              {
-                                staticClass: "button button_buy button_small",
-                                attrs: { to: "/login" },
-                              },
-                              [_vm._v(_vm._s(_vm.$t("second.1.button")))]
-                            ),
-                          ],
-                          1
-                        ),
-                      ]),
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "col-12 col-sm-8 col-lg-12  text-center text-sm-left",
+                        },
+                        [
+                          _c("div", { staticClass: "item__title" }, [
+                            _vm._v(_vm._s(_vm.$t("second.1.title"))),
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "item__desc" }, [
+                            _vm._v(_vm._s(_vm.$t("second.1.text"))),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "item__button" },
+                            [
+                              _c(
+                                "router-link",
+                                {
+                                  staticClass: "button button_buy button_small",
+                                  attrs: { to: "/login" },
+                                },
+                                [
+                                  _vm._v(
+                                    "\n\t\t\t\t\t\t\t\t\t\t\t\t" +
+                                      _vm._s(_vm.$t("second.1.button")) +
+                                      "\n\t\t\t\t\t\t\t\t\t\t\t"
+                                  ),
+                                ]
+                              ),
+                            ],
+                            1
+                          ),
+                        ]
+                      ),
                     ]),
                   ]),
                 ]),
@@ -13961,420 +14450,430 @@ var render = function () {
                     _c("div", { staticClass: "row text-lg-center" }, [
                       _vm._m(2),
                       _vm._v(" "),
-                      _c("div", { staticClass: "col-8 col-lg-12" }, [
-                        _c("div", { staticClass: "item__title" }, [
-                          _vm._v(_vm._s(_vm.$t("second.2.title"))),
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "item__desc" }, [
-                          _vm._v(_vm._s(_vm.$t("second.2.text"))),
-                        ]),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          { staticClass: "item__button item__button_full" },
-                          [
-                            _c("div", { staticClass: "row" }, [
-                              _c(
-                                "div",
-                                {
-                                  staticClass:
-                                    "col-12 d-flex justify-content-between align-items-center",
-                                },
-                                [
-                                  _c("a", { attrs: { href: "#" } }, [
-                                    _c(
-                                      "svg",
-                                      {
-                                        attrs: {
-                                          width: "33",
-                                          height: "33",
-                                          viewBox: "0 0 33 33",
-                                          fill: "none",
-                                          xmlns: "http://www.w3.org/2000/svg",
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "col-12 col-sm-8 col-lg-12  text-center text-sm-left",
+                        },
+                        [
+                          _c("div", { staticClass: "item__title" }, [
+                            _vm._v(_vm._s(_vm.$t("second.2.title"))),
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "item__desc" }, [
+                            _vm._v(_vm._s(_vm.$t("second.2.text"))),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "item__button item__button_full" },
+                            [
+                              _c("div", { staticClass: "row" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "col-12 d-flex justify-content-between align-items-center",
+                                  },
+                                  [
+                                    _c("a", { attrs: { href: "#" } }, [
+                                      _c(
+                                        "svg",
+                                        {
+                                          attrs: {
+                                            width: "33",
+                                            height: "33",
+                                            viewBox: "0 0 33 33",
+                                            fill: "none",
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                          },
                                         },
-                                      },
-                                      [
-                                        _c(
-                                          "g",
-                                          {
-                                            attrs: {
-                                              "clip-path": "url(#clip0_37_822)",
+                                        [
+                                          _c(
+                                            "g",
+                                            {
+                                              attrs: {
+                                                "clip-path":
+                                                  "url(#clip0_37_822)",
+                                              },
                                             },
-                                          },
-                                          [
-                                            _c("path", {
-                                              attrs: {
-                                                d: "M32.4263 16.5C32.4263 7.66344 25.2628 0.5 16.4263 0.5C7.58971 0.5 0.42627 7.66344 0.42627 16.5C0.42627 24.4859 6.27721 31.1053 13.9263 32.3056V21.125H9.86377V16.5H13.9263V12.975C13.9263 8.965 16.315 6.75 19.9697 6.75C21.7197 6.75 23.5513 7.0625 23.5513 7.0625V11H21.5338C19.5463 11 18.9263 12.2334 18.9263 13.5V16.5H23.3638L22.6544 21.125H18.9263V32.3056C26.5753 31.1053 32.4263 24.4859 32.4263 16.5Z",
-                                                fill: "#031F31",
-                                              },
-                                            }),
-                                            _vm._v(" "),
-                                            _c("path", {
-                                              attrs: {
-                                                d: "M32.4263 16.5C32.4263 7.66344 25.2628 0.5 16.4263 0.5C7.58971 0.5 0.42627 7.66344 0.42627 16.5C0.42627 24.4859 6.27721 31.1053 13.9263 32.3056V21.125H9.86377V16.5H13.9263V12.975C13.9263 8.965 16.315 6.75 19.9697 6.75C21.7197 6.75 23.5513 7.0625 23.5513 7.0625V11H21.5338C19.5463 11 18.9263 12.2334 18.9263 13.5V16.5H23.3638L22.6544 21.125H18.9263V32.3056C26.5753 31.1053 32.4263 24.4859 32.4263 16.5Z",
-                                                fill: "url(#paint0_linear_37_822)",
-                                              },
-                                            }),
-                                          ]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "defs",
-                                          [
-                                            _c(
-                                              "linearGradient",
-                                              {
+                                            [
+                                              _c("path", {
                                                 attrs: {
-                                                  id: "paint0_linear_37_822",
-                                                  x1: "0.42627",
-                                                  y1: "0.5",
-                                                  x2: "37.8277",
-                                                  y2: "9.26989",
-                                                  gradientUnits:
-                                                    "userSpaceOnUse",
+                                                  d: "M32.4263 16.5C32.4263 7.66344 25.2628 0.5 16.4263 0.5C7.58971 0.5 0.42627 7.66344 0.42627 16.5C0.42627 24.4859 6.27721 31.1053 13.9263 32.3056V21.125H9.86377V16.5H13.9263V12.975C13.9263 8.965 16.315 6.75 19.9697 6.75C21.7197 6.75 23.5513 7.0625 23.5513 7.0625V11H21.5338C19.5463 11 18.9263 12.2334 18.9263 13.5V16.5H23.3638L22.6544 21.125H18.9263V32.3056C26.5753 31.1053 32.4263 24.4859 32.4263 16.5Z",
+                                                  fill: "#031F31",
                                                 },
-                                              },
-                                              [
-                                                _c("stop", {
+                                              }),
+                                              _vm._v(" "),
+                                              _c("path", {
+                                                attrs: {
+                                                  d: "M32.4263 16.5C32.4263 7.66344 25.2628 0.5 16.4263 0.5C7.58971 0.5 0.42627 7.66344 0.42627 16.5C0.42627 24.4859 6.27721 31.1053 13.9263 32.3056V21.125H9.86377V16.5H13.9263V12.975C13.9263 8.965 16.315 6.75 19.9697 6.75C21.7197 6.75 23.5513 7.0625 23.5513 7.0625V11H21.5338C19.5463 11 18.9263 12.2334 18.9263 13.5V16.5H23.3638L22.6544 21.125H18.9263V32.3056C26.5753 31.1053 32.4263 24.4859 32.4263 16.5Z",
+                                                  fill: "url(#paint0_linear_37_822)",
+                                                },
+                                              }),
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "defs",
+                                            [
+                                              _c(
+                                                "linearGradient",
+                                                {
                                                   attrs: {
-                                                    "stop-color": "#4FE2C3",
+                                                    id: "paint0_linear_37_822",
+                                                    x1: "0.42627",
+                                                    y1: "0.5",
+                                                    x2: "37.8277",
+                                                    y2: "9.26989",
+                                                    gradientUnits:
+                                                      "userSpaceOnUse",
                                                   },
-                                                }),
-                                                _vm._v(" "),
-                                                _c("stop", {
-                                                  attrs: {
-                                                    offset: "1",
-                                                    "stop-color": "#4FE2C3",
-                                                    "stop-opacity": "0.73",
-                                                  },
-                                                }),
-                                              ],
-                                              1
-                                            ),
-                                            _vm._v(" "),
-                                            _c(
-                                              "clipPath",
-                                              { attrs: { id: "clip0_37_822" } },
-                                              [
-                                                _c("rect", {
-                                                  attrs: {
-                                                    width: "32",
-                                                    height: "32",
-                                                    fill: "white",
-                                                    transform:
-                                                      "translate(0.42627 0.5)",
-                                                  },
-                                                }),
-                                              ]
-                                            ),
-                                          ],
-                                          1
-                                        ),
-                                      ]
-                                    ),
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("a", { attrs: { href: "#" } }, [
-                                    _c(
-                                      "svg",
-                                      {
-                                        attrs: {
-                                          width: "33",
-                                          height: "27",
-                                          viewBox: "0 0 33 27",
-                                          fill: "none",
-                                          xmlns: "http://www.w3.org/2000/svg",
+                                                },
+                                                [
+                                                  _c("stop", {
+                                                    attrs: {
+                                                      "stop-color": "#4FE2C3",
+                                                    },
+                                                  }),
+                                                  _vm._v(" "),
+                                                  _c("stop", {
+                                                    attrs: {
+                                                      offset: "1",
+                                                      "stop-color": "#4FE2C3",
+                                                      "stop-opacity": "0.73",
+                                                    },
+                                                  }),
+                                                ],
+                                                1
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "clipPath",
+                                                {
+                                                  attrs: { id: "clip0_37_822" },
+                                                },
+                                                [
+                                                  _c("rect", {
+                                                    attrs: {
+                                                      width: "32",
+                                                      height: "32",
+                                                      fill: "white",
+                                                      transform:
+                                                        "translate(0.42627 0.5)",
+                                                    },
+                                                  }),
+                                                ]
+                                              ),
+                                            ],
+                                            1
+                                          ),
+                                        ]
+                                      ),
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("a", { attrs: { href: "#" } }, [
+                                      _c(
+                                        "svg",
+                                        {
+                                          attrs: {
+                                            width: "33",
+                                            height: "27",
+                                            viewBox: "0 0 33 27",
+                                            fill: "none",
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                          },
                                         },
-                                      },
-                                      [
-                                        _c("path", {
-                                          attrs: {
-                                            d: "M10.4931 26.5C22.5656 26.5 29.1706 16.4956 29.1706 7.82248C29.1706 7.54123 29.1644 7.25373 29.1519 6.97248C30.4368 6.04328 31.5456 4.89234 32.4263 3.57373C31.2296 4.10613 29.9591 4.45384 28.6581 4.60498C30.028 3.78388 31.0536 2.49396 31.545 0.974356C30.2563 1.73808 28.847 2.27682 27.3775 2.56748C26.3874 1.51541 25.0783 0.818822 23.6525 0.585401C22.2268 0.351981 20.7639 0.594734 19.4899 1.27613C18.216 1.95752 17.202 3.03961 16.6047 4.35508C16.0075 5.67056 15.8602 7.14615 16.1856 8.55373C13.5763 8.42279 11.0235 7.74494 8.69291 6.56413C6.36231 5.38332 4.30586 3.72592 2.65689 1.69936C1.8188 3.14432 1.56235 4.85419 1.93964 6.48145C2.31694 8.10872 3.29969 9.53126 4.68814 10.46C3.64577 10.4269 2.62624 10.1462 1.71377 9.64123V9.72248C1.71284 11.2389 2.23707 12.7088 3.19735 13.8824C4.15763 15.0559 5.4947 15.8607 6.98127 16.16C6.01568 16.4242 5.00225 16.4627 4.01939 16.2725C4.43888 17.5766 5.25503 18.7172 6.35396 19.5351C7.45289 20.353 8.77976 20.8075 10.1494 20.835C7.82417 22.6615 4.95184 23.6522 1.99502 23.6475C1.47065 23.6467 0.946802 23.6145 0.42627 23.5512C3.43008 25.4783 6.92431 26.5018 10.4931 26.5Z",
-                                            fill: "#031F31",
-                                          },
-                                        }),
-                                        _vm._v(" "),
-                                        _c("path", {
-                                          attrs: {
-                                            d: "M10.4931 26.5C22.5656 26.5 29.1706 16.4956 29.1706 7.82248C29.1706 7.54123 29.1644 7.25373 29.1519 6.97248C30.4368 6.04328 31.5456 4.89234 32.4263 3.57373C31.2296 4.10613 29.9591 4.45384 28.6581 4.60498C30.028 3.78388 31.0536 2.49396 31.545 0.974356C30.2563 1.73808 28.847 2.27682 27.3775 2.56748C26.3874 1.51541 25.0783 0.818822 23.6525 0.585401C22.2268 0.351981 20.7639 0.594734 19.4899 1.27613C18.216 1.95752 17.202 3.03961 16.6047 4.35508C16.0075 5.67056 15.8602 7.14615 16.1856 8.55373C13.5763 8.42279 11.0235 7.74494 8.69291 6.56413C6.36231 5.38332 4.30586 3.72592 2.65689 1.69936C1.8188 3.14432 1.56235 4.85419 1.93964 6.48145C2.31694 8.10872 3.29969 9.53126 4.68814 10.46C3.64577 10.4269 2.62624 10.1462 1.71377 9.64123V9.72248C1.71284 11.2389 2.23707 12.7088 3.19735 13.8824C4.15763 15.0559 5.4947 15.8607 6.98127 16.16C6.01568 16.4242 5.00225 16.4627 4.01939 16.2725C4.43888 17.5766 5.25503 18.7172 6.35396 19.5351C7.45289 20.353 8.77976 20.8075 10.1494 20.835C7.82417 22.6615 4.95184 23.6522 1.99502 23.6475C1.47065 23.6467 0.946802 23.6145 0.42627 23.5512C3.43008 25.4783 6.92431 26.5018 10.4931 26.5Z",
-                                            fill: "url(#paint0_linear_212_60)",
-                                          },
-                                        }),
-                                        _vm._v(" "),
-                                        _c(
-                                          "defs",
-                                          [
-                                            _c(
-                                              "linearGradient",
-                                              {
-                                                attrs: {
-                                                  id: "paint0_linear_212_60",
-                                                  x1: "0.42627",
-                                                  y1: "0.499023",
-                                                  x2: "36.8846",
-                                                  y2: "10.9563",
-                                                  gradientUnits:
-                                                    "userSpaceOnUse",
+                                        [
+                                          _c("path", {
+                                            attrs: {
+                                              d: "M10.4931 26.5C22.5656 26.5 29.1706 16.4956 29.1706 7.82248C29.1706 7.54123 29.1644 7.25373 29.1519 6.97248C30.4368 6.04328 31.5456 4.89234 32.4263 3.57373C31.2296 4.10613 29.9591 4.45384 28.6581 4.60498C30.028 3.78388 31.0536 2.49396 31.545 0.974356C30.2563 1.73808 28.847 2.27682 27.3775 2.56748C26.3874 1.51541 25.0783 0.818822 23.6525 0.585401C22.2268 0.351981 20.7639 0.594734 19.4899 1.27613C18.216 1.95752 17.202 3.03961 16.6047 4.35508C16.0075 5.67056 15.8602 7.14615 16.1856 8.55373C13.5763 8.42279 11.0235 7.74494 8.69291 6.56413C6.36231 5.38332 4.30586 3.72592 2.65689 1.69936C1.8188 3.14432 1.56235 4.85419 1.93964 6.48145C2.31694 8.10872 3.29969 9.53126 4.68814 10.46C3.64577 10.4269 2.62624 10.1462 1.71377 9.64123V9.72248C1.71284 11.2389 2.23707 12.7088 3.19735 13.8824C4.15763 15.0559 5.4947 15.8607 6.98127 16.16C6.01568 16.4242 5.00225 16.4627 4.01939 16.2725C4.43888 17.5766 5.25503 18.7172 6.35396 19.5351C7.45289 20.353 8.77976 20.8075 10.1494 20.835C7.82417 22.6615 4.95184 23.6522 1.99502 23.6475C1.47065 23.6467 0.946802 23.6145 0.42627 23.5512C3.43008 25.4783 6.92431 26.5018 10.4931 26.5Z",
+                                              fill: "#031F31",
+                                            },
+                                          }),
+                                          _vm._v(" "),
+                                          _c("path", {
+                                            attrs: {
+                                              d: "M10.4931 26.5C22.5656 26.5 29.1706 16.4956 29.1706 7.82248C29.1706 7.54123 29.1644 7.25373 29.1519 6.97248C30.4368 6.04328 31.5456 4.89234 32.4263 3.57373C31.2296 4.10613 29.9591 4.45384 28.6581 4.60498C30.028 3.78388 31.0536 2.49396 31.545 0.974356C30.2563 1.73808 28.847 2.27682 27.3775 2.56748C26.3874 1.51541 25.0783 0.818822 23.6525 0.585401C22.2268 0.351981 20.7639 0.594734 19.4899 1.27613C18.216 1.95752 17.202 3.03961 16.6047 4.35508C16.0075 5.67056 15.8602 7.14615 16.1856 8.55373C13.5763 8.42279 11.0235 7.74494 8.69291 6.56413C6.36231 5.38332 4.30586 3.72592 2.65689 1.69936C1.8188 3.14432 1.56235 4.85419 1.93964 6.48145C2.31694 8.10872 3.29969 9.53126 4.68814 10.46C3.64577 10.4269 2.62624 10.1462 1.71377 9.64123V9.72248C1.71284 11.2389 2.23707 12.7088 3.19735 13.8824C4.15763 15.0559 5.4947 15.8607 6.98127 16.16C6.01568 16.4242 5.00225 16.4627 4.01939 16.2725C4.43888 17.5766 5.25503 18.7172 6.35396 19.5351C7.45289 20.353 8.77976 20.8075 10.1494 20.835C7.82417 22.6615 4.95184 23.6522 1.99502 23.6475C1.47065 23.6467 0.946802 23.6145 0.42627 23.5512C3.43008 25.4783 6.92431 26.5018 10.4931 26.5Z",
+                                              fill: "url(#paint0_linear_212_60)",
+                                            },
+                                          }),
+                                          _vm._v(" "),
+                                          _c(
+                                            "defs",
+                                            [
+                                              _c(
+                                                "linearGradient",
+                                                {
+                                                  attrs: {
+                                                    id: "paint0_linear_212_60",
+                                                    x1: "0.42627",
+                                                    y1: "0.499023",
+                                                    x2: "36.8846",
+                                                    y2: "10.9563",
+                                                    gradientUnits:
+                                                      "userSpaceOnUse",
+                                                  },
                                                 },
-                                              },
-                                              [
-                                                _c("stop", {
-                                                  attrs: {
-                                                    "stop-color": "#4FE2C3",
-                                                  },
-                                                }),
-                                                _vm._v(" "),
-                                                _c("stop", {
-                                                  attrs: {
-                                                    offset: "1",
-                                                    "stop-color": "#4FE2C3",
-                                                    "stop-opacity": "0.73",
-                                                  },
-                                                }),
-                                              ],
-                                              1
-                                            ),
-                                          ],
-                                          1
-                                        ),
-                                      ]
-                                    ),
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("a", { attrs: { href: "#" } }, [
-                                    _c(
-                                      "svg",
-                                      {
-                                        attrs: {
-                                          width: "33",
-                                          height: "33",
-                                          viewBox: "0 0 33 33",
-                                          fill: "none",
-                                          xmlns: "http://www.w3.org/2000/svg",
+                                                [
+                                                  _c("stop", {
+                                                    attrs: {
+                                                      "stop-color": "#4FE2C3",
+                                                    },
+                                                  }),
+                                                  _vm._v(" "),
+                                                  _c("stop", {
+                                                    attrs: {
+                                                      offset: "1",
+                                                      "stop-color": "#4FE2C3",
+                                                      "stop-opacity": "0.73",
+                                                    },
+                                                  }),
+                                                ],
+                                                1
+                                              ),
+                                            ],
+                                            1
+                                          ),
+                                        ]
+                                      ),
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("a", { attrs: { href: "#" } }, [
+                                      _c(
+                                        "svg",
+                                        {
+                                          attrs: {
+                                            width: "33",
+                                            height: "33",
+                                            viewBox: "0 0 33 33",
+                                            fill: "none",
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                          },
                                         },
-                                      },
-                                      [
-                                        _c("path", {
-                                          attrs: {
-                                            d: "M16.4263 3.38125C20.7013 3.38125 21.2075 3.4 22.8888 3.475C24.4513 3.54375 25.295 3.80625 25.8575 4.025C26.6013 4.3125 27.1388 4.6625 27.695 5.21875C28.2575 5.78125 28.6013 6.3125 28.8888 7.05625C29.1075 7.61875 29.37 8.46875 29.4388 10.025C29.5138 11.7125 29.5325 12.2188 29.5325 16.4875C29.5325 20.7625 29.5138 21.2688 29.4388 22.95C29.37 24.5125 29.1075 25.3563 28.8888 25.9188C28.6013 26.6625 28.2513 27.2 27.695 27.7563C27.1325 28.3188 26.6013 28.6625 25.8575 28.95C25.295 29.1688 24.445 29.4313 22.8888 29.5C21.2013 29.575 20.695 29.5938 16.4263 29.5938C12.1513 29.5938 11.645 29.575 9.96377 29.5C8.40127 29.4313 7.55752 29.1688 6.99502 28.95C6.25127 28.6625 5.71377 28.3125 5.15752 27.7563C4.59502 27.1938 4.25127 26.6625 3.96377 25.9188C3.74502 25.3563 3.48252 24.5063 3.41377 22.95C3.33877 21.2625 3.32002 20.7563 3.32002 16.4875C3.32002 12.2125 3.33877 11.7063 3.41377 10.025C3.48252 8.4625 3.74502 7.61875 3.96377 7.05625C4.25127 6.3125 4.60127 5.775 5.15752 5.21875C5.72002 4.65625 6.25127 4.3125 6.99502 4.025C7.55752 3.80625 8.40752 3.54375 9.96377 3.475C11.645 3.4 12.1513 3.38125 16.4263 3.38125ZM16.4263 0.5C12.0825 0.5 11.5388 0.51875 9.83252 0.59375C8.13252 0.66875 6.96377 0.94375 5.95127 1.3375C4.89502 1.75 4.00127 2.29375 3.11377 3.1875C2.22002 4.075 1.67627 4.96875 1.26377 6.01875C0.87002 7.0375 0.59502 8.2 0.52002 9.9C0.44502 11.6125 0.42627 12.1562 0.42627 16.5C0.42627 20.8438 0.44502 21.3875 0.52002 23.0938C0.59502 24.7938 0.87002 25.9625 1.26377 26.975C1.67627 28.0313 2.22002 28.925 3.11377 29.8125C4.00127 30.7 4.89502 31.25 5.94502 31.6562C6.96377 32.05 8.12627 32.325 9.82627 32.4C11.5325 32.475 12.0763 32.4937 16.42 32.4937C20.7638 32.4937 21.3075 32.475 23.0138 32.4C24.7138 32.325 25.8825 32.05 26.895 31.6562C27.945 31.25 28.8388 30.7 29.7263 29.8125C30.6138 28.925 31.1638 28.0313 31.57 26.9813C31.9638 25.9625 32.2388 24.8 32.3138 23.1C32.3888 21.3938 32.4075 20.85 32.4075 16.5063C32.4075 12.1625 32.3888 11.6188 32.3138 9.9125C32.2388 8.2125 31.9638 7.04375 31.57 6.03125C31.1763 4.96875 30.6325 4.075 29.7388 3.1875C28.8513 2.3 27.9575 1.75 26.9075 1.34375C25.8888 0.95 24.7263 0.675 23.0263 0.6C21.3138 0.51875 20.77 0.5 16.4263 0.5Z",
-                                            fill: "#031F31",
-                                          },
-                                        }),
-                                        _vm._v(" "),
-                                        _c("path", {
-                                          attrs: {
-                                            d: "M16.4263 3.38125C20.7013 3.38125 21.2075 3.4 22.8888 3.475C24.4513 3.54375 25.295 3.80625 25.8575 4.025C26.6013 4.3125 27.1388 4.6625 27.695 5.21875C28.2575 5.78125 28.6013 6.3125 28.8888 7.05625C29.1075 7.61875 29.37 8.46875 29.4388 10.025C29.5138 11.7125 29.5325 12.2188 29.5325 16.4875C29.5325 20.7625 29.5138 21.2688 29.4388 22.95C29.37 24.5125 29.1075 25.3563 28.8888 25.9188C28.6013 26.6625 28.2513 27.2 27.695 27.7563C27.1325 28.3188 26.6013 28.6625 25.8575 28.95C25.295 29.1688 24.445 29.4313 22.8888 29.5C21.2013 29.575 20.695 29.5938 16.4263 29.5938C12.1513 29.5938 11.645 29.575 9.96377 29.5C8.40127 29.4313 7.55752 29.1688 6.99502 28.95C6.25127 28.6625 5.71377 28.3125 5.15752 27.7563C4.59502 27.1938 4.25127 26.6625 3.96377 25.9188C3.74502 25.3563 3.48252 24.5063 3.41377 22.95C3.33877 21.2625 3.32002 20.7563 3.32002 16.4875C3.32002 12.2125 3.33877 11.7063 3.41377 10.025C3.48252 8.4625 3.74502 7.61875 3.96377 7.05625C4.25127 6.3125 4.60127 5.775 5.15752 5.21875C5.72002 4.65625 6.25127 4.3125 6.99502 4.025C7.55752 3.80625 8.40752 3.54375 9.96377 3.475C11.645 3.4 12.1513 3.38125 16.4263 3.38125ZM16.4263 0.5C12.0825 0.5 11.5388 0.51875 9.83252 0.59375C8.13252 0.66875 6.96377 0.94375 5.95127 1.3375C4.89502 1.75 4.00127 2.29375 3.11377 3.1875C2.22002 4.075 1.67627 4.96875 1.26377 6.01875C0.87002 7.0375 0.59502 8.2 0.52002 9.9C0.44502 11.6125 0.42627 12.1562 0.42627 16.5C0.42627 20.8438 0.44502 21.3875 0.52002 23.0938C0.59502 24.7938 0.87002 25.9625 1.26377 26.975C1.67627 28.0313 2.22002 28.925 3.11377 29.8125C4.00127 30.7 4.89502 31.25 5.94502 31.6562C6.96377 32.05 8.12627 32.325 9.82627 32.4C11.5325 32.475 12.0763 32.4937 16.42 32.4937C20.7638 32.4937 21.3075 32.475 23.0138 32.4C24.7138 32.325 25.8825 32.05 26.895 31.6562C27.945 31.25 28.8388 30.7 29.7263 29.8125C30.6138 28.925 31.1638 28.0313 31.57 26.9813C31.9638 25.9625 32.2388 24.8 32.3138 23.1C32.3888 21.3938 32.4075 20.85 32.4075 16.5063C32.4075 12.1625 32.3888 11.6188 32.3138 9.9125C32.2388 8.2125 31.9638 7.04375 31.57 6.03125C31.1763 4.96875 30.6325 4.075 29.7388 3.1875C28.8513 2.3 27.9575 1.75 26.9075 1.34375C25.8888 0.95 24.7263 0.675 23.0263 0.6C21.3138 0.51875 20.77 0.5 16.4263 0.5Z",
-                                            fill: "url(#paint0_linear_212_1656)",
-                                          },
-                                        }),
-                                        _vm._v(" "),
-                                        _c("path", {
-                                          attrs: {
-                                            d: "M16.4263 8.28125C11.8888 8.28125 8.20752 11.9625 8.20752 16.5C8.20752 21.0375 11.8888 24.7188 16.4263 24.7188C20.9638 24.7188 24.645 21.0375 24.645 16.5C24.645 11.9625 20.9638 8.28125 16.4263 8.28125ZM16.4263 21.8312C13.4825 21.8312 11.095 19.4438 11.095 16.5C11.095 13.5563 13.4825 11.1687 16.4263 11.1687C19.37 11.1687 21.7575 13.5563 21.7575 16.5C21.7575 19.4438 19.37 21.8312 16.4263 21.8312Z",
-                                            fill: "#031F31",
-                                          },
-                                        }),
-                                        _vm._v(" "),
-                                        _c("path", {
-                                          attrs: {
-                                            d: "M16.4263 8.28125C11.8888 8.28125 8.20752 11.9625 8.20752 16.5C8.20752 21.0375 11.8888 24.7188 16.4263 24.7188C20.9638 24.7188 24.645 21.0375 24.645 16.5C24.645 11.9625 20.9638 8.28125 16.4263 8.28125ZM16.4263 21.8312C13.4825 21.8312 11.095 19.4438 11.095 16.5C11.095 13.5563 13.4825 11.1687 16.4263 11.1687C19.37 11.1687 21.7575 13.5563 21.7575 16.5C21.7575 19.4438 19.37 21.8312 16.4263 21.8312Z",
-                                            fill: "url(#paint1_linear_212_1656)",
-                                          },
-                                        }),
-                                        _vm._v(" "),
-                                        _c("path", {
-                                          attrs: {
-                                            d: "M26.8888 7.95611C26.8888 9.01861 26.0263 9.87486 24.97 9.87486C23.9075 9.87486 23.0513 9.01236 23.0513 7.95611C23.0513 6.8936 23.9138 6.03735 24.97 6.03735C26.0263 6.03735 26.8888 6.89985 26.8888 7.95611Z",
-                                            fill: "#031F31",
-                                          },
-                                        }),
-                                        _vm._v(" "),
-                                        _c("path", {
-                                          attrs: {
-                                            d: "M26.8888 7.95611C26.8888 9.01861 26.0263 9.87486 24.97 9.87486C23.9075 9.87486 23.0513 9.01236 23.0513 7.95611C23.0513 6.8936 23.9138 6.03735 24.97 6.03735C26.0263 6.03735 26.8888 6.89985 26.8888 7.95611Z",
-                                            fill: "url(#paint2_linear_212_1656)",
-                                          },
-                                        }),
-                                        _vm._v(" "),
-                                        _c(
-                                          "defs",
-                                          [
-                                            _c(
-                                              "linearGradient",
-                                              {
-                                                attrs: {
-                                                  id: "paint0_linear_212_1656",
-                                                  x1: "0.42627",
-                                                  y1: "0.5",
-                                                  x2: "37.8309",
-                                                  y2: "9.21396",
-                                                  gradientUnits:
-                                                    "userSpaceOnUse",
+                                        [
+                                          _c("path", {
+                                            attrs: {
+                                              d: "M16.4263 3.38125C20.7013 3.38125 21.2075 3.4 22.8888 3.475C24.4513 3.54375 25.295 3.80625 25.8575 4.025C26.6013 4.3125 27.1388 4.6625 27.695 5.21875C28.2575 5.78125 28.6013 6.3125 28.8888 7.05625C29.1075 7.61875 29.37 8.46875 29.4388 10.025C29.5138 11.7125 29.5325 12.2188 29.5325 16.4875C29.5325 20.7625 29.5138 21.2688 29.4388 22.95C29.37 24.5125 29.1075 25.3563 28.8888 25.9188C28.6013 26.6625 28.2513 27.2 27.695 27.7563C27.1325 28.3188 26.6013 28.6625 25.8575 28.95C25.295 29.1688 24.445 29.4313 22.8888 29.5C21.2013 29.575 20.695 29.5938 16.4263 29.5938C12.1513 29.5938 11.645 29.575 9.96377 29.5C8.40127 29.4313 7.55752 29.1688 6.99502 28.95C6.25127 28.6625 5.71377 28.3125 5.15752 27.7563C4.59502 27.1938 4.25127 26.6625 3.96377 25.9188C3.74502 25.3563 3.48252 24.5063 3.41377 22.95C3.33877 21.2625 3.32002 20.7563 3.32002 16.4875C3.32002 12.2125 3.33877 11.7063 3.41377 10.025C3.48252 8.4625 3.74502 7.61875 3.96377 7.05625C4.25127 6.3125 4.60127 5.775 5.15752 5.21875C5.72002 4.65625 6.25127 4.3125 6.99502 4.025C7.55752 3.80625 8.40752 3.54375 9.96377 3.475C11.645 3.4 12.1513 3.38125 16.4263 3.38125ZM16.4263 0.5C12.0825 0.5 11.5388 0.51875 9.83252 0.59375C8.13252 0.66875 6.96377 0.94375 5.95127 1.3375C4.89502 1.75 4.00127 2.29375 3.11377 3.1875C2.22002 4.075 1.67627 4.96875 1.26377 6.01875C0.87002 7.0375 0.59502 8.2 0.52002 9.9C0.44502 11.6125 0.42627 12.1562 0.42627 16.5C0.42627 20.8438 0.44502 21.3875 0.52002 23.0938C0.59502 24.7938 0.87002 25.9625 1.26377 26.975C1.67627 28.0313 2.22002 28.925 3.11377 29.8125C4.00127 30.7 4.89502 31.25 5.94502 31.6562C6.96377 32.05 8.12627 32.325 9.82627 32.4C11.5325 32.475 12.0763 32.4937 16.42 32.4937C20.7638 32.4937 21.3075 32.475 23.0138 32.4C24.7138 32.325 25.8825 32.05 26.895 31.6562C27.945 31.25 28.8388 30.7 29.7263 29.8125C30.6138 28.925 31.1638 28.0313 31.57 26.9813C31.9638 25.9625 32.2388 24.8 32.3138 23.1C32.3888 21.3938 32.4075 20.85 32.4075 16.5063C32.4075 12.1625 32.3888 11.6188 32.3138 9.9125C32.2388 8.2125 31.9638 7.04375 31.57 6.03125C31.1763 4.96875 30.6325 4.075 29.7388 3.1875C28.8513 2.3 27.9575 1.75 26.9075 1.34375C25.8888 0.95 24.7263 0.675 23.0263 0.6C21.3138 0.51875 20.77 0.5 16.4263 0.5Z",
+                                              fill: "#031F31",
+                                            },
+                                          }),
+                                          _vm._v(" "),
+                                          _c("path", {
+                                            attrs: {
+                                              d: "M16.4263 3.38125C20.7013 3.38125 21.2075 3.4 22.8888 3.475C24.4513 3.54375 25.295 3.80625 25.8575 4.025C26.6013 4.3125 27.1388 4.6625 27.695 5.21875C28.2575 5.78125 28.6013 6.3125 28.8888 7.05625C29.1075 7.61875 29.37 8.46875 29.4388 10.025C29.5138 11.7125 29.5325 12.2188 29.5325 16.4875C29.5325 20.7625 29.5138 21.2688 29.4388 22.95C29.37 24.5125 29.1075 25.3563 28.8888 25.9188C28.6013 26.6625 28.2513 27.2 27.695 27.7563C27.1325 28.3188 26.6013 28.6625 25.8575 28.95C25.295 29.1688 24.445 29.4313 22.8888 29.5C21.2013 29.575 20.695 29.5938 16.4263 29.5938C12.1513 29.5938 11.645 29.575 9.96377 29.5C8.40127 29.4313 7.55752 29.1688 6.99502 28.95C6.25127 28.6625 5.71377 28.3125 5.15752 27.7563C4.59502 27.1938 4.25127 26.6625 3.96377 25.9188C3.74502 25.3563 3.48252 24.5063 3.41377 22.95C3.33877 21.2625 3.32002 20.7563 3.32002 16.4875C3.32002 12.2125 3.33877 11.7063 3.41377 10.025C3.48252 8.4625 3.74502 7.61875 3.96377 7.05625C4.25127 6.3125 4.60127 5.775 5.15752 5.21875C5.72002 4.65625 6.25127 4.3125 6.99502 4.025C7.55752 3.80625 8.40752 3.54375 9.96377 3.475C11.645 3.4 12.1513 3.38125 16.4263 3.38125ZM16.4263 0.5C12.0825 0.5 11.5388 0.51875 9.83252 0.59375C8.13252 0.66875 6.96377 0.94375 5.95127 1.3375C4.89502 1.75 4.00127 2.29375 3.11377 3.1875C2.22002 4.075 1.67627 4.96875 1.26377 6.01875C0.87002 7.0375 0.59502 8.2 0.52002 9.9C0.44502 11.6125 0.42627 12.1562 0.42627 16.5C0.42627 20.8438 0.44502 21.3875 0.52002 23.0938C0.59502 24.7938 0.87002 25.9625 1.26377 26.975C1.67627 28.0313 2.22002 28.925 3.11377 29.8125C4.00127 30.7 4.89502 31.25 5.94502 31.6562C6.96377 32.05 8.12627 32.325 9.82627 32.4C11.5325 32.475 12.0763 32.4937 16.42 32.4937C20.7638 32.4937 21.3075 32.475 23.0138 32.4C24.7138 32.325 25.8825 32.05 26.895 31.6562C27.945 31.25 28.8388 30.7 29.7263 29.8125C30.6138 28.925 31.1638 28.0313 31.57 26.9813C31.9638 25.9625 32.2388 24.8 32.3138 23.1C32.3888 21.3938 32.4075 20.85 32.4075 16.5063C32.4075 12.1625 32.3888 11.6188 32.3138 9.9125C32.2388 8.2125 31.9638 7.04375 31.57 6.03125C31.1763 4.96875 30.6325 4.075 29.7388 3.1875C28.8513 2.3 27.9575 1.75 26.9075 1.34375C25.8888 0.95 24.7263 0.675 23.0263 0.6C21.3138 0.51875 20.77 0.5 16.4263 0.5Z",
+                                              fill: "url(#paint0_linear_212_1656)",
+                                            },
+                                          }),
+                                          _vm._v(" "),
+                                          _c("path", {
+                                            attrs: {
+                                              d: "M16.4263 8.28125C11.8888 8.28125 8.20752 11.9625 8.20752 16.5C8.20752 21.0375 11.8888 24.7188 16.4263 24.7188C20.9638 24.7188 24.645 21.0375 24.645 16.5C24.645 11.9625 20.9638 8.28125 16.4263 8.28125ZM16.4263 21.8312C13.4825 21.8312 11.095 19.4438 11.095 16.5C11.095 13.5563 13.4825 11.1687 16.4263 11.1687C19.37 11.1687 21.7575 13.5563 21.7575 16.5C21.7575 19.4438 19.37 21.8312 16.4263 21.8312Z",
+                                              fill: "#031F31",
+                                            },
+                                          }),
+                                          _vm._v(" "),
+                                          _c("path", {
+                                            attrs: {
+                                              d: "M16.4263 8.28125C11.8888 8.28125 8.20752 11.9625 8.20752 16.5C8.20752 21.0375 11.8888 24.7188 16.4263 24.7188C20.9638 24.7188 24.645 21.0375 24.645 16.5C24.645 11.9625 20.9638 8.28125 16.4263 8.28125ZM16.4263 21.8312C13.4825 21.8312 11.095 19.4438 11.095 16.5C11.095 13.5563 13.4825 11.1687 16.4263 11.1687C19.37 11.1687 21.7575 13.5563 21.7575 16.5C21.7575 19.4438 19.37 21.8312 16.4263 21.8312Z",
+                                              fill: "url(#paint1_linear_212_1656)",
+                                            },
+                                          }),
+                                          _vm._v(" "),
+                                          _c("path", {
+                                            attrs: {
+                                              d: "M26.8888 7.95611C26.8888 9.01861 26.0263 9.87486 24.97 9.87486C23.9075 9.87486 23.0513 9.01236 23.0513 7.95611C23.0513 6.8936 23.9138 6.03735 24.97 6.03735C26.0263 6.03735 26.8888 6.89985 26.8888 7.95611Z",
+                                              fill: "#031F31",
+                                            },
+                                          }),
+                                          _vm._v(" "),
+                                          _c("path", {
+                                            attrs: {
+                                              d: "M26.8888 7.95611C26.8888 9.01861 26.0263 9.87486 24.97 9.87486C23.9075 9.87486 23.0513 9.01236 23.0513 7.95611C23.0513 6.8936 23.9138 6.03735 24.97 6.03735C26.0263 6.03735 26.8888 6.89985 26.8888 7.95611Z",
+                                              fill: "url(#paint2_linear_212_1656)",
+                                            },
+                                          }),
+                                          _vm._v(" "),
+                                          _c(
+                                            "defs",
+                                            [
+                                              _c(
+                                                "linearGradient",
+                                                {
+                                                  attrs: {
+                                                    id: "paint0_linear_212_1656",
+                                                    x1: "0.42627",
+                                                    y1: "0.5",
+                                                    x2: "37.8309",
+                                                    y2: "9.21396",
+                                                    gradientUnits:
+                                                      "userSpaceOnUse",
+                                                  },
                                                 },
-                                              },
-                                              [
-                                                _c("stop", {
+                                                [
+                                                  _c("stop", {
+                                                    attrs: {
+                                                      "stop-color": "#4FE2C3",
+                                                    },
+                                                  }),
+                                                  _vm._v(" "),
+                                                  _c("stop", {
+                                                    attrs: {
+                                                      offset: "1",
+                                                      "stop-color": "#4FE2C3",
+                                                      "stop-opacity": "0.73",
+                                                    },
+                                                  }),
+                                                ],
+                                                1
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "linearGradient",
+                                                {
                                                   attrs: {
-                                                    "stop-color": "#4FE2C3",
+                                                    id: "paint1_linear_212_1656",
+                                                    x1: "8.20752",
+                                                    y1: "8.28125",
+                                                    x2: "27.4317",
+                                                    y2: "12.7616",
+                                                    gradientUnits:
+                                                      "userSpaceOnUse",
                                                   },
-                                                }),
-                                                _vm._v(" "),
-                                                _c("stop", {
-                                                  attrs: {
-                                                    offset: "1",
-                                                    "stop-color": "#4FE2C3",
-                                                    "stop-opacity": "0.73",
-                                                  },
-                                                }),
-                                              ],
-                                              1
-                                            ),
-                                            _vm._v(" "),
-                                            _c(
-                                              "linearGradient",
-                                              {
-                                                attrs: {
-                                                  id: "paint1_linear_212_1656",
-                                                  x1: "8.20752",
-                                                  y1: "8.28125",
-                                                  x2: "27.4317",
-                                                  y2: "12.7616",
-                                                  gradientUnits:
-                                                    "userSpaceOnUse",
                                                 },
-                                              },
-                                              [
-                                                _c("stop", {
+                                                [
+                                                  _c("stop", {
+                                                    attrs: {
+                                                      "stop-color": "#4FE2C3",
+                                                    },
+                                                  }),
+                                                  _vm._v(" "),
+                                                  _c("stop", {
+                                                    attrs: {
+                                                      offset: "1",
+                                                      "stop-color": "#4FE2C3",
+                                                      "stop-opacity": "0.73",
+                                                    },
+                                                  }),
+                                                ],
+                                                1
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "linearGradient",
+                                                {
                                                   attrs: {
-                                                    "stop-color": "#4FE2C3",
+                                                    id: "paint2_linear_212_1656",
+                                                    x1: "23.0513",
+                                                    y1: "6.03735",
+                                                    x2: "27.5394",
+                                                    y2: "7.08333",
+                                                    gradientUnits:
+                                                      "userSpaceOnUse",
                                                   },
-                                                }),
-                                                _vm._v(" "),
-                                                _c("stop", {
-                                                  attrs: {
-                                                    offset: "1",
-                                                    "stop-color": "#4FE2C3",
-                                                    "stop-opacity": "0.73",
-                                                  },
-                                                }),
-                                              ],
-                                              1
-                                            ),
-                                            _vm._v(" "),
-                                            _c(
-                                              "linearGradient",
-                                              {
-                                                attrs: {
-                                                  id: "paint2_linear_212_1656",
-                                                  x1: "23.0513",
-                                                  y1: "6.03735",
-                                                  x2: "27.5394",
-                                                  y2: "7.08333",
-                                                  gradientUnits:
-                                                    "userSpaceOnUse",
                                                 },
-                                              },
-                                              [
-                                                _c("stop", {
-                                                  attrs: {
-                                                    "stop-color": "#4FE2C3",
-                                                  },
-                                                }),
-                                                _vm._v(" "),
-                                                _c("stop", {
-                                                  attrs: {
-                                                    offset: "1",
-                                                    "stop-color": "#4FE2C3",
-                                                    "stop-opacity": "0.73",
-                                                  },
-                                                }),
-                                              ],
-                                              1
-                                            ),
-                                          ],
-                                          1
-                                        ),
-                                      ]
-                                    ),
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("a", { attrs: { href: "#" } }, [
-                                    _c(
-                                      "svg",
-                                      {
-                                        attrs: {
-                                          width: "33",
-                                          height: "33",
-                                          viewBox: "0 0 33 33",
-                                          fill: "none",
-                                          xmlns: "http://www.w3.org/2000/svg",
+                                                [
+                                                  _c("stop", {
+                                                    attrs: {
+                                                      "stop-color": "#4FE2C3",
+                                                    },
+                                                  }),
+                                                  _vm._v(" "),
+                                                  _c("stop", {
+                                                    attrs: {
+                                                      offset: "1",
+                                                      "stop-color": "#4FE2C3",
+                                                      "stop-opacity": "0.73",
+                                                    },
+                                                  }),
+                                                ],
+                                                1
+                                              ),
+                                            ],
+                                            1
+                                          ),
+                                        ]
+                                      ),
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("a", { attrs: { href: "#" } }, [
+                                      _c(
+                                        "svg",
+                                        {
+                                          attrs: {
+                                            width: "33",
+                                            height: "33",
+                                            viewBox: "0 0 33 33",
+                                            fill: "none",
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                          },
                                         },
-                                      },
-                                      [
-                                        _c("path", {
-                                          attrs: {
-                                            "fill-rule": "evenodd",
-                                            "clip-rule": "evenodd",
-                                            d: "M32.4263 16.5C32.4263 25.3366 25.2628 32.5 16.4263 32.5C7.58971 32.5 0.42627 25.3366 0.42627 16.5C0.42627 7.66344 7.58971 0.5 16.4263 0.5C25.2628 0.5 32.4263 7.66344 32.4263 16.5ZM16.9996 12.3119C15.4434 12.9592 12.3331 14.2989 7.66879 16.3311C6.91138 16.6323 6.51461 16.927 6.47849 17.2151C6.41745 17.702 7.02722 17.8937 7.85757 18.1548C7.97052 18.1903 8.08754 18.2271 8.20752 18.2661C9.02445 18.5317 10.1234 18.8424 10.6947 18.8547C11.2129 18.8659 11.7912 18.6523 12.4298 18.2138C16.7878 15.272 19.0374 13.7851 19.1787 13.753C19.2783 13.7304 19.4164 13.702 19.51 13.7851C19.6035 13.8683 19.5943 14.0258 19.5844 14.068C19.524 14.3255 17.1304 16.5508 15.8917 17.7024C15.5056 18.0614 15.2317 18.316 15.1757 18.3742C15.0503 18.5045 14.9224 18.6277 14.7996 18.7461C14.0406 19.4778 13.4715 20.0264 14.8311 20.9224C15.4845 21.3529 16.0073 21.709 16.5289 22.0642C17.0985 22.4521 17.6666 22.839 18.4018 23.3209C18.589 23.4437 18.7679 23.5712 18.9421 23.6954C19.605 24.168 20.2006 24.5926 20.9364 24.5248C21.3639 24.4855 21.8056 24.0835 22.0298 22.8845C22.5599 20.0509 23.6018 13.9113 23.8426 11.3813C23.8637 11.1596 23.8371 10.876 23.8158 10.7514C23.7945 10.6269 23.75 10.4495 23.5881 10.3181C23.3964 10.1626 23.1004 10.1298 22.9681 10.1321C22.3663 10.1427 21.443 10.4638 16.9996 12.3119Z",
-                                            fill: "#031F31",
-                                          },
-                                        }),
-                                        _vm._v(" "),
-                                        _c("path", {
-                                          attrs: {
-                                            "fill-rule": "evenodd",
-                                            "clip-rule": "evenodd",
-                                            d: "M32.4263 16.5C32.4263 25.3366 25.2628 32.5 16.4263 32.5C7.58971 32.5 0.42627 25.3366 0.42627 16.5C0.42627 7.66344 7.58971 0.5 16.4263 0.5C25.2628 0.5 32.4263 7.66344 32.4263 16.5ZM16.9996 12.3119C15.4434 12.9592 12.3331 14.2989 7.66879 16.3311C6.91138 16.6323 6.51461 16.927 6.47849 17.2151C6.41745 17.702 7.02722 17.8937 7.85757 18.1548C7.97052 18.1903 8.08754 18.2271 8.20752 18.2661C9.02445 18.5317 10.1234 18.8424 10.6947 18.8547C11.2129 18.8659 11.7912 18.6523 12.4298 18.2138C16.7878 15.272 19.0374 13.7851 19.1787 13.753C19.2783 13.7304 19.4164 13.702 19.51 13.7851C19.6035 13.8683 19.5943 14.0258 19.5844 14.068C19.524 14.3255 17.1304 16.5508 15.8917 17.7024C15.5056 18.0614 15.2317 18.316 15.1757 18.3742C15.0503 18.5045 14.9224 18.6277 14.7996 18.7461C14.0406 19.4778 13.4715 20.0264 14.8311 20.9224C15.4845 21.3529 16.0073 21.709 16.5289 22.0642C17.0985 22.4521 17.6666 22.839 18.4018 23.3209C18.589 23.4437 18.7679 23.5712 18.9421 23.6954C19.605 24.168 20.2006 24.5926 20.9364 24.5248C21.3639 24.4855 21.8056 24.0835 22.0298 22.8845C22.5599 20.0509 23.6018 13.9113 23.8426 11.3813C23.8637 11.1596 23.8371 10.876 23.8158 10.7514C23.7945 10.6269 23.75 10.4495 23.5881 10.3181C23.3964 10.1626 23.1004 10.1298 22.9681 10.1321C22.3663 10.1427 21.443 10.4638 16.9996 12.3119Z",
-                                            fill: "url(#paint0_linear_212_456)",
-                                          },
-                                        }),
-                                        _vm._v(" "),
-                                        _c(
-                                          "defs",
-                                          [
-                                            _c(
-                                              "linearGradient",
-                                              {
-                                                attrs: {
-                                                  id: "paint0_linear_212_456",
-                                                  x1: "0.42627",
-                                                  y1: "0.5",
-                                                  x2: "37.8513",
-                                                  y2: "9.22213",
-                                                  gradientUnits:
-                                                    "userSpaceOnUse",
+                                        [
+                                          _c("path", {
+                                            attrs: {
+                                              "fill-rule": "evenodd",
+                                              "clip-rule": "evenodd",
+                                              d: "M32.4263 16.5C32.4263 25.3366 25.2628 32.5 16.4263 32.5C7.58971 32.5 0.42627 25.3366 0.42627 16.5C0.42627 7.66344 7.58971 0.5 16.4263 0.5C25.2628 0.5 32.4263 7.66344 32.4263 16.5ZM16.9996 12.3119C15.4434 12.9592 12.3331 14.2989 7.66879 16.3311C6.91138 16.6323 6.51461 16.927 6.47849 17.2151C6.41745 17.702 7.02722 17.8937 7.85757 18.1548C7.97052 18.1903 8.08754 18.2271 8.20752 18.2661C9.02445 18.5317 10.1234 18.8424 10.6947 18.8547C11.2129 18.8659 11.7912 18.6523 12.4298 18.2138C16.7878 15.272 19.0374 13.7851 19.1787 13.753C19.2783 13.7304 19.4164 13.702 19.51 13.7851C19.6035 13.8683 19.5943 14.0258 19.5844 14.068C19.524 14.3255 17.1304 16.5508 15.8917 17.7024C15.5056 18.0614 15.2317 18.316 15.1757 18.3742C15.0503 18.5045 14.9224 18.6277 14.7996 18.7461C14.0406 19.4778 13.4715 20.0264 14.8311 20.9224C15.4845 21.3529 16.0073 21.709 16.5289 22.0642C17.0985 22.4521 17.6666 22.839 18.4018 23.3209C18.589 23.4437 18.7679 23.5712 18.9421 23.6954C19.605 24.168 20.2006 24.5926 20.9364 24.5248C21.3639 24.4855 21.8056 24.0835 22.0298 22.8845C22.5599 20.0509 23.6018 13.9113 23.8426 11.3813C23.8637 11.1596 23.8371 10.876 23.8158 10.7514C23.7945 10.6269 23.75 10.4495 23.5881 10.3181C23.3964 10.1626 23.1004 10.1298 22.9681 10.1321C22.3663 10.1427 21.443 10.4638 16.9996 12.3119Z",
+                                              fill: "#031F31",
+                                            },
+                                          }),
+                                          _vm._v(" "),
+                                          _c("path", {
+                                            attrs: {
+                                              "fill-rule": "evenodd",
+                                              "clip-rule": "evenodd",
+                                              d: "M32.4263 16.5C32.4263 25.3366 25.2628 32.5 16.4263 32.5C7.58971 32.5 0.42627 25.3366 0.42627 16.5C0.42627 7.66344 7.58971 0.5 16.4263 0.5C25.2628 0.5 32.4263 7.66344 32.4263 16.5ZM16.9996 12.3119C15.4434 12.9592 12.3331 14.2989 7.66879 16.3311C6.91138 16.6323 6.51461 16.927 6.47849 17.2151C6.41745 17.702 7.02722 17.8937 7.85757 18.1548C7.97052 18.1903 8.08754 18.2271 8.20752 18.2661C9.02445 18.5317 10.1234 18.8424 10.6947 18.8547C11.2129 18.8659 11.7912 18.6523 12.4298 18.2138C16.7878 15.272 19.0374 13.7851 19.1787 13.753C19.2783 13.7304 19.4164 13.702 19.51 13.7851C19.6035 13.8683 19.5943 14.0258 19.5844 14.068C19.524 14.3255 17.1304 16.5508 15.8917 17.7024C15.5056 18.0614 15.2317 18.316 15.1757 18.3742C15.0503 18.5045 14.9224 18.6277 14.7996 18.7461C14.0406 19.4778 13.4715 20.0264 14.8311 20.9224C15.4845 21.3529 16.0073 21.709 16.5289 22.0642C17.0985 22.4521 17.6666 22.839 18.4018 23.3209C18.589 23.4437 18.7679 23.5712 18.9421 23.6954C19.605 24.168 20.2006 24.5926 20.9364 24.5248C21.3639 24.4855 21.8056 24.0835 22.0298 22.8845C22.5599 20.0509 23.6018 13.9113 23.8426 11.3813C23.8637 11.1596 23.8371 10.876 23.8158 10.7514C23.7945 10.6269 23.75 10.4495 23.5881 10.3181C23.3964 10.1626 23.1004 10.1298 22.9681 10.1321C22.3663 10.1427 21.443 10.4638 16.9996 12.3119Z",
+                                              fill: "url(#paint0_linear_212_456)",
+                                            },
+                                          }),
+                                          _vm._v(" "),
+                                          _c(
+                                            "defs",
+                                            [
+                                              _c(
+                                                "linearGradient",
+                                                {
+                                                  attrs: {
+                                                    id: "paint0_linear_212_456",
+                                                    x1: "0.42627",
+                                                    y1: "0.5",
+                                                    x2: "37.8513",
+                                                    y2: "9.22213",
+                                                    gradientUnits:
+                                                      "userSpaceOnUse",
+                                                  },
                                                 },
-                                              },
-                                              [
-                                                _c("stop", {
-                                                  attrs: {
-                                                    "stop-color": "#4FE2C3",
-                                                  },
-                                                }),
-                                                _vm._v(" "),
-                                                _c("stop", {
-                                                  attrs: {
-                                                    offset: "1",
-                                                    "stop-color": "#4FE2C3",
-                                                    "stop-opacity": "0.73",
-                                                  },
-                                                }),
-                                              ],
-                                              1
-                                            ),
-                                          ],
-                                          1
-                                        ),
-                                      ]
-                                    ),
-                                  ]),
-                                ]
-                              ),
-                            ]),
-                          ]
-                        ),
-                      ]),
+                                                [
+                                                  _c("stop", {
+                                                    attrs: {
+                                                      "stop-color": "#4FE2C3",
+                                                    },
+                                                  }),
+                                                  _vm._v(" "),
+                                                  _c("stop", {
+                                                    attrs: {
+                                                      offset: "1",
+                                                      "stop-color": "#4FE2C3",
+                                                      "stop-opacity": "0.73",
+                                                    },
+                                                  }),
+                                                ],
+                                                1
+                                              ),
+                                            ],
+                                            1
+                                          ),
+                                        ]
+                                      ),
+                                    ]),
+                                  ]
+                                ),
+                              ]),
+                            ]
+                          ),
+                        ]
+                      ),
                     ]),
                   ]),
                 ]),
@@ -14384,31 +14883,44 @@ var render = function () {
                     _c("div", { staticClass: "row text-lg-center" }, [
                       _vm._m(3),
                       _vm._v(" "),
-                      _c("div", { staticClass: "col-8 col-lg-12" }, [
-                        _c("div", { staticClass: "item__title" }, [
-                          _vm._v(_vm._s(_vm.$t("second.3.title"))),
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "item__desc" }, [
-                          _vm._v(_vm._s(_vm.$t("second.3.text"))),
-                        ]),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          { staticClass: "item__button" },
-                          [
-                            _c(
-                              "router-link",
-                              {
-                                staticClass: "button button_buy button_small",
-                                attrs: { to: "/login" },
-                              },
-                              [_vm._v(_vm._s(_vm.$t("second.3.button")))]
-                            ),
-                          ],
-                          1
-                        ),
-                      ]),
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "col-12 col-sm-8 col-lg-12  text-center text-sm-left",
+                        },
+                        [
+                          _c("div", { staticClass: "item__title" }, [
+                            _vm._v(_vm._s(_vm.$t("second.3.title"))),
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "item__desc" }, [
+                            _vm._v(_vm._s(_vm.$t("second.3.text"))),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "item__button" },
+                            [
+                              _c(
+                                "router-link",
+                                {
+                                  staticClass: "button button_buy button_small",
+                                  attrs: { to: "/login" },
+                                },
+                                [
+                                  _vm._v(
+                                    "\n\t\t\t\t\t\t\t\t\t\t\t\t" +
+                                      _vm._s(_vm.$t("second.3.button")) +
+                                      "\n\t\t\t\t\t\t\t\t\t\t\t"
+                                  ),
+                                ]
+                              ),
+                            ],
+                            1
+                          ),
+                        ]
+                      ),
                     ]),
                   ]),
                 ]),
@@ -14425,41 +14937,57 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-4 col-lg-12" }, [
-      _c("div", { staticClass: "item__number" }, [
-        _vm._v("\n\t\t\t\t\t\t\t\t\t\t\t01\n\t\t\t\t\t\t\t\t\t\t"),
-      ]),
-    ])
+    return _c(
+      "div",
+      { staticClass: "col-12 col-sm-4 col-lg-12 text-center text-sm-left" },
+      [
+        _c("div", { staticClass: "item__number" }, [
+          _vm._v("\n\t\t\t\t\t\t\t\t\t\t\t01\n\t\t\t\t\t\t\t\t\t\t"),
+        ]),
+      ]
+    )
   },
   function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-4 col-lg-12" }, [
-      _c("div", { staticClass: "item__number" }, [
-        _vm._v("\n\t\t\t\t\t\t\t\t\t\t\t02\n\t\t\t\t\t\t\t\t\t\t"),
-      ]),
-    ])
+    return _c(
+      "div",
+      { staticClass: "col-12 col-sm-4 col-lg-12 text-center text-sm-left" },
+      [
+        _c("div", { staticClass: "item__number" }, [
+          _vm._v("\n\t\t\t\t\t\t\t\t\t\t\t02\n\t\t\t\t\t\t\t\t\t\t"),
+        ]),
+      ]
+    )
   },
   function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-4 col-lg-12" }, [
-      _c("div", { staticClass: "item__number" }, [
-        _vm._v("\n\t\t\t\t\t\t\t\t\t\t\t03\n\t\t\t\t\t\t\t\t\t\t"),
-      ]),
-    ])
+    return _c(
+      "div",
+      { staticClass: "col-12 col-sm-4 col-lg-12 text-center text-sm-left" },
+      [
+        _c("div", { staticClass: "item__number" }, [
+          _vm._v("\n\t\t\t\t\t\t\t\t\t\t\t03\n\t\t\t\t\t\t\t\t\t\t"),
+        ]),
+      ]
+    )
   },
   function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-4 col-lg-12" }, [
-      _c("div", { staticClass: "item__number" }, [
-        _vm._v("\n\t\t\t\t\t\t\t\t\t\t\t04\n\t\t\t\t\t\t\t\t\t\t"),
-      ]),
-    ])
+    return _c(
+      "div",
+      { staticClass: "col-12 col-sm-4 col-lg-12 text-center text-sm-left" },
+      [
+        _c("div", { staticClass: "item__number" }, [
+          _vm._v("\n\t\t\t\t\t\t\t\t\t\t\t04\n\t\t\t\t\t\t\t\t\t\t"),
+        ]),
+      ]
+    )
   },
 ]
 render._withStripped = true
@@ -15316,32 +15844,34 @@ var render = function () {
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "col-12" }, [
-              _c("table", { staticClass: "table table-responsive" }, [
-                _c("thead", [
+              _c("div", { staticClass: "table-responsive" }, [
+                _c("table", { staticClass: "table" }, [
+                  _c("thead", [
+                    _c(
+                      "tr",
+                      _vm._l(3, function (i) {
+                        return _c("th", { key: i }, [
+                          _vm._v(_vm._s(_vm.$t("seventh.table." + (i - 1)))),
+                        ])
+                      }),
+                      0
+                    ),
+                  ]),
+                  _vm._v(" "),
                   _c(
-                    "tr",
+                    "tbody",
                     _vm._l(3, function (i) {
-                      return _c("th", { key: i }, [
-                        _vm._v(_vm._s(_vm.$t("seventh.table." + (i - 1)))),
+                      return _c("tr", { key: i }, [
+                        _c("td", [_vm._v("15.02.2022")]),
+                        _vm._v(" "),
+                        _c("td", [_vm._v("10% of consideration received")]),
+                        _vm._v(" "),
+                        _c("td", [_vm._v("Trades opening")]),
                       ])
                     }),
                     0
                   ),
                 ]),
-                _vm._v(" "),
-                _c(
-                  "tbody",
-                  _vm._l(3, function (i) {
-                    return _c("tr", { key: i }, [
-                      _c("td", [_vm._v("15.02.2022")]),
-                      _vm._v(" "),
-                      _c("td", [_vm._v("10% of consideration received")]),
-                      _vm._v(" "),
-                      _c("td", [_vm._v("Trades opening")]),
-                    ])
-                  }),
-                  0
-                ),
               ]),
             ]),
           ]),
@@ -15351,6 +15881,282 @@ var render = function () {
   )
 }
 var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/pages/index/SectionSix.vue?vue&type=template&id=822bdca0&scoped=true&":
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/pages/index/SectionSix.vue?vue&type=template&id=822bdca0&scoped=true& ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    {
+      staticClass:
+        "section section_relative section_padding section_background",
+      staticStyle: { "background-image": "url(/img/background.jpg)" },
+    },
+    [
+      _c("div", { staticClass: "info__particles", attrs: { id: "part3" } }),
+      _vm._v(" "),
+      _c("div", { staticClass: "info__wrapper" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row d-flex align-items-center" }, [
+            _c("div", { staticClass: "col-12 col-lg-4 pb-4 pb-lg-0" }, [
+              _c("h2", { staticClass: "title title_second title_white" }, [
+                _vm._v(_vm._s(_vm.$t("six.title"))),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "first__desc" }, [
+                _vm._v(
+                  "\n\t\t\t\t\t\t" + _vm._s(_vm.$t("six.desc")) + "\n\t\t\t\t\t"
+                ),
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "item__button" },
+                [
+                  _c(
+                    "router-link",
+                    {
+                      staticClass: "button button_green",
+                      attrs: {
+                        to: _vm.$store.getters.getUser ? "/lk" : "/register",
+                      },
+                    },
+                    [
+                      _vm._v(
+                        "\n\t\t\t\t\t\t\t" +
+                          _vm._s(_vm.$t("six.button")) +
+                          "\n\t\t\t\t\t\t"
+                      ),
+                    ]
+                  ),
+                ],
+                1
+              ),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-12 col-lg-8" }, [
+              _c("div", { staticClass: "item__container" }, [
+                _c("div", { staticClass: "container" }, [
+                  _c("div", { staticClass: "row pb-4" }, [
+                    _c("div", { staticClass: "col-9" }, [
+                      _c("div", { staticClass: "item__deposit" }, [
+                        _vm._v(
+                          "\n\t\t\t\t\t\t\t\t\t\t" +
+                            _vm._s(_vm.$t("six.deposit")) +
+                            "\n\t\t\t\t\t\t\t\t\t"
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "item__range" }, [
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.price,
+                              expression: "price",
+                            },
+                          ],
+                          attrs: {
+                            type: "range",
+                            step: "10",
+                            min: "10",
+                            max: "1000",
+                          },
+                          domProps: { value: _vm.price },
+                          on: {
+                            __r: function ($event) {
+                              _vm.price = $event.target.value
+                            },
+                          },
+                        }),
+                      ]),
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-3" }, [
+                      _c("div", { staticClass: "item__input" }, [
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.price,
+                              expression: "price",
+                            },
+                          ],
+                          attrs: { type: "number" },
+                          domProps: { value: _vm.price },
+                          on: {
+                            input: function ($event) {
+                              if ($event.target.composing) {
+                                return
+                              }
+                              _vm.price = $event.target.value
+                            },
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("span", [_vm._v("$")]),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _vm._m(0),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "row pb-4" },
+                    [
+                      _c("div", { staticClass: "col-12" }, [
+                        _c("div", { staticClass: "item__deposit" }, [
+                          _vm._v(
+                            "\n\t\t\t\t\t\t\t\t\t\t" +
+                              _vm._s(_vm.$t("six.select")) +
+                              "\n\t\t\t\t\t\t\t\t\t"
+                          ),
+                        ]),
+                      ]),
+                      _vm._v(" "),
+                      _vm._l(_vm.daysArr, function (item, index) {
+                        return _c(
+                          "div",
+                          {
+                            key: index,
+                            staticClass: "col-12 col-sm-6 col-md-3",
+                          },
+                          [
+                            _c(
+                              "div",
+                              {
+                                staticClass: "item__day",
+                                class:
+                                  item.percent === _vm.percent ? "active" : "",
+                                on: {
+                                  click: function ($event) {
+                                    _vm.percent = item.percent
+                                    _vm.days = item.days
+                                  },
+                                },
+                              },
+                              [
+                                _vm._v(
+                                  "\n\t\t\t\t\t\t\t\t\t\t" +
+                                    _vm._s(_vm.$t("six." + item.name)) +
+                                    "\n\t\t\t\t\t\t\t\t\t"
+                                ),
+                              ]
+                            ),
+                          ]
+                        )
+                      }),
+                    ],
+                    2
+                  ),
+                  _vm._v(" "),
+                  _vm._m(1),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "row" }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "row" }, [
+                    _c(
+                      "div",
+                      { staticClass: "col-12 col-sm-6 col-lg-4 pb-md-0 pb-2" },
+                      [
+                        _c("div", { staticClass: "item__desc" }, [
+                          _vm._v(_vm._s(_vm.$t("six.profit"))),
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "item__val item__val_green" },
+                          [_vm._v("+ " + _vm._s(_vm.getPercent) + " $")]
+                        ),
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "col-12 col-sm-6 col-lg-4 pb-md-0 pb-2" },
+                      [
+                        _c("div", { staticClass: "item__desc" }, [
+                          _vm._v(_vm._s(_vm.$t("six.total"))),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "item__val" }, [
+                          _vm._v(
+                            _vm._s(
+                              (
+                                Number(_vm.total) + Number(_vm.getPercent)
+                              ).toFixed(2)
+                            ) + " $"
+                          ),
+                        ]),
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "col-12 col-sm-6 col-lg-4 pb-md-0" },
+                      [
+                        _c("div", { staticClass: "item__desc" }, [
+                          _vm._v(_vm._s(_vm.$t("six.percentage"))),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "item__val" }, [
+                          _vm._v(_vm._s(_vm.percent) + "%"),
+                        ]),
+                      ]
+                    ),
+                  ]),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]),
+      ]),
+    ]
+  )
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row pb-4" }, [
+      _c("div", { staticClass: "col-12" }, [
+        _c("div", { staticClass: "item__line" }),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row pb-4" }, [
+      _c("div", { staticClass: "col-12" }, [
+        _c("div", { staticClass: "item__line" }),
+      ]),
+    ])
+  },
+]
 render._withStripped = true
 
 
@@ -15380,10 +16186,8 @@ var render = function () {
           "div",
           { staticClass: "col-12", staticStyle: { "overflow-x": "auto" } },
           [
-            _c(
-              "table",
-              { staticClass: "table table-responsive table-borderless" },
-              [
+            _c("div", { staticClass: "table-responsive" }, [
+              _c("table", { staticClass: "table table-borderless" }, [
                 _c("thead", [
                   _c("tr", [
                     _c("th", [_vm._v(_vm._s(_vm.$t("table.name")))]),
@@ -15406,6 +16210,7 @@ var render = function () {
                           _c(
                             "router-link",
                             {
+                              staticStyle: { "white-space": "nowrap" },
                               attrs: {
                                 to: "/trading-item?course=" + crypto.symbol,
                               },
@@ -15438,9 +16243,9 @@ var render = function () {
                       _vm._v(" "),
                       _c("td", [
                         _vm._v(
-                          "\n\t\t\t\t\t\t\t$" +
+                          "\n\t\t\t\t\t\t\t\t$" +
                             _vm._s(crypto.quote["USD"].price.toFixed(5)) +
-                            "\n\t\t\t\t\t\t"
+                            "\n\t\t\t\t\t\t\t"
                         ),
                       ]),
                       _vm._v(" "),
@@ -15456,13 +16261,13 @@ var render = function () {
                           },
                           [
                             _vm._v(
-                              "\n\t\t\t\t\t\t\t\t" +
+                              "\n\t\t\t\t\t\t\t\t\t" +
                                 _vm._s(
                                   crypto.quote["USD"].percent_change_1h.toFixed(
                                     2
                                   )
                                 ) +
-                                " %\n\t\t\t\t\t\t\t"
+                                " %\n\t\t\t\t\t\t\t\t"
                             ),
                           ]
                         ),
@@ -15471,8 +16276,8 @@ var render = function () {
                   }),
                   0
                 ),
-              ]
-            ),
+              ]),
+            ]),
           ]
         ),
       ]),
@@ -15515,6 +16320,8 @@ var render = function () {
       _c("fourth-section"),
       _vm._v(" "),
       _c("fiveth-section"),
+      _vm._v(" "),
+      _c("section-six"),
       _vm._v(" "),
       _c("section-seventh"),
       _vm._v(" "),

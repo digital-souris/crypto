@@ -3,35 +3,38 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12" style="overflow-x:auto;">
-					<table class="table table-responsive table-borderless">
-						<thead>
-						<tr>
-							<th>{{$t('table.name')}}</th>
-							<th>{{$t('table.ticker')}}</th>
-							<th>{{$t('table.price')}}</th>
-							<th>{{$t('table.dynamics')}}</th>
-						</tr>
-						</thead>
-						<tbody>
-						<tr v-for="crypto in $store.getters.getCrypto"  :key="crypto.id">
-							<td>
-								<router-link :to="'/trading-item?course=' + crypto.symbol">
-									<img v-lazy="'/img/crypto/' +crypto.symbol.toLowerCase()+ '.png'" :alt="crypto.symbol">
-									<span>{{crypto.name}}</span>
-								</router-link>
-							</td>
-							<td>{{crypto.symbol}}</td>
-							<td>
-								${{crypto.quote['USD'].price.toFixed(5)}}
-							</td>
-							<td>
-								<div class="crypto__change text-center" :class=" crypto.quote['USD'].percent_change_1h > 0 ? 'crypto__change_true' : 'crypto__change_false'">
-									{{crypto.quote['USD'].percent_change_1h.toFixed(2)}} %
-								</div>
-							</td>
-						</tr>
-						</tbody>
-					</table>
+					<div class="table-responsive">
+						<table class="table table-borderless">
+							<thead>
+							<tr>
+								<th>{{$t('table.name')}}</th>
+								<th>{{$t('table.ticker')}}</th>
+								<th>{{$t('table.price')}}</th>
+								<th>{{$t('table.dynamics')}}</th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr v-for="crypto in $store.getters.getCrypto"  :key="crypto.id">
+								<td>
+									<router-link :to="'/trading-item?course=' + crypto.symbol" style="white-space: nowrap">
+										<img v-lazy="'/img/crypto/' +crypto.symbol.toLowerCase()+ '.png'" :alt="crypto.symbol">
+										<span>{{crypto.name}}</span>
+									</router-link>
+								</td>
+								<td>{{crypto.symbol}}</td>
+								<td>
+									${{crypto.quote['USD'].price.toFixed(5)}}
+								</td>
+								<td>
+									<div class="crypto__change text-center" :class=" crypto.quote['USD'].percent_change_1h > 0 ? 'crypto__change_true' : 'crypto__change_false'">
+										{{crypto.quote['USD'].percent_change_1h.toFixed(2)}} %
+									</div>
+								</td>
+							</tr>
+							</tbody>
+						</table>
+
+					</div>
 				</div>
 			</div>
 		</div>
