@@ -23,7 +23,7 @@
 						<div class="item__container">
 							<div class="container">
 								<div class="row pb-4">
-									<div class="col-9">
+									<div class="col-md-9 col-7">
 										<div class="item__deposit">
 											{{$t('six.deposit')}}
 										</div>
@@ -31,7 +31,7 @@
 											<input type="range" v-model="price" step="10" min="10" max="1000">
 										</div>
 									</div>
-									<div class="col-3">
+									<div class="col-md-3 col-5">
 										<div class="item__input">
 											<input type="number" v-model="price">
 											<span>$</span>

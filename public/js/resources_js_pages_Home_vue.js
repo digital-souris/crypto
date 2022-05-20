@@ -15965,7 +15965,7 @@ var render = function () {
               _c("div", { staticClass: "item__container" }, [
                 _c("div", { staticClass: "container" }, [
                   _c("div", { staticClass: "row pb-4" }, [
-                    _c("div", { staticClass: "col-9" }, [
+                    _c("div", { staticClass: "col-md-9 col-7" }, [
                       _c("div", { staticClass: "item__deposit" }, [
                         _vm._v(
                           "\n\t\t\t\t\t\t\t\t\t\t" +
@@ -16000,7 +16000,7 @@ var render = function () {
                       ]),
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "col-3" }, [
+                    _c("div", { staticClass: "col-md-3 col-5" }, [
                       _c("div", { staticClass: "item__input" }, [
                         _c("input", {
                           directives: [
