@@ -40,7 +40,6 @@ export default {
 	mounted() {
 
 		this.options.locale = this.$i18n.locale
-		console.log(this.getCourse)
 		this.showTrading = false
 
 		setTimeout(() => {

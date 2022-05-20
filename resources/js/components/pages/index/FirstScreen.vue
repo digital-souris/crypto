@@ -64,10 +64,12 @@
 									<path d="M8.59 16.59L13.17 12L8.59 7.41L10 6L16 12L10 18L8.59 16.59Z" fill="white"/>
 								</svg>
 							</div>
-							<slick ref="slider" :options="slickOptions" v-if="$store.getters.getCrypto.length">
-								<slide-item v-for="crypto in $store.getters.getCrypto" :key="crypto.id"
-											:crypto="crypto"></slide-item>
-							</slick>
+							<div  v-if="$store.getters.getCrypto.length">
+								<slick ref="slider" :options="slickOptions">
+									<slide-item v-for="(crypto, key) in $store.getters.getCrypto" :key="key"
+												:crypto="crypto"></slide-item>
+								</slick>
+							</div>
 						</div>
 					</div>
 				</div>

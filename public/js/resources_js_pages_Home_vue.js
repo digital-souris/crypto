@@ -187,6 +187,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 
 
@@ -13996,86 +13998,93 @@ var render = function () {
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "row" }, [
             _c("div", { staticClass: "col-12" }, [
-              _c(
-                "div",
-                { staticClass: "first__bottom" },
-                [
-                  _c(
-                    "div",
-                    {
-                      staticClass: "first__arrow first__arrow_left",
-                      on: { click: _vm.prev },
-                    },
-                    [
-                      _c(
-                        "svg",
-                        {
-                          attrs: {
-                            width: "24",
-                            height: "24",
-                            viewBox: "0 0 24 24",
-                            fill: "none",
-                            xmlns: "http://www.w3.org/2000/svg",
-                          },
+              _c("div", { staticClass: "first__bottom" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass: "first__arrow first__arrow_left",
+                    on: { click: _vm.prev },
+                  },
+                  [
+                    _c(
+                      "svg",
+                      {
+                        attrs: {
+                          width: "24",
+                          height: "24",
+                          viewBox: "0 0 24 24",
+                          fill: "none",
+                          xmlns: "http://www.w3.org/2000/svg",
                         },
-                        [
-                          _c("path", {
-                            attrs: {
-                              d: "M15.41 16.59L10.83 12L15.41 7.41L14 6L8 12L14 18L15.41 16.59Z",
-                              fill: "white",
-                            },
-                          }),
-                        ]
-                      ),
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "first__arrow first__arrow_right",
-                      on: { click: _vm.next },
-                    },
-                    [
-                      _c(
-                        "svg",
-                        {
+                      },
+                      [
+                        _c("path", {
                           attrs: {
-                            width: "24",
-                            height: "24",
-                            viewBox: "0 0 24 24",
-                            fill: "none",
-                            xmlns: "http://www.w3.org/2000/svg",
+                            d: "M15.41 16.59L10.83 12L15.41 7.41L14 6L8 12L14 18L15.41 16.59Z",
+                            fill: "white",
                           },
-                        },
-                        [
-                          _c("path", {
-                            attrs: {
-                              d: "M8.59 16.59L13.17 12L8.59 7.41L10 6L16 12L10 18L8.59 16.59Z",
-                              fill: "white",
-                            },
-                          }),
-                        ]
-                      ),
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _vm.$store.getters.getCrypto.length
-                    ? _c(
-                        "slick",
-                        { ref: "slider", attrs: { options: _vm.slickOptions } },
-                        _vm._l(_vm.$store.getters.getCrypto, function (crypto) {
-                          return _c("slide-item", {
-                            key: crypto.id,
-                            attrs: { crypto: crypto },
-                          })
                         }),
-                        1
-                      )
-                    : _vm._e(),
-                ],
-                1
-              ),
+                      ]
+                    ),
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "first__arrow first__arrow_right",
+                    on: { click: _vm.next },
+                  },
+                  [
+                    _c(
+                      "svg",
+                      {
+                        attrs: {
+                          width: "24",
+                          height: "24",
+                          viewBox: "0 0 24 24",
+                          fill: "none",
+                          xmlns: "http://www.w3.org/2000/svg",
+                        },
+                      },
+                      [
+                        _c("path", {
+                          attrs: {
+                            d: "M8.59 16.59L13.17 12L8.59 7.41L10 6L16 12L10 18L8.59 16.59Z",
+                            fill: "white",
+                          },
+                        }),
+                      ]
+                    ),
+                  ]
+                ),
+                _vm._v(" "),
+                _vm.$store.getters.getCrypto.length
+                  ? _c(
+                      "div",
+                      [
+                        _c(
+                          "slick",
+                          {
+                            ref: "slider",
+                            attrs: { options: _vm.slickOptions },
+                          },
+                          _vm._l(
+                            _vm.$store.getters.getCrypto,
+                            function (crypto, key) {
+                              return _c("slide-item", {
+                                key: key,
+                                attrs: { crypto: crypto },
+                              })
+                            }
+                          ),
+                          1
+                        ),
+                      ],
+                      1
+                    )
+                  : _vm._e(),
+              ]),
             ]),
           ]),
         ]),

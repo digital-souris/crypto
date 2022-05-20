@@ -52,7 +52,6 @@ __webpack_require__.r(__webpack_exports__);
     var _this = this;
 
     this.options.locale = this.$i18n.locale;
-    console.log(this.getCourse);
     this.showTrading = false;
     setTimeout(function () {
       _this.options.symbol = "BINANCE:" + _this.getCourse + "USD";

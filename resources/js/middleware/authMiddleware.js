@@ -23,7 +23,6 @@ export default {
 			return next()
 		}
 		if (localStorage.getItem('token')) {
-			console.log(123)
 			axios.defaults.headers.common = {'Authorization': `bearer ${localStorage.getItem('token')}`}
 			axios.get('/auth/user')
 				.then(resp => {

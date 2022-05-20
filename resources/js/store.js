@@ -2737,7 +2737,6 @@ const store = new Vuex.Store({
 				headers: {}
 			})
 				.then(resp => {
-					console.log(resp.data.data.data)
 					commit('changeCrypto', resp.data.data.data)
 				})
 				.catch(e => {
