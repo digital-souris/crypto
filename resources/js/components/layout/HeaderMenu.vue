@@ -12,6 +12,10 @@
 		<li v-if="!$store.getters.getUser && mobile"  class="nav__item">
 			<router-link to="/register" class="header__button">{{$t('auth.register')}}</router-link>
 		</li>
+		<li v-if="mobile && $store.getters.getUser" class="nav__item">
+			<router-link to="/lk" class="header__button">{{$t('auth.lk')}}</router-link>
+
+		</li>
     </ul>
 </template>
 

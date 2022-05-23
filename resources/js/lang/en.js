@@ -10,8 +10,9 @@ export default {
     auth: {
         login: 'Log in',
         register: 'Sign up',
-		start: 'Start trading'
-    },
+		start: 'Start trading',
+		lk: 'Personal account'
+	},
 	title: {
 		first: 'The world’s most\n' +
 			'comprehensive and\n' +
